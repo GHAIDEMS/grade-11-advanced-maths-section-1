@@ -1,0 +1,143 @@
+\begin{activity}{Activity 1.4: General Form of Binomial Theorem}
+\begin{enumerate}
+  \item Using the definition $\binom{n}{r} = {}^{n}C_{r} = \dfrac{n!}{(n-r)!\,r!}$, work in pairs or
+  groups and discuss how the following evaluations were done:
+  \begin{enumerate}
+    \item[a.] ${}^{n}C_{1} = \dfrac{n!}{(n-1)!\times 1!} = \dfrac{n(n-1)!}{(n-1)!\times 1} = n$
+    \item[b.] ${}^{n}C_{2} = \dfrac{n!}{(n-2)!\times 2!} = \dfrac{n(n-1)(n-2)!}{(n-2)!\times 2\times 1} = \dfrac{n(n-1)}{2}$
+    \item[c.] ${}^{n}C_{3} = \dfrac{n!}{(n-3)!\times 3!} = \dfrac{n(n-1)(n-2)(n-3)!}{(n-3)!\times 3\times 2\times 1} = \dfrac{n(n-1)(n-2)}{6}$
+  \end{enumerate}
+  \item Write down your challenges or observations for a class discussion with
+  your classmates and teacher.
+\end{enumerate}
+\end{activity}
+
+It must be noted that ${}^{n}C_{0} = 1$ and $0! = 1$.
+
+In general, the Binomial Theorem is written as:
+\[
+  (a+x)^n = {}^{n}C_{0}\,a^n x^0 + {}^{n}C_{1}\,a^{n-1}x^1 + {}^{n}C_{2}\,a^{n-2}x^2 + {}^{n}C_{3}\,a^{n-3}x^3 + \cdots + {}^{n}C_{r}\,a^{n-r}x^r + \cdots + {}^{n}C_{n}\,a^0 x^n
+\]
+\[
+  = a^n + n\,a^{n-1}x + \frac{n(n-1)}{2!}\,a^{n-2}x^2 + \frac{n(n-1)(n-2)}{3!}\,a^{n-3}x^3 + \cdots + x^n
+\]
+
+There is a special case when $a = 1$. Substituting $a=1$:
+\[
+  (1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots + x^n
+\]
+
+Let us go through the following worked examples to assist us in the expansion
+of the form $(1-x)^n$ or $(1+x)^n$.
+
+\begin{example}{Example 1.10}
+By using the Binomial Theorem, fully expand the expression $(1+x)^5$.
+
+\medskip\noindent\textbf{Solution}
+
+Using the binomial theorem,
+\[
+  (1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots + x^n
+\]
+In this case $n=5$, so we substitute this in:
+\[
+  (1+x)^5 = 1 + 5x + \frac{5\times4}{2!}x^2 + \frac{5\times4\times3}{3!}x^3 + \frac{5\times4\times3\times2}{4!}x^4 + x^5
+\]
+Simplify the coefficients to obtain:
+\[
+  = 1 + 5x + \frac{5\times4}{2\times1}x^2 + \frac{5\times4\times3}{3\times2\times1}x^3 + \frac{5\times4\times3\times2}{4\times3\times2\times1}x^4 + x^5
+\]
+\[
+  = 1 + 5x + 10x^2 + 10x^3 + 5x^4 + x^5
+\]
+\end{example}
+
+\begin{example}{Example 1.11}
+By using the Binomial Theorem, fully expand the expression $(1+2x)^4$.
+
+\medskip\noindent\textbf{Solution}
+
+Using the binomial theorem $(1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots + x^n$,
+in this case $n=4$ and `$x$' $=2x$, so we substitute these in:
+\[
+  (1+2x)^4 = 1 + 4(2x) + \frac{4\times3}{2!}(2x)^2 + \frac{4\times3\times2}{3!}(2x)^3 + (2x)^4
+\]
+Simplify the coefficients to obtain:
+\[
+  = 1 + 4(2x) + \frac{4\times3}{2\times1}\times 4x^2 + \frac{4\times3\times2}{3\times2\times1}\times 8x^3 + 16x^4
+\]
+\[
+  = 1 + 8x + 24x^2 + 32x^3 + 16x^4
+\]
+\end{example}
+
+\begin{example}{Example 1.12}
+Find the first four terms of the binomial $\sqrt{1+2x}$ using the binomial theorem.
+
+\medskip\noindent\textbf{Solution}
+\[
+  \sqrt{1+2x} = (1+2x)^{1/2}
+\]
+In this case $n = \tfrac{1}{2}$ and `$x$' $=2x$, so we substitute these in:
+\[
+  (1+2x)^{1/2} = 1 + \tfrac{1}{2}(2x) + \frac{\tfrac{1}{2}\left(\tfrac{1}{2}-1\right)}{2!}(2x)^2 + \frac{\tfrac{1}{2}\left(\tfrac{1}{2}-1\right)\left(\tfrac{1}{2}-2\right)}{3!}(2x)^3
+\]
+\[
+  = 1 + \tfrac{1}{2}(2x) + \frac{\tfrac{1}{2}\left(-\tfrac{1}{2}\right)}{2\times1}(4x^2) + \frac{\tfrac{1}{2}\left(-\tfrac{1}{2}\right)\left(-\tfrac{3}{2}\right)}{3\times2\times1}(8x^3)
+\]
+\[
+  = 1 + x - \tfrac{1}{2}x^2 + \tfrac{1}{2}x^3
+\]
+\end{example}
+
+\begin{example}{Example 1.13}
+Find the first four terms of the binomial $\sqrt[3]{1-3x}$ using the binomial theorem.
+
+\medskip\noindent\textbf{Solution}
+\[
+  \sqrt[3]{1-3x} = (1-3x)^{1/3}
+\]
+In this case $n = \tfrac{1}{3}$ and `$x$' $=-3x$, so we substitute these in:
+\[
+  (1-3x)^{1/3} = 1 + \tfrac{1}{3}(-3x) + \frac{\tfrac{1}{3}\left(\tfrac{1}{3}-1\right)}{2!}(-3x)^2 + \frac{\tfrac{1}{3}\left(\tfrac{1}{3}-1\right)\left(\tfrac{1}{3}-2\right)}{3!}(-3x)^3
+\]
+\[
+  = 1 + \tfrac{1}{3}(-3x) + \frac{\tfrac{1}{3}\left(-\tfrac{2}{3}\right)}{2\times1}(-3x)^2 + \frac{\tfrac{1}{3}\left(-\tfrac{2}{3}\right)\left(-\tfrac{5}{3}\right)}{3\times2\times1}(-3x)^3
+\]
+\[
+  = 1 + \tfrac{1}{3}(-3x) + \frac{-\tfrac{2}{9}}{2}(9x^2) + \frac{\tfrac{10}{27}}{6}(-27x^3)
+\]
+\[
+  = 1 - x - x^2 - \tfrac{5}{3}x^3
+\]
+\end{example}
+
+\begin{example}{Example 1.14}
+Expand up to the fifth term the expression $\dfrac{1}{(1-x)^2}$.
+
+\medskip\noindent\textbf{Solution}
+
+Rewriting $\dfrac{1}{(1-x)^2}$ using the rules of indices, $\dfrac{1}{(1-x)^2} = (1-x)^{-2}$.
+\begin{align*}
+  (1-x)^{-2} &= 1 - 2(-x) + \frac{-2(-2-1)}{2!}(-x)^2 + \frac{-2(-2-1)(-2-2)}{3!}(-x)^3 \\
+  &\quad + \frac{-2(-2-1)(-2-2)(-2-3)}{4!}(-x)^4 \\
+  &= 1 - 2(-x) + \frac{-2(-3)}{2\times1}(-x)^2 + \frac{-2(-3)(-4)}{3\times2\times1}(-x)^3 + \frac{-2(-3)(-4)(-5)}{4\times3\times2\times1}(-x)^4
+\end{align*}
+\[
+  (1-x)^{-2} = 1 + 2x + 3x^2 + 4x^3 + 5x^4
+\]
+\end{example}
+
+\begin{example}{Example 1.15}
+Find the first four terms of $(1-16x)^{1/4}$.
+
+\medskip\noindent\textbf{Solution}
+\begin{align*}
+  (1-16x)^{1/4} &= 1 + \tfrac{1}{4}(-16x) + \frac{\tfrac{1}{4}\left(\tfrac{1}{4}-1\right)}{2!}(-16x)^2 + \frac{\tfrac{1}{4}\left(\tfrac{1}{4}-1\right)\left(\tfrac{1}{4}-2\right)}{3!}(-16x)^3 \\
+  &= 1 + \tfrac{1}{4}(-16x) + \frac{\tfrac{1}{4}\left(-\tfrac{3}{4}\right)}{2\times1}(-16x)^2 + \frac{\tfrac{1}{4}\left(-\tfrac{3}{4}\right)\left(-\tfrac{7}{4}\right)}{3\times2\times1}(-16x)^3 \\
+  &= 1 + \tfrac{1}{4}(-16x) + \frac{-\tfrac{3}{16}}{2}(256x^2) + \frac{\tfrac{21}{64}}{6}(-4096x^3)
+\end{align*}
+\[
+  = 1 - 4x - 24x^2 - 224x^3
+\]
+\end{example}

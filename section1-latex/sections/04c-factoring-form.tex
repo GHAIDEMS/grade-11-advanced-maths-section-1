@@ -1,0 +1,224 @@
+\begin{activity}{Activity 1.5: Deciding Whether the Binomial Theorem Can Be Used in All Cases}
+Discuss in groups whether the binomial theorem
+\[
+  (1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots + x^n
+\]
+can be used in all cases.
+\begin{enumerate}
+  \item Consider $(2+4x)^4$. Can the binomial theorem be used directly?
+  \item How will you write the terms in the bracket to have $1$ as one of the terms?
+  \item Let us go through the following tasks to help us write $(2+4x)^4$ in the
+  form $(1+x)^n$ and use the binomial theorem to expand and simplify:
+  \begin{itemize}
+    \item[] \textbf{Task 1:} Take the given binomial expression $(2+4x)$.
+    \item[] \textbf{Task 2:} Factorise the constant out from the binomial to obtain $2(1+2x)$.
+    \item[] \textbf{Task 3:} Rewrite your expression obtained with the power as given, i.e.\ $2^4(1+2x)^4$.
+    \item[] \textbf{Task 4:} Expand the binomial $(1+2x)^4$, after which you multiply your result by $2^4$.
+  \end{itemize}
+  Now follow the tasks to obtain all the terms for the given expression.
+
+  \textbf{Expected Answer:} $16 + 128x + 348x^2 + 512x^3 + 256x^4$.
+\end{enumerate}
+\end{activity}
+
+Let's solve the following examples using the binomial theorem.
+
+\begin{example}{Example 1.16}
+\begin{enumerate}
+  \item Use the binomial theorem to expand fully $(3+9x)^5$.
+  \item Find the first three terms of $\left(\dfrac{4}{9}+6x\right)^{1/2}$ using the binomial theorem.
+  \item Use the binomial theorem to expand fully and simplify $(10+4x)^3$.
+  \item Use the binomial theorem to find the first four terms of the expression $\sqrt[4]{81+162x}$.
+\end{enumerate}
+
+\medskip\noindent\textbf{Solution}
+
+\textbf{1.}
+\[
+  (3+9x)^5 = 3^5(1+3x)^5
+\]
+\begin{align*}
+  3^5(1+3x)^5 &= 3^5\Bigg[1 + 5(3x) + \frac{5(4)}{2\times1}(3x)^2 + \frac{5(4)(3)}{3\times2\times1}(3x)^3 \\
+  &\qquad + \frac{5(4)(3)(2)}{4\times3\times2\times1}(3x)^4 + \frac{5(4)(3)(2)(1)}{5\times4\times3\times2\times1}(3x)^5\Bigg]
+\end{align*}
+\[
+  = 243\left[1 + 5(3x) + 10(9x^2) + 10(27x^3) + 5(81x^4) + (243x^5)\right]
+\]
+\[
+  (3+9x)^5 = 243\left(1 + 15x + 90x^2 + 270x^3 + 405x^4 + 243x^5\right)
+\]
+Compute the final coefficients:
+\begin{itemize}
+  \item $243 \times 1 = 243$
+  \item $243 \times 15 = 3645$
+  \item $243 \times 90 = 21870$
+  \item $243 \times 270 = 65610$
+  \item $243 \times 405 = 98415$
+  \item $243 \times 243 = 59049$
+\end{itemize}
+Therefore, the expansion is
+\[
+  (3+9x)^5 = 243 + 3645x + 21870x^2 + 65610x^3 + 98415x^4 + 59049x^5.
+\]
+
+\textbf{2.}
+\[
+  \left(\frac{4}{9}+6x\right)^{1/2} = \left(\frac{4}{9}\right)^{1/2}\left(1+\frac{27}{2}x\right)^{1/2}
+\]
+\[
+  = \left(\frac{4}{9}\right)^{1/2}\left[1 + \frac{1}{2}\left(\frac{27}{2}x\right) + \frac{\tfrac{1}{2}\left(\tfrac{1}{2}-1\right)}{2!}\left(\frac{27}{2}x\right)^2\right]
+\]
+\[
+  = \frac{2}{3}\left[1 + \frac{27}{4}x + \frac{-\tfrac{1}{4}}{2}\left(\frac{729}{4}x^2\right)\right]
+  = \frac{2}{3}\left[1 + \frac{27}{4}x - \frac{729}{32}x^2\right]
+\]
+\[
+  = \frac{2}{3} + \frac{9}{2}x - \frac{243}{16}x^2
+\]
+
+\textbf{3.}
+\[
+  (10+4x)^3 = 10^3\left(1+\frac{2}{5}x\right)^3
+\]
+\[
+  = 10^3\left[1 + 3\left(\frac{2}{5}x\right) + \frac{3(2)}{2\times1}\left(\frac{2}{5}x\right)^2 + \frac{3(2)(1)}{3\times2\times1}\left(\frac{2}{5}x\right)^3\right]
+\]
+\[
+  = 10^3\left[1 + \frac{6}{5}x + 3\left(\frac{4x^2}{25}\right) + \frac{8}{125}x^3\right]
+  = 1000\left[1 + \frac{6}{5}x + \frac{12x^2}{25} + \frac{8x^3}{125}\right]
+\]
+\[
+  (10+4x)^3 = 1000 + 1200x + 480x^2 + 64x^3
+\]
+
+\textbf{4.}
+\[
+  \sqrt[4]{81+162x} = (81+162x)^{1/4} = 81^{1/4}(1+2x)^{1/4}
+\]
+\[
+  = 81^{1/4}\left[1 + \frac{1}{4}(2x) + \frac{\tfrac{1}{4}\left(\tfrac{1}{4}-1\right)}{2!}(2x)^2 + \frac{\tfrac{1}{4}\left(\tfrac{1}{4}-1\right)\left(\tfrac{1}{4}-2\right)}{3!}(2x)^3\right]
+\]
+\[
+  = 81^{1/4}\left[1 + \frac{1}{4}(2x) + \frac{-\tfrac{3}{16}}{2\times1}(4x^2) + \frac{\tfrac{21}{64}}{3\times2\times1}(8x^3)\right]
+  = 3\left[1 + \frac{1}{2}x - \frac{3}{8}x^2 + \frac{7}{16}x^3\right]
+\]
+\[
+  \sqrt[4]{81+162x} = 3 + \frac{3}{2}x - \frac{9}{8}x^2 - \frac{21}{16}x^3
+\]
+\end{example}
+
+\begin{example}{Example 1.17}
+The first three terms in the expansion of $\left(1+\dfrac{x}{p}\right)^n$ in ascending powers
+of $x$ are $1 + x + \dfrac{9}{20}x^2$. Find the values of $n$ and $p$.
+
+\medskip\noindent\textbf{Solution}
+
+Expand $\left(1+\dfrac{x}{p}\right)^n$ using the binomial theorem:
+\[
+  \left(1+\frac{x}{p}\right)^n = 1 + n\frac{x}{p} + \frac{n(n-1)}{2!}\left(\frac{x}{p}\right)^2 = 1 + nx + \frac{n(n-1)}{2}\cdot\frac{x^2}{p^2}
+\]
+Equating this to $1 + x + \dfrac{9}{20}x^2$ and comparing the coefficients of $x$ and $x^2$:
+\[
+  \frac{n}{p} = 1, \qquad \frac{n(n-1)}{2p^2} = \frac{9}{20}
+\]
+\[
+  n = p \quad \ldots (1) \qquad\qquad 20n(n-1) = 18p^2 \quad \ldots (2)
+\]
+Substituting $n=p$ from (1) into (2):
+\[
+  20p(p-1) = 18p^2 \implies 20p^2 - 20p = 18p^2 \implies 2p^2 = 20p \implies p = 10
+\]
+\[
+  \therefore\ p = 10, \qquad n = 10
+\]
+\end{example}
+
+\begin{example}{Example 1.18}
+Find the values of $t$ and $n$ in the equation $(1+tx)^n = 1 - 6x + \dfrac{33}{2}x^2$.
+
+\medskip\noindent\textbf{Solution}
+
+Expand $(1+tx)^n$ using the binomial theorem:
+\[
+  (1+tx)^n = 1 + ntx + \frac{n(n-1)}{2!}(tx)^2 = 1 + ntx + \frac{n(n-1)}{2}t^2x^2
+\]
+Equating this to $1 - 6x + \dfrac{33}{2}x^2$ and comparing coefficients of $x$ and $x^2$:
+\[
+  nt = -6 \quad \ldots (1) \qquad\qquad \frac{n(n-1)}{2}t^2 = \frac{33}{2} \implies 2n(n-1)t^2 = 66 \quad \ldots (2)
+\]
+Rewriting (2): $(2n^2-2n)t^2 = 66 \implies 2(nt)^2 - 2(nt)t = 66$.
+Since $nt=-6$:
+\[
+  2(-6)^2 - 2(-6)t = 66 \implies 72 + 12t = 66 \implies 12t = -6 \implies t = -\frac{1}{2}
+\]
+Substituting back into $nt=-6$:
+\[
+  n\left(-\frac{1}{2}\right) = -6 \implies -n = -12 \implies n = 12
+\]
+\end{example}
+
+\begin{example}{Example 1.19}
+Expand $(1+2x-x^2)^6$ as far as the $x^2$ term.
+
+\medskip\noindent\textbf{Solution}
+
+How will you use the binomial theorem to solve a question of this nature?
+Discuss your views with a classmate or in your groups.
+
+You need to write the trinomial $1+2x-x^2$ as a binomial in the form $(1+x)^n$.
+We represent $2x - x^2$ by a variable, say $y$, i.e.\ $y = 2x - x^2$, so
+\[
+  (1+2x-x^2)^6 = (1+y)^6.
+\]
+Expanding $(1+y)^6$ using the binomial theorem:
+\[
+  (1+y)^6 = 1 + 6y + \frac{6(6-1)}{2!}y^2 + \cdots = 1 + 6y + \frac{6(5)}{2}y^2 = 1 + 6y + 15y^2
+\]
+But $y = 2x-x^2$, so substituting:
+\[
+  = 1 + 6(2x-x^2) + 15(2x-x^2)^2 + \cdots
+\]
+\[
+  = 1 + 6(2x-x^2) + 15(4x^2 - 4x^3 + x^4) + \cdots
+\]
+\[
+  = 1 + 12x - 6x^2 + 60x^2 - 60x^3 + 15x^4 + \cdots
+\]
+\[
+  (1+2x-x^2)^6 = 1 + 12x + 54x^2 + \cdots
+\]
+\end{example}
+
+\begin{example}{Example 1.20}
+Expand $(1-3x+x^2)^5$ as far as the $x^3$ term.
+
+\medskip\noindent\textbf{Solution}
+
+We represent $-3x+x^2$ by a variable, say $y$, i.e.\ $y = -3x+x^2$, so
+\[
+  (1-3x+x^2)^5 = (1+y)^5.
+\]
+Expanding $(1+y)^5$ using the binomial theorem:
+\[
+  (1+y)^5 = 1 + 5y + \frac{5(4)}{2}y^2 + \frac{5(4)(3)}{6}y^3 = 1 + 5y + 10y^2 + 10y^3
+\]
+But $y = -3x+x^2$, so substituting:
+\[
+  = 1 + 5(-3x+x^2) + 10(-3x+x^2)^2 + 10(-3x+x^2)^3
+\]
+\[
+  = 1 + 5(-3x+x^2) + 10(9x^2 - 6x^3 + x^4) + 10(-27x^3 + 27x^4 - 9x^5 + x^6)
+\]
+\[
+  = 1 - 15x + 5x^2 + 90x^2 - 60x^3 + 10x^4 - 270x^3 + 270x^4 - 90x^5 + 10x^6
+\]
+Collecting terms up to $x^3$:
+\[
+  (1-3x+x^2)^5 = 1 - 15x + 95x^2 - 330x^3 + \cdots
+\]
+\end{example}
+
+Did you know we can use binomial expansion to approximate exponential
+numbers? This powerful technique allows us to simplify complex expressions
+and make calculations easier. We will explore how to apply binomial expansion
+to approximate exponential functions.
