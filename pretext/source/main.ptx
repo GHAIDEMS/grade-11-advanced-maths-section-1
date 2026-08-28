@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+
+  <docinfo>
+    <macros>
+    </macros>
+  </docinfo>
+
+  <book xml:id="grade-11-advanced-maths-section-1">
+    <title>Introduction to Data Science</title>
+
+    <!-- Preface -->
+    <xi:include href="01-intro.ptx"/>
+    
+    <!-- Acknowledgments -->
+    <xi:include href="02-demorgans.ptx"/>
+
+    <!-- Introduction -->
+    <xi:include href="03-applying-demorgans.ptx"/>
+
+    <!-- Part 1: R -->
+    <xi:include href="04-binomial-expansion.ptx"/>
+
+    <!-- Part 2: Data Visualization -->
+    <xi:include href="05-approximations.ptx"/>
+
+    <!-- Part 3: Data Wrangling -->
+    <xi:include href="06-exercises.ptx"/>
+
+
+  </book>
+
+</pretext>

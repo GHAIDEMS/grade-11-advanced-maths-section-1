@@ -45,7 +45,7 @@
               <m>r</m> elements from <m>n</m> elements and can be found using
               Pascal's Triangle.
 
-              <me>\binom{n}{r} = \frac{n!}{r!(n-r)!}</me>
+              <md>\binom{n}{r} = \frac{n!}{r!(n-r)!}</md>
             </p>
           </li>
           <li>
@@ -53,7 +53,7 @@
               <term>Terms in the Expansion:</term> Each term in the expansion
               is of the form:
 
-              <me>\binom{n}{r} a^{n-r} b^{r}</me>
+              <md>\binom{n}{r} a^{n-r} b^{r}</md>
             </p>
           </li>
           <li>

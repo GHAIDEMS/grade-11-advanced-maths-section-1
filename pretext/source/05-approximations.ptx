@@ -122,29 +122,29 @@
           </mrow>
         </md>
 
-        <me>= 1 + 5(2y) + 10(4y^2) + 10(8y^3) + 5(16y^4) + 1(32y^5)</me>
+        <md>= 1 + 5(2y) + 10(4y^2) + 10(8y^3) + 5(16y^4) + 1(32y^5)</md>
 
-        <me>(1+2y)^5 = 1 + 10y + 40y^2 + 80y^3 + 80y^4 + 32y^5</me>
+        <md>(1+2y)^5 = 1 + 10y + 40y^2 + 80y^3 + 80y^4 + 32y^5</md>
       </p>
 
       <p>
         <m>(1.04)^5</m> can be written as <m>(1+0.04)^5</m>. Comparing
         <m>(1.04)^5</m> to <m>(1+2y)^5</m>:
 
-        <me>2y = 0.04 \implies y = 0.02</me>
+        <md>2y = 0.04 \implies y = 0.02</md>
 
         Substituting <m>y = 0.02</m> into the expansion:
 
-        <me>
+        <md>
           1 + 10(0.02) + 40(0.02)^2 + 80(0.02)^3 + 80(0.02)^4 + 32(0.02)^5
-        </me>
+        </md>
 
-        <me>
+        <md>
           = 1 + 0.2 + 0.016 + 0.00064 + 0.0000128 + 0.0000001024 =
           1.2166529024
-        </me>
+        </md>
 
-        <me>\approx 1.2167 \text{ (to 4 d.p.)}</me>
+        <md>\approx 1.2167 \text{ (to 4 d.p.)}</md>
 
         Thus <m>(1.04)^5 \approx 1.2167</m>.
       </p>
@@ -160,7 +160,7 @@
       <p><term>Solution</term></p>
 
       <p>
-        <me>\sqrt{1+3x} = (1+3x)^{1/2}</me>
+        <md>\sqrt{1+3x} = (1+3x)^{1/2}</md>
 
         <md>
           <mrow>
@@ -185,33 +185,33 @@
           </mrow>
         </md>
 
-        <me>
+        <md>
           \sqrt{1+3x} = 1 + \frac{3x}{2} - \frac{9x^2}{8} + \frac{27x^3}{16} -
           \frac{405x^4}{128}
-        </me>
+        </md>
       </p>
 
       <p>
         <m>\sqrt{1.12}</m> can be written as <m>(1+0.12)^{1/2}</m>. Comparing
         <m>(1+0.12)^{1/2}</m> to <m>(1+3x)^{1/2}</m>:
 
-        <me>3x = 0.12 \implies x = 0.04</me>
+        <md>3x = 0.12 \implies x = 0.04</md>
 
         Substituting <m>x = 0.04</m> into the expansion:
 
-        <me>
+        <md>
           1 + \frac{3(0.04)}{2} - \frac{9(0.04)^2}{8} + \frac{27(0.04)^3}{16}
           - \frac{405(0.04)^4}{128}
-        </me>
+        </md>
 
-        <me>
+        <md>
           = 1 + \frac{0.12}{2} - \frac{0.0144}{8} + \frac{0.001728}{16} -
           \frac{0.00020736}{128}
-        </me>
+        </md>
 
-        <me>= 1 + 0.06 - 0.0018 + 0.000108 - 0.0000081 = 1.0582999</me>
+        <md>= 1 + 0.06 - 0.0018 + 0.000108 - 0.0000081 = 1.0582999</md>
 
-        <me>\approx 1.05830 \text{ (to 5 d.p.)}</me>
+        <md>\approx 1.05830 \text{ (to 5 d.p.)}</md>
 
         Thus <m>\sqrt{1.12} \approx 1.05830</m>.
       </p>
@@ -226,11 +226,11 @@
       <p><term>Solution</term></p>
 
       <p>
-        <me>
+        <md>
           \sqrt{101} = \sqrt{100+1} = (100+1)^{1/2} =
           100^{1/2}\left(1+\frac{1}{100}\right)^{1/2} =
           10\left(1+0.01\right)^{1/2}
-        </me>
+        </md>
 
         <md>
           <mrow>
@@ -278,10 +278,10 @@
       <p>
         <term>a.</term>
 
-        <me>
+        <md>
           (3.97)^{1/2} = (4-0.03)^{1/2} = 4^{1/2}(1-0.0075)^{1/2} =
           2(1-0.0075)^{1/2}
-        </me>
+        </md>
 
         <md>
           <mrow>
@@ -299,13 +299,13 @@
           <mrow>&amp;= 2\left[0.99621875\right] = 1.9924375</mrow>
         </md>
 
-        <me>\therefore (3.97)^{1/2} \approx 1.992 \text{ (to 4 s.f.)}</me>
+        <md>\therefore (3.97)^{1/2} \approx 1.992 \text{ (to 4 s.f.)}</md>
       </p>
 
       <p>
         <term>b.</term>
 
-        <me>(0.994)^{1/4} = (1-0.006)^{1/4}</me>
+        <md>(0.994)^{1/4} = (1-0.006)^{1/4}</md>
 
         <md>
           <mrow>
@@ -321,16 +321,16 @@
           <mrow>&amp;= 0.998498875</mrow>
         </md>
 
-        <me>\therefore (0.994)^{1/4} \approx 0.9985 \text{ (to 4 s.f.)}</me>
+        <md>\therefore (0.994)^{1/4} \approx 0.9985 \text{ (to 4 s.f.)}</md>
       </p>
 
       <p>
         <term>c.</term>
 
-        <me>
+        <md>
           \sqrt{25.05} = (25+0.05)^{1/2} = 25^{1/2}(1+0.002)^{1/2} =
           5(1+0.002)^{1/2}
-        </me>
+        </md>
 
         <md>
           <mrow>
@@ -351,7 +351,7 @@
           <mrow>&amp;= 5.0049975</mrow>
         </md>
 
-        <me>\therefore \sqrt{25.05} \approx 5.005 \text{ (to 4 s.f.)}</me>
+        <md>\therefore \sqrt{25.05} \approx 5.005 \text{ (to 4 s.f.)}</md>
       </p>
     </example>
   </introduction>
