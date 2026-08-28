@@ -1,0 +1,326 @@
+<section xml:id="establishing-de-morgans-laws-of-set-theory">
+  <title>Establishing De Morgan's Laws of Set Theory</title>
+
+  <p>
+    De Morgan's Laws are rules which are used to relate intersections and
+    unions through complements. Generally, according to De Morgan's Laws:
+  </p>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          The complement of the union of sets is equal to the intersection of
+          the individual complements. This means that if <m>A</m>, <m>B</m>
+          and <m>C</m> are sets,
+
+          <md>
+            (A \cup B)' = A' \cap B', \qquad (A \cup B \cup C)' = A' \cap B'
+            \cap C'.
+          </md>
+
+          In words: <em>the complement of the union equals the intersection of
+          the individual complements.</em>
+        </p>
+      </li>
+      <li>
+        <p>
+          The complement of the intersection of sets is equal to the union of
+          the individual complements. This means that if <m>A</m>, <m>B</m>
+          and <m>C</m> are sets,
+
+          <md>
+            (A \cap B)' = A' \cup B', \qquad (A \cap B \cap C)' = A' \cup B'
+            \cup C'.
+          </md>
+
+          In words: <em>the complement of the intersection equals the union of
+          the individual complements.</em>
+        </p>
+      </li>
+    </ol>
+  </p>
+
+  <p>Let us use the activity below to validate these rules.</p>
+
+  <activity>
+    <p>Activity 1.1: De Morgan's Laws</p>
+
+    <p>
+      <ol>
+        <li>
+          <p>Make a copy of the diagram below:</p>
+
+          <!-- div center -->
+
+          <image source="figures/activity1-1.png" width="70%">
+            <shortdescription>image</shortdescription>
+          </image>
+
+          <!-- end div center -->
+        </li>
+        <li>
+          <p>
+            List the elements in <m>\alpha</m>, <m>\beta</m> and
+            <m>\theta</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            List the elements in <m>\alpha'</m>, <m>\beta'</m> and
+            <m>\theta'</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Find (a) <m>(\alpha \cup \beta \cup \theta)'</m> (b) <m>\alpha'
+            \cap \beta' \cap \theta'</m> (c) <m>(\alpha \cap \beta \cap
+            \theta)'</m> (d) <m>\alpha' \cup \beta' \cup \theta'</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Compare your result in 4(a) to 4(b). What conclusion can you draw?
+          </p>
+        </li>
+        <li>
+          <p>
+            Compare your result in 4(c) to 4(d). What conclusion can you draw?
+          </p>
+        </li>
+      </ol>
+    </p>
+  </activity>
+
+  <p>Compare your answer to the suggested solution below.</p>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          <md>
+            <mrow>
+              \alpha &amp;= \{1, 2, 3, 5, 7, 9, 11, 15, 17, 18, 19\},
+            </mrow>
+
+            <mrow>\beta &amp;= \{2, 5, 11, 13, 15, 17, 18, 21, 29\},</mrow>
+
+            <mrow>
+              \theta &amp;= \{2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31\}.
+            </mrow>
+          </md>
+        </p>
+      </li>
+      <li>
+        <p>
+          <md>
+            <mrow>\alpha' &amp;= \{4, 6, 8, 10, 13, 21, 23, 29, 31\},</mrow>
+
+            <mrow>
+              \beta' &amp;= \{1, 3, 4, 6, 7, 8, 9, 10, 19, 23, 31\},
+            </mrow>
+
+            <mrow>\theta' &amp;= \{1, 4, 6, 8, 9, 10, 15, 18, 21\}.</mrow>
+          </md>
+        </p>
+      </li>
+      <li>
+        <p>
+          <md>
+            <mrow>
+              \text{(a)}\quad (\alpha \cup \beta \cup \theta)' &amp;= \{4, 6,
+              8, 10\}
+            </mrow>
+
+            <mrow>
+              \text{(b)}\quad \alpha' \cap \beta' \cap \theta' &amp;= \{4, 6,
+              8, 10\}
+            </mrow>
+
+            <mrow>
+              \text{(c)}\quad (\alpha \cap \beta \cap \theta)' &amp;= \{1, 3,
+              4, 6, 8, 9, 10, 13, 19, 21, 23, 29, 31\}
+            </mrow>
+
+            <mrow>
+              \text{(d)}\quad \alpha' \cup \beta' \cup \theta' &amp;= \{1, 3,
+              4, 6, 8, 9, 10, 13, 19, 21, 23, 29, 31\}
+            </mrow>
+          </md>
+        </p>
+      </li>
+      <li>
+        <p>
+          Results in 4(a) and 4(b) are equal. This confirms De Morgan's Law.
+        </p>
+      </li>
+      <li>
+        <p>
+          Results in 4(c) and 4(d) are equal. This confirms De Morgan's Law.
+        </p>
+      </li>
+    </ol>
+  </p>
+
+  <example>
+    <p>
+      Example 1.1 Study the diagram carefully and use it to answer the
+      questions.
+    </p>
+
+    <!-- div center -->
+
+    <image source="figures/example1-1.png" width="65%">
+      <shortdescription>image</shortdescription>
+    </image>
+
+    <!-- end div center -->
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            List the elements in <m>R</m>, <m>M</m>, <m>Q</m> and
+            <m>\varepsilon</m>.
+          </p>
+        </li>
+        <li>
+          <p>Show that <m>R' \cap M' = (R \cup M)'</m>.</p>
+        </li>
+        <li>
+          <p>Show that <m>(R \cap M \cap Q)' = R' \cup M' \cup Q'</m>.</p>
+        </li>
+      </ol>
+    </p>
+
+    <p><term>Solution</term></p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            <md>
+              <mrow>
+                R &amp;= \{s, u, b, d, e, r, m, a, t, o, g, l, y, p, h, i,
+                c\},
+              </mrow>
+
+              <mrow>
+                M &amp;= \{u, n, c, o, p, y, r, i, g, h, t, a, b, l, e\}
+                \text{ and}
+              </mrow>
+
+              <mrow>
+                Q &amp;= \{a, e, u, c, o, n, x, q, v, w\} \text{ are subsets
+                of}
+              </mrow>
+
+              <mrow>
+                \varepsilon &amp;= \{s, u, b, d, e, r, m, a, t, o, g, l, y, p,
+                h, i, c, n, x, q, v, w, j, k\}.
+              </mrow>
+            </md>
+          </p>
+        </li>
+        <li>
+          <p><m>R' \cap M' = (R \cup M)'</m></p>
+
+          <p>
+            Let us first solve for <m>R' \cap M'</m>:
+
+            <md>
+              \{b, x, v, n, q, w, j, k\} \cap \{m, h, s, d, b, x, v, q, w, j,
+              k\}
+            </md>
+
+            <md>
+              R' \cap M' = \{b, x, v, q, w, j, k\} \quad \ldots\ldots (1)
+            </md>
+
+            Next, let us solve for <m>(R \cup M)'</m>:
+
+            <md>
+              (R \cup M)' = \{s, u, b, d, e, r, m, a, t, o, g, l, y, p, h, i,
+              c, n\}'
+            </md>
+
+            <md>
+              (R \cup M)' = \{b, x, v, q, w, j, k\} \quad \ldots\ldots (2)
+            </md>
+
+            Since equation (1) is equal to equation (2), it shows that <m>R'
+            \cap M' = (R \cup M)'</m>.
+          </p>
+
+          <p>
+            <em>(Note: the original textbook's working reproduced above
+            actually contains an arithmetic slip <mdash/> from the given
+            <m>R</m>, <m>M</m> and <m>\varepsilon</m>, the correct complements
+            are <m>R' = \{j,k,n,q,v,w,x\}</m> and <m>M' =
+            \{d,j,k,m,q,s,v,w,x\}</m> <em>(no <sq>b</sq> or <sq>h</sq>)</em>,
+            giving <m>R'\cap M' = (R\cup M)' = \{j,k,q,v,w,x\}</m> rather than
+            the <m>\{b,x,v,q,w,j,k\}</m> shown above. The error appears on
+            both sides of the equation, so it does not affect the conclusion
+            that <m>R'\cap M'=(R\cup M)'</m>, but the specific set of elements
+            shown is incorrect.)</em>
+          </p>
+        </li>
+        <li>
+          <p>
+            Let's first solve for <m>(R \cap M \cap Q)'</m>:
+
+            <md>(R \cap M \cap Q)' = (a, e, u, c, o)'</md>
+
+            <md>
+              = \{s, b, d, r, m, t, g, l, y, p, h, i, n, x, q, v, w, j, k\}
+              \quad \ldots\ldots (1)
+            </md>
+
+            Next, let's find <m>R' \cup M' \cup Q'</m>:
+
+            <md>
+              <mrow>
+                R' \cup M' \cup Q' &amp;= \{b, x, v, n, q, w, j, k\} \cup \{m,
+                h, s, d, b, x, v, q, w, j, k\}
+              </mrow>
+
+              <mrow>
+                &amp;\quad \cup \{m, h, p, c, y, r, i, g, b, t, j, k\}
+              </mrow>
+
+              <mrow>
+                &amp;= \{s, b, d, r, m, t, g, l, y, p, h, i, n, x, q, v, w, j,
+                k\} \quad \ldots\ldots (2)
+              </mrow>
+            </md>
+
+            Since equation (1) is equal to equation (2), it shows <m>(R \cap M
+            \cap Q)' = R' \cup M' \cup Q'</m>.
+          </p>
+
+          <p>
+            <em>(Note: this working carries the same erroneous <m>R'</m> and
+            <m>M'</m> from part 2, plus a similarly erroneous <m>Q' =
+            \{b,c,g,h,i,j,k,m,p,r,t,y\}</m> instead of the correct <m>Q' =
+            \{b,d,g,h,i,j,k,l,m,p,r,s,t,y\}</m> <em>(no <sq>c</sq>; includes
+            <sq>d</sq>, <sq>l</sq>, <sq>s</sq>)</em>. Taking the union of the
+            textbook's own three (erroneous) complements gives
+            <m>\{b,c,d,g,h,i,j,k,m,n,p,q,r,s,t,v,w,x,y\}</m> <mdash/> note the
+            <sq>c</sq> <mdash/> not the
+            <m>\{s,b,d,r,m,t,g,l,y,p,h,i,n,x,q,v,w,j,k\}</m> (with an
+            <sq>l</sq> instead of a <sq>c</sq>) printed above, so the final
+            line does not even follow from the textbook's own stated
+            <m>R'</m>, <m>M'</m>, <m>Q'</m>. The correct result, computed
+            directly from <m>R\cap M\cap Q=\{a,c,e,o,u\}</m>, is <m>(R\cap
+            M\cap Q)' = \varepsilon\setminus\{a,c,e,o,u\} =
+            \{b,d,g,h,i,j,k,l,m,n,p,q,r,s,t,v,w,x,y\}</m>, which does agree
+            with <m>R'\cup M'\cup Q'</m> once the correct complements from the
+            note above are used instead. As before, the identity itself still
+            holds; only the specific elements printed in the textbook's
+            arithmetic are unreliable.)</em>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </example>
+</section>

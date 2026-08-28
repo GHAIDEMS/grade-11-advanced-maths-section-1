@@ -1,0 +1,791 @@
+<section xml:id="applying-de-morgans-laws-of-set-theory">
+  <title>Applying De Morgan's Laws of Set Theory</title>
+
+  <introduction>
+    <p>
+      We have learned about De Morgan's Laws of Set Theory. Now, we will look
+      at its application. Before we consider this application, let's
+      familiarise ourselves with a few properties of complements as it will be
+      central to our understanding.
+    </p>
+  </introduction>
+
+  <subsection xml:id="properties-of-complement">
+    <title>Properties of Complement</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            <term>Union of a set and its complement.</term> The union of a set
+            <m>A</m> and its complement (<m>A'</m>) is equal to the universal
+            set (<m>\mu</m>), i.e.<nbsp/><m>A \cup A' = \mu</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Intersection of a set and its complement.</term> The
+            intersection of a set <m>A</m> and its complement (<m>A'</m>) is
+            equal to the null set (<m>\varnothing</m>), i.e.<nbsp/><m>A \cap
+            A' = \{\ \} = \phi</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Double complement.</term> The complement of the complement
+            of set <m>A</m> will give the same set, <m>A</m>,
+            i.e.<nbsp/><m>(A')' = A</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Complement of an empty set.</term> The complement of an
+            empty set (<m>\phi</m>) is equal to the universal set
+            (<m>\mu</m>), i.e.<nbsp/><m>\phi' = \mu</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Complement of a universal set.</term> The complement of the
+            universal set is equal to the null set, i.e.<nbsp/><m>\mu' =
+            \phi</m>.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <example>
+      <p>
+        Example 1.2 Rewrite: a. <m>(X' \cup Y)'</m> b. <m>(X \cap Y')'</m>
+      </p>
+
+      <p><term>Solution</term></p>
+
+      <p>
+        <ol>
+          <li>
+            <p><m>(X' \cup Y)'</m></p>
+
+            <p>
+              Recall that from De Morgan's laws, we have <m>(A \cup B)' = A'
+              \cap B'</m>. So, for <m>(X' \cup Y)'</m>, we will replace
+              <m>A</m> with <m>X'</m> and <m>B</m> with <m>Y</m>. This implies
+              <m>(X' \cup Y)' = (X')' \cap Y'</m>. From the double complement
+              property, <m>(X')' = X</m>. Therefore, <m>(X' \cup Y)' = X \cap
+              Y'</m>.
+            </p>
+          </li>
+          <li>
+            <p><m>(X \cap Y')'</m></p>
+
+            <p>
+              Recall that from De Morgan's laws, we have <m>(A \cap B)' = A'
+              \cup B'</m>. So, for <m>(X \cap Y')'</m>, we will replace
+              <m>A</m> with <m>X</m> and <m>B</m> with <m>Y'</m>. This implies
+              <m>(X \cap Y')' = X' \cup (Y')'</m>. From the double complement
+              property, <m>(Y')' = Y</m>. Therefore, <m>(X \cap Y')' = X' \cup
+              Y</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </example>
+
+    <example>
+      <p>Example 1.3 Show that:</p>
+
+      <p>
+        <ol>
+          <li>
+            <p><m>(A \cup B' \cup C')' = A' \cap B \cap C</m></p>
+          </li>
+          <li>
+            <p><m>(A' \cap B \cap C')' = A \cup B' \cup C</m></p>
+          </li>
+        </ol>
+      </p>
+
+      <p><term>Solution</term></p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              Recall that <m>(A \cup B \cup C)' = A' \cap B' \cap C'</m>. This
+              means, <m>(A \cup B' \cup C')' = A' \cap (B')' \cap (C')' = A'
+              \cap B \cap C</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Recall that <m>(A \cap B \cap C)' = A' \cup B' \cup C'</m>. So,
+              <m>(A' \cap B \cap C')' = (A')' \cup B' \cup (C')' = A \cup B'
+              \cup C</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </example>
+
+    <example>
+      <p>Example 1.4 Rewrite <m>\big[(P \cup Q')' \cap P\big]'</m>.</p>
+
+      <p><term>Solution</term></p>
+
+      <p>
+        <term>Method 1</term> <mdash/> Let us start with the outer bracket.
+      </p>
+
+      <p>
+        Using <m>[A \cap B]' = A' \cup B'</m>:
+
+        <md>
+          \big[(P \cup Q')' \cap P\big]' = (P \cup Q')'' \cup P' = (P \cup Q')
+          \cup P'
+        </md>
+
+        Since the union is commutative, <m>P \cup Q' = Q' \cup P</m>:
+
+        <md>\big[(P \cup Q')' \cap P\big]' = (Q' \cup P) \cup P'</md>
+
+        Since the union of sets is associative, <m>(Q' \cup P) \cup P' = Q'
+        \cup (P \cup P')</m>:
+
+        <md>\big[(P \cup Q')' \cap P\big]' = Q' \cup (P \cup P')</md>
+
+        Recall that <m>P \cup P' = \mu</m> (universal set):
+
+        <md>\big[(P \cup Q')' \cap P\big]' = Q' \cup \mu = \mu</md>
+      </p>
+
+      <p>
+        <term>Method 2</term> <mdash/> We will start with the inner bracket
+        and work our way out.
+
+        <md>\big[(P \cup Q')' \cap P\big]'</md>
+
+        <md>(P \cup Q')' = P' \cap Q'' = P' \cap Q</md>
+
+        <md>
+          \big[(P \cup Q')' \cap P\big]' = \big[(P' \cap Q) \cap P\big]'
+        </md>
+
+        Since the intersection of sets is commutative, <m>P' \cap Q = Q \cap
+        P'</m>:
+
+        <md>
+          \big[(P \cup Q')' \cap P\big]' = \big[(Q \cap P') \cap P\big]'
+        </md>
+
+        Since intersection is associative, <m>(Q \cap P') \cap P = Q \cap (P'
+        \cap P)</m>:
+
+        <md>
+          \big[(P \cup Q')' \cap P\big]' = \big[Q \cap (P' \cap P)\big]'
+        </md>
+
+        Recall that <m>P' \cap P = \varnothing</m>:
+
+        <md>
+          \big[(P \cup Q')' \cap P\big]' = [Q \cap \varnothing]' =
+          [\varnothing]' = \mu
+        </md>
+      </p>
+    </example>
+
+    <example>
+      <p>
+        Example 1.5 Using the Venn diagram, shade the region represented by:
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p><m>(X \cup Y)' \cap Z</m></p>
+          </li>
+          <li>
+            <p><m>X' \cap (Y \cup Z)</m></p>
+          </li>
+        </ol>
+      </p>
+
+      <p><term>Solution</term></p>
+
+      <p><term>a. <m>(X \cup Y)' \cap Z</m></term></p>
+
+      <p>
+        Since the expression involves three sets, <m>X</m>, <m>Y</m> and
+        <m>Z</m>, we will construct a three-set Venn diagram. We will
+        represent the universal set with <m>\mu</m>. An example is shown
+        below:
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-5-blank.png" width="55%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        <m>(X \cup Y)'</m> represents elements which are not in <m>X \cup
+        Y</m>. We use vertical lines to shade this region:
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-5-vertical.png" width="55%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        Then, on the same diagram, set <m>Z</m> is shaded with horizontal
+        lines. The intersection of <m>(X \cup Y)'</m> and <m>Z</m> is the
+        double-shaded (cross-hatched) area:
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-5-combined.png" width="55%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        Therefore, <m>(X \cup Y)' \cap Z</m> is the region shown below, shaded
+        in a single cross-hatch pattern:
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-5-final.png" width="55%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        <term>b. <m>X' \cap (Y \cup Z)</m></term> is found in the same way:
+        shade <m>X'</m> (everything outside circle <m>X</m>) with vertical
+        lines, shade <m>Y \cup Z</m> with horizontal lines, and the region
+        shaded by both patterns is the required set.
+      </p>
+    </example>
+
+    <p>
+      In year 1, we learned about set theory laws. Examples of these laws
+      include commutative, associative and distributive. We also learned to
+      identify the regions in a three-set Venn diagram. In this lesson, we
+      will apply these concepts to answer real-life problems.
+    </p>
+  </subsection>
+
+  <subsection xml:id="how-to-complete-a-three-set-venn-diagram">
+    <title>How to complete a three-set Venn diagram</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Start with the intersection of the three sets and proceed to the
+            regions involving two sets.
+          </p>
+        </li>
+        <li>
+          <p>
+            Then work on the regions involving one set and finally the regions
+            in the universal set that do not intersect with any of the three
+            sets.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      To summarise, start from the centre (the region with the most overlaps)
+      and work your way out.
+    </p>
+
+    <example>
+      <p>Example 1.6 Set <m>A = \{\text{odd numbers less than } 15\}</m></p>
+
+      <p>Set <m>B = \{W : 4 &lt; W \le 11\}</m></p>
+
+      <p>Set <m>D = \{\text{Prime numbers less than } 14\}</m></p>
+
+      <p>
+        All of which are subsets of Set <m>R = \{0, 1, 2, 3, 4, \ldots,
+        16\}</m>.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              List the members of the following sets: (i) <m>A</m> (ii)
+              <m>B</m> (iii) <m>D</m> (iv) <m>A \cup B</m> (v) <m>(A \cup B)
+              \cap D'</m> (vi) <m>(A' \cap B) \cup D</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Represent <m>A</m>, <m>B</m>, <m>D</m> and <m>R</m> using a Venn
+              diagram.
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p><term>Solution</term></p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              <md>
+                <mrow>
+                  \text{(i)}\quad A &amp;= \{1, 3, 5, 7, 9, 11, 13\}
+                </mrow>
+
+                <mrow>
+                  \text{(ii)}\quad B &amp;= \{5, 6, 7, 8, 9, 10, 11\}
+                </mrow>
+
+                <mrow>\text{(iii)}\quad D &amp;= \{2, 3, 5, 7, 11, 13\}</mrow>
+
+                <mrow>
+                  \text{(iv)}\quad A \cup B &amp;= \{1, 3, 5, 7, 9, 11, 13\}
+                  \cup \{5, 6, 7, 8, 9, 10, 11\}
+                </mrow>
+
+                <mrow>&amp;= \{1, 3, 5, 6, 7, 8, 9, 10, 11, 13\}</mrow>
+
+                <mrow>
+                  \text{(v)}\quad (A \cup B) \cap D' &amp;= \{1, 3, 5, 6, 7,
+                  8, 9, 10, 11, 13\} \cap \{1, 4, 6, 8, 9, 10, 12, 14, 15,
+                  16\}
+                </mrow>
+
+                <mrow>&amp;= \{1, 6, 8, 9, 10\}</mrow>
+
+                <mrow>
+                  \text{(vi)}\quad A' \cap B &amp;= \{2, 4, 6, 8, 10, 12, 14,
+                  15, 16\} \cap \{5, 6, 7, 8, 9, 10, 11\} = \{6, 8, 10\}
+                </mrow>
+
+                <mrow>
+                  (A' \cap B) \cup D &amp;= \{6, 8, 10\} \cup \{2, 3, 5, 7,
+                  11, 13\} = \{2, 3, 5, 6, 7, 8, 10, 11, 13\}
+                </mrow>
+              </md>
+            </p>
+          </li>
+          <li>
+            <p>
+              We first find the triple intersection: <m>A \cap B \cap D = \{5,
+              7, 11\}</m>.
+            </p>
+
+            <!-- div center -->
+
+            <image source="figures/example1-6-triple.png" width="55%">
+              <shortdescription>image</shortdescription>
+            </image>
+
+            <!-- end div center -->
+
+            <p>
+              Then proceed to the pairwise intersections. There are three of
+              these:
+
+              <md>
+                <mrow>
+                  A \cap B \text{ only} &amp;= A \cap B \cap D' = \{9\}
+                </mrow>
+
+                <mrow>
+                  A \cap D \text{ only} &amp;= A \cap B' \cap D = \{3, 13\}
+                </mrow>
+
+                <mrow>
+                  B \cap D \text{ only} &amp;= A' \cap B \cap D = \{\ \}
+                </mrow>
+              </md>
+
+              Let's update our diagram with these values:
+            </p>
+
+            <!-- div center -->
+
+            <image source="figures/example1-6-pairwise.png" width="55%">
+              <shortdescription>image</shortdescription>
+            </image>
+
+            <!-- end div center -->
+
+            <p>
+              Next, find the single intersections. There are three of them:
+
+              <md>
+                <mrow>A \text{ only} &amp;= \{1\}</mrow>
+
+                <mrow>B \text{ only} &amp;= \{6, 8, 10\}</mrow>
+
+                <mrow>D \text{ only} &amp;= \{2\}</mrow>
+              </md>
+            </p>
+
+            <!-- div center -->
+
+            <image source="figures/example1-6-singles.png" width="55%">
+              <shortdescription>image</shortdescription>
+            </image>
+
+            <!-- end div center -->
+
+            <p>
+              Finally, we find <m>(A \cup B \cup D)' = \{0, 4, 12, 14, 15,
+              16\}</m>.
+            </p>
+
+            <p>Find below the completed diagram:</p>
+
+            <!-- div center -->
+
+            <image source="figures/example1-6-completed.png" width="55%">
+              <shortdescription>image</shortdescription>
+            </image>
+
+            <!-- end div center -->
+          </li>
+        </ol>
+      </p>
+    </example>
+
+    <example>
+      <p>
+        Example 1.7 A survey of 70 investors reveals the following: 30 invest
+        in bonds, 40 in stocks and 21 in annuities. 10 had investments in
+        bonds and annuities, 15 in bonds and stocks, 12 in stocks and
+        annuities, and 7 had investments in all three assets. The remaining
+        investors had investments in other assets.
+      </p>
+
+      <p>Create a Venn diagram for this information.</p>
+
+      <p><term>Solution</term></p>
+
+      <p>
+        First, draw a Venn diagram with three intersecting sets representing
+        the three main sets: Bonds, Stocks, and Annuities. Let <m>B</m>
+        represent Bonds, <m>A</m> represent Annuities and <m>S</m> represent
+        Stocks. This means <m>n(B) = 30</m>, <m>n(A) = 21</m> and <m>n(S) =
+        40</m>.
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-7-blank.png" width="50%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        Next, we fill in the region where all three sets intersect. From the
+        question, this figure is 7.
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-7-triple.png" width="50%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        Let us add these values to the Venn diagram. Next, we fill in the
+        regions where exactly two sets intersect:
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              <term>Bonds and Annuities.</term> A total of 10 had investments
+              in bonds and annuities but 7 of them have investments in all
+              three assets. This leaves <m>10 - 7 = 3</m> investing in only
+              Bonds and Annuities.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Bonds and Stocks.</term> A total of 15 had investments in
+              bonds and stocks but 7 of them had investments in all three
+              assets. This leaves <m>15 - 7 = 8</m> investing in only Bonds
+              and Stocks.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Stocks and Annuities.</term> A total of 12 had investments
+              in stocks and annuities but 7 of them have investments in all
+              three assets. This leaves <m>12 - 7 = 5</m> investing in only
+              Stocks and Annuities.
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-7-pairwise.png" width="50%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        You will realise there is only one region remaining in each set. These
+        are the regions that represent only one set:
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              <term>Only Bonds.</term> A total of 30 had investments in bonds
+              but we have already accounted for <m>3 + 7 + 8 = 18</m> of them,
+              leaving <m>30 - 18 = 12</m> having investments in only Bonds.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Only Annuities.</term> A total of 21 had investments in
+              annuities but we have already accounted for <m>3 + 7 + 5 =
+              15</m> of them, leaving <m>21 - 15 = 6</m> having investments in
+              only Annuities.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Only Stocks.</term> A total of 40 had investments in
+              stocks but we have already accounted for <m>5 + 7 + 8 = 20</m>
+              of them, leaving <m>40 - 20 = 20</m> investing in only Stocks.
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p>We will add these values to the Venn diagram:</p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-7-singles.png" width="50%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        Finally, we calculate the number of investors with no investments in
+        the three assets. The sum of all the values already calculated for the
+        intersecting sets is
+
+        <md>12 + 3 + 6 + 8 + 5 + 7 + 20 = 61.</md>
+
+        This means <m>70 - 61 = 9</m> investors did not invest in any of the
+        three assets. This value is recorded outside the circles but inside
+        the universal set, completing the Venn diagram:
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-7-completed.png" width="55%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+    </example>
+
+    <example>
+      <p>
+        Example 1.8 A survey of 97 countries that participated in the Olympics
+        reveals that 80 won bronze, 57 won silver and 47 won gold. It also
+        reveals that 30 won gold and silver, 50 won silver and bronze, 38 won
+        gold and bronze, and 3 countries did not win any medal.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>Illustrate the information on a Venn diagram.</p>
+          </li>
+          <li>
+            <p>Calculate the number of countries who won all three medals.</p>
+          </li>
+          <li>
+            <p>
+              Calculate the number of countries who won exactly two medals.
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p><term>Solution</term></p>
+
+      <p>
+        Let <m>B</m> = Bronze medal, <m>G</m> = Gold medal, and <m>S</m> =
+        Silver medal, so <m>n(B) = 80</m>, <m>n(S) = 57</m> and <m>n(G) =
+        47</m>.
+      </p>
+
+      <p>
+        Let <m>x</m> be the number of countries who won all three medals
+        (unknown, since we were not given this directly).
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-8-blank.png" width="50%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        Next, we fill in the regions where exactly two sets intersect
+        (countries that won exactly two of the three medals). A total of 30
+        countries won Gold and Silver; of these, <m>x</m> won all three
+        medals, so <m>(30-x)</m> countries won <em>only</em> Gold and Silver.
+        Similarly, 50 won Silver and Bronze, giving <m>(50 - x)</m> who won
+        only Silver and Bronze, and 38 won Gold and Bronze, giving
+        <m>(38-x)</m> who won only Gold and Bronze.
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-8-pairwise.png" width="50%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>At this point only one region remains in each set:</p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              <term>Only Bronze.</term> <m>80</m> won bronze, and we have
+              already accounted for <m>x + (50-x) + (38-x) = (88-x)</m> of
+              them, leaving <m>80 - (88-x) = (x - 8)</m> winning only bronze.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Only Silver.</term> <m>57</m> won silver, and we have
+              already accounted for <m>x + (50-x) + (30-x) = (80-x)</m> of
+              them, leaving <m>57 - (80-x) = (x - 23)</m> winning only silver.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Only Gold.</term> <m>47</m> won gold, and we have already
+              accounted for <m>x + (30-x) + (38-x) = (68-x)</m> of them,
+              leaving <m>47 - (68-x) = (x - 21)</m> winning only gold.
+            </p>
+          </li>
+        </ul>
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-8-singles.png" width="50%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        <em>(Note: the Gold-only region in this diagram is labelled
+        <m>-18+x</m> in the original textbook figure <mdash/> this is a typo.
+        As derived above, the correct formula is <m>x-21</m>. We use the
+        correct formula going forward.)</em>
+      </p>
+
+      <p>
+        According to the question, 3 countries did not win any medal, so <m>(G
+        \cup S \cup B)' = 3</m>.
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-8-nomedal.png" width="50%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        To solve for <m>x</m>, add all the entries and equate the result to
+        the total number of countries under consideration (97):
+
+        <md>
+          x + (30-x) + (50-x) + (38-x) + (x-8) + (x-23) + (x-21) + 3 = 97
+        </md>
+
+        <md>x + 69 = 97 \implies x = 97 - 69 = 28.</md>
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>Therefore, <term>28</term> countries won all three medals.</p>
+          </li>
+          <li>
+            <p>
+              Number of countries that won exactly two medals <m>= (30-28) +
+              (50-28) + (38-28) = 2 + 22 + 10 = 34</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        We can now update the diagram with this value. The completed Venn
+        diagram, as given in the original textbook, is:
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/example1-8-final-book.png" width="85%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        <em>Important note:</em> the textbook substitutes <m>x=25</m> into the
+        region formulas above, not the value <m>x=28</m> that was just solved
+        for algebraically. This is an error in the original <mdash/> every
+        region value shown (17, 25, 2, 13, 25, 5) other than the Gold-only
+        region is inconsistent with <m>x=28</m>, and the diagram's own values
+        do not agree with part (f)'s answer of 34 for the number of countries
+        winning exactly two medals (<m>25+13+5=43\neq34</m>, using the
+        diagram's own printed numbers). Substituting the correctly-solved
+        <m>x=28</m> into each formula instead gives Bronze-only
+        <m>=x-8=20</m>, Bronze<m>\cap</m>Silver-only <m>=50-x=22</m>,
+        Silver-only <m>=x-23=5</m>, Bronze<m>\cap</m>Gold-only
+        <m>=38-x=10</m>, Silver<m>\cap</m>Gold-only <m>=30-x=2</m>, and
+        Gold-only <m>=x-21=7</m> (triple intersection <m>=28</m>), which does
+        check against part (f): <m>2+22+10=34</m>.
+      </p>
+    </example>
+  </subsection>
+</section>

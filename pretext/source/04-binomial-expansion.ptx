@@ -1,0 +1,839 @@
+<section xml:id="expanding-binomial-expressions">
+  <title>Expanding Binomial Expressions</title>
+
+  <p>
+    Hopefully you recall the work we did in Year 1 on the binomial expansion.
+    We used the Pascal triangle and the Combination method to expand and
+    simplify certain expressions. Let's remind you of this in the activity
+    below.
+  </p>
+
+  <activity>
+    <p>Activity 1.2: Revision</p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            In groups or pairs, write down or generate the Pascal triangle up
+            to <m>(x+y)^5</m>.
+          </p>
+        </li>
+        <li>
+          <p>Use your results in step 1 to simplify the expressions:</p>
+
+          <p>
+            <ol>
+              <li>
+                <p><m>(2x+y)^3</m></p>
+              </li>
+              <li>
+                <p><m>(a-3b)^4</m></p>
+              </li>
+              <li>
+                <p><m>(2+\sqrt{x})^5</m></p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Apply the combination method to also simplify the above tasks.
+          </p>
+        </li>
+        <li>
+          <p>
+            Compare your results in (2) and (3) and write down any
+            observations.
+          </p>
+        </li>
+        <li>
+          <p>
+            Show your solutions, or write up, to classmates in other groups or
+            to your mathematics teacher.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </activity>
+
+  <p>
+    The Binomial Expansion helps us to expand and simplify complex
+    expressions, which would have been difficult using the idea of algebraic
+    expressions. Under algebraic expressions we could only expand with a
+    positive integer power, but the binomial theorem will help us to expand
+    any expression with a rational number as the power.
+  </p>
+
+  <activity>
+    <p>Activity 1.3 <ndash/> Derivation of Binomial Theorem</p>
+
+    <p>
+      <ol>
+        <li>
+          <p>Look for the <m>^{n}C_{r}</m> button on your calculator.</p>
+        </li>
+        <li>
+          <p>Task: use <m>^{n}C_{r}</m> on your calculator to evaluate</p>
+
+          <p>
+            <ol>
+              <li>
+                <p><m>^{3}C_{0}</m></p>
+              </li>
+              <li>
+                <p><m>^{3}C_{1}</m></p>
+              </li>
+              <li>
+                <p><m>^{3}C_{2}</m></p>
+              </li>
+              <li>
+                <p><m>^{3}C_{3}</m></p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Hopefully the answers you have are: <m>1\ 3\ 3\ 1</m>. This was
+            used in Year 1 to expand certain expressions.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </activity>
+
+  <p>
+    The combination of <m>n</m> items taking <m>r</m> at a time is:
+
+    <md>
+      \binom{n}{r} = {}^{n}C_{r} = \frac{n!}{(n-r)!\,r!}, \qquad \text{where }
+      n! \text{ is read as ``}n\text{ factorial''}
+    </md>
+
+    and is explained as <m>n! = n(n-1)(n-2)(n-3)\cdots 2 \times 1</m>.
+  </p>
+
+  <p>
+    For example, <m>5! = 5(5-1)(5-2)(5-3)(5-4) = 5 \times 4 \times 3 \times 2
+    \times 1 = 120</m>.
+  </p>
+
+  <p>
+    You could also find <m>5!</m> using a calculator. Look for <m>!</m> on
+    your calculator to find <m>5!</m>, to confirm the answer obtained above.
+  </p>
+
+  <example>
+    <p>
+      Example 1.9 In groups or in pairs, solve the following without using a
+      calculator:
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p><m>^{6}C_{3}</m></p>
+        </li>
+        <li>
+          <p><m>^{4}C_{2}</m></p>
+        </li>
+      </ol>
+    </p>
+
+    <p>Confirm your answers with a calculator.</p>
+
+    <p><term>Solution</term></p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            <m>^{6}C_{3} = \dfrac{6!}{(6-3)!\,3!} =
+            \dfrac{6\times5\times4\times3\times2\times1}{3\times2\times1\times3\times2\times1}
+            = \dfrac{6\times5\times4}{3\times2\times1} = \dfrac{120}{6} =
+            20</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>^{4}C_{2} = \dfrac{4!}{(4-2)!\,2!} =
+            \dfrac{4\times3\times2\times1}{2\times1\times2\times1} =
+            \dfrac{4\times3}{2\times1} = \dfrac{12}{2} = 6</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </example>
+
+  <activity>
+    <p>Activity 1.4: General Form of Binomial Theorem</p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Using the definition <m>\binom{n}{r} = {}^{n}C_{r} =
+            \dfrac{n!}{(n-r)!\,r!}</m>, work in pairs or groups and discuss
+            how the following evaluations were done:
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>
+                  <m>{}^{n}C_{1} = \dfrac{n!}{(n-1)!\times 1!} =
+                  \dfrac{n(n-1)!}{(n-1)!\times 1} = n</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>{}^{n}C_{2} = \dfrac{n!}{(n-2)!\times 2!} =
+                  \dfrac{n(n-1)(n-2)!}{(n-2)!\times 2\times 1} =
+                  \dfrac{n(n-1)}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>{}^{n}C_{3} = \dfrac{n!}{(n-3)!\times 3!} =
+                  \dfrac{n(n-1)(n-2)(n-3)!}{(n-3)!\times 3\times 2\times 1} =
+                  \dfrac{n(n-1)(n-2)}{6}</m>
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Write down your challenges or observations for a class discussion
+            with your classmates and teacher.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </activity>
+
+  <p>It must be noted that <m>{}^{n}C_{0} = 1</m> and <m>0! = 1</m>.</p>
+
+  <p>
+    In general, the Binomial Theorem is written as:
+
+    <md>
+      (a+x)^n = {}^{n}C_{0}\,a^n x^0 + {}^{n}C_{1}\,a^{n-1}x^1 +
+      {}^{n}C_{2}\,a^{n-2}x^2 + {}^{n}C_{3}\,a^{n-3}x^3 + \cdots +
+      {}^{n}C_{r}\,a^{n-r}x^r + \cdots + {}^{n}C_{n}\,a^0 x^n
+    </md>
+
+    <md>
+      = a^n + n\,a^{n-1}x + \frac{n(n-1)}{2!}\,a^{n-2}x^2 +
+      \frac{n(n-1)(n-2)}{3!}\,a^{n-3}x^3 + \cdots + x^n
+    </md>
+  </p>
+
+  <p>
+    There is a special case when <m>a = 1</m>. Substituting <m>a=1</m>:
+
+    <md>
+      (1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 +
+      \cdots + x^n
+    </md>
+  </p>
+
+  <p>
+    Let us go through the following worked examples to assist us in the
+    expansion of the form <m>(1-x)^n</m> or <m>(1+x)^n</m>.
+  </p>
+
+  <example>
+    <p>
+      Example 1.10 By using the Binomial Theorem, fully expand the expression
+      <m>(1+x)^5</m>.
+    </p>
+
+    <p><term>Solution</term></p>
+
+    <p>
+      Using the binomial theorem,
+
+      <md>
+        (1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 +
+        \cdots + x^n
+      </md>
+
+      In this case <m>n=5</m>, so we substitute this in:
+
+      <md>
+        (1+x)^5 = 1 + 5x + \frac{5\times4}{2!}x^2 +
+        \frac{5\times4\times3}{3!}x^3 + \frac{5\times4\times3\times2}{4!}x^4 +
+        x^5
+      </md>
+
+      Simplify the coefficients to obtain:
+
+      <md>
+        = 1 + 5x + \frac{5\times4}{2\times1}x^2 +
+        \frac{5\times4\times3}{3\times2\times1}x^3 +
+        \frac{5\times4\times3\times2}{4\times3\times2\times1}x^4 + x^5
+      </md>
+
+      <md>= 1 + 5x + 10x^2 + 10x^3 + 5x^4 + x^5</md>
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Example 1.11 By using the Binomial Theorem, fully expand the expression
+      <m>(1+2x)^4</m>.
+    </p>
+
+    <p><term>Solution</term></p>
+
+    <p>
+      Using the binomial theorem <m>(1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 +
+      \frac{n(n-1)(n-2)}{3!}x^3 + \cdots + x^n</m>, in this case <m>n=4</m>
+      and <m>x=2x</m>, so we substitute these in:
+
+      <md>
+        (1+2x)^4 = 1 + 4(2x) + \frac{4\times3}{2!}(2x)^2 +
+        \frac{4\times3\times2}{3!}(2x)^3 + (2x)^4
+      </md>
+
+      Simplify the coefficients to obtain:
+
+      <md>
+        = 1 + 4(2x) + \frac{4\times3}{2\times1}\times 4x^2 +
+        \frac{4\times3\times2}{3\times2\times1}\times 8x^3 + 16x^4
+      </md>
+
+      <md>= 1 + 8x + 24x^2 + 32x^3 + 16x^4</md>
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Example 1.12 Find the first four terms of the binomial
+      <m>\sqrt{1+2x}</m> using the binomial theorem.
+    </p>
+
+    <p>
+      <term>Solution</term>
+
+      <md>\sqrt{1+2x} = (1+2x)^{1/2}</md>
+
+      In this case <m>n = \tfrac{1}{2}</m> and <m>x=2x</m>, so we substitute
+      these in:
+
+      <md>
+        (1+2x)^{1/2} = 1 + \tfrac{1}{2}(2x) +
+        \frac{\tfrac{1}{2}\left(\tfrac{1}{2}-1\right)}{2!}(2x)^2 +
+        \frac{\tfrac{1}{2}\left(\tfrac{1}{2}-1\right)\left(\tfrac{1}{2}-2\right)}{3!}(2x)^3
+      </md>
+
+      <md>
+        = 1 + \tfrac{1}{2}(2x) +
+        \frac{\tfrac{1}{2}\left(-\tfrac{1}{2}\right)}{2\times1}(4x^2) +
+        \frac{\tfrac{1}{2}\left(-\tfrac{1}{2}\right)\left(-\tfrac{3}{2}\right)}{3\times2\times1}(8x^3)
+      </md>
+
+      <md>= 1 + x - \tfrac{1}{2}x^2 + \tfrac{1}{2}x^3</md>
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Example 1.13 Find the first four terms of the binomial
+      <m>\sqrt[3]{1-3x}</m> using the binomial theorem.
+    </p>
+
+    <p>
+      <term>Solution</term>
+
+      <md>\sqrt[3]{1-3x} = (1-3x)^{1/3}</md>
+
+      In this case <m>n = \tfrac{1}{3}</m> and <m>x=-3x</m>, so we substitute
+      these in:
+
+      <md>
+        (1-3x)^{1/3} = 1 + \tfrac{1}{3}(-3x) +
+        \frac{\tfrac{1}{3}\left(\tfrac{1}{3}-1\right)}{2!}(-3x)^2 +
+        \frac{\tfrac{1}{3}\left(\tfrac{1}{3}-1\right)\left(\tfrac{1}{3}-2\right)}{3!}(-3x)^3
+      </md>
+
+      <md>
+        = 1 + \tfrac{1}{3}(-3x) +
+        \frac{\tfrac{1}{3}\left(-\tfrac{2}{3}\right)}{2\times1}(-3x)^2 +
+        \frac{\tfrac{1}{3}\left(-\tfrac{2}{3}\right)\left(-\tfrac{5}{3}\right)}{3\times2\times1}(-3x)^3
+      </md>
+
+      <md>
+        = 1 + \tfrac{1}{3}(-3x) + \frac{-\tfrac{2}{9}}{2}(9x^2) +
+        \frac{\tfrac{10}{27}}{6}(-27x^3)
+      </md>
+
+      <md>= 1 - x - x^2 - \tfrac{5}{3}x^3</md>
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Example 1.14 Expand up to the fifth term the expression
+      <m>\dfrac{1}{(1-x)^2}</m>.
+    </p>
+
+    <p><term>Solution</term></p>
+
+    <p>
+      Rewriting <m>\dfrac{1}{(1-x)^2}</m> using the rules of indices,
+      <m>\dfrac{1}{(1-x)^2} = (1-x)^{-2}</m>.
+
+      <md>
+        <mrow>
+          (1-x)^{-2} &amp;= 1 - 2(-x) + \frac{-2(-2-1)}{2!}(-x)^2 +
+          \frac{-2(-2-1)(-2-2)}{3!}(-x)^3
+        </mrow>
+
+        <mrow>&amp;\quad + \frac{-2(-2-1)(-2-2)(-2-3)}{4!}(-x)^4</mrow>
+
+        <mrow>
+          &amp;= 1 - 2(-x) + \frac{-2(-3)}{2\times1}(-x)^2 +
+          \frac{-2(-3)(-4)}{3\times2\times1}(-x)^3 +
+          \frac{-2(-3)(-4)(-5)}{4\times3\times2\times1}(-x)^4
+        </mrow>
+      </md>
+
+      <md>(1-x)^{-2} = 1 + 2x + 3x^2 + 4x^3 + 5x^4</md>
+    </p>
+  </example>
+
+  <example>
+    <p>Example 1.15 Find the first four terms of <m>(1-16x)^{1/4}</m>.</p>
+
+    <p>
+      <term>Solution</term>
+
+      <md>
+        <mrow>
+          (1-16x)^{1/4} &amp;= 1 + \tfrac{1}{4}(-16x) +
+          \frac{\tfrac{1}{4}\left(\tfrac{1}{4}-1\right)}{2!}(-16x)^2 +
+          \frac{\tfrac{1}{4}\left(\tfrac{1}{4}-1\right)\left(\tfrac{1}{4}-2\right)}{3!}(-16x)^3
+        </mrow>
+
+        <mrow>
+          &amp;= 1 + \tfrac{1}{4}(-16x) +
+          \frac{\tfrac{1}{4}\left(-\tfrac{3}{4}\right)}{2\times1}(-16x)^2 +
+          \frac{\tfrac{1}{4}\left(-\tfrac{3}{4}\right)\left(-\tfrac{7}{4}\right)}{3\times2\times1}(-16x)^3
+        </mrow>
+
+        <mrow>
+          &amp;= 1 + \tfrac{1}{4}(-16x) + \frac{-\tfrac{3}{16}}{2}(256x^2) +
+          \frac{\tfrac{21}{64}}{6}(-4096x^3)
+        </mrow>
+      </md>
+
+      <md>= 1 - 4x - 24x^2 - 224x^3</md>
+    </p>
+  </example>
+
+  <activity>
+    <p>
+      Activity 1.5: Deciding Whether the Binomial Theorem Can Be Used in All
+      Cases Discuss in groups whether the binomial theorem
+
+      <md>
+        (1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 +
+        \cdots + x^n
+      </md>
+
+      can be used in all cases.
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Consider <m>(2+4x)^4</m>. Can the binomial theorem be used
+            directly?
+          </p>
+        </li>
+        <li>
+          <p>
+            How will you write the terms in the bracket to have <m>1</m> as
+            one of the terms?
+          </p>
+        </li>
+        <li>
+          <p>
+            Let us go through the following tasks to help us write
+            <m>(2+4x)^4</m> in the form <m>(1+x)^n</m> and use the binomial
+            theorem to expand and simplify:
+          </p>
+
+          <p>
+            <ul>
+              <li>
+                <p>
+                  <term>Task 1:</term> Take the given binomial expression
+                  <m>(2+4x)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <term>Task 2:</term> Factorise the constant out from the
+                  binomial to obtain <m>2(1+2x)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <term>Task 3:</term> Rewrite your expression obtained with
+                  the power as given, i.e. <m>2^4(1+2x)^4</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <term>Task 4:</term> Expand the binomial <m>(1+2x)^4</m>,
+                  after which you multiply your result by <m>2^4</m>.
+                </p>
+              </li>
+            </ul>
+          </p>
+
+          <p>
+            Now follow the tasks to obtain all the terms for the given
+            expression.
+          </p>
+
+          <p>
+            <term>Expected Answer:</term> <m>16 + 128x + 348x^2 + 512x^3 +
+            256x^4</m>.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </activity>
+
+  <p>Let's solve the following examples using the binomial theorem.</p>
+
+  <example>
+    <p>Example 1.16</p>
+
+    <p>
+      <ol>
+        <li>
+          <p>Use the binomial theorem to expand fully <m>(3+9x)^5</m>.</p>
+        </li>
+        <li>
+          <p>
+            Find the first three terms of
+            <m>\left(\dfrac{4}{9}+6x\right)^{1/2}</m> using the binomial
+            theorem.
+          </p>
+        </li>
+        <li>
+          <p>
+            Use the binomial theorem to expand fully and simplify
+            <m>(10+4x)^3</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Use the binomial theorem to find the first four terms of the
+            expression <m>\sqrt[4]{81+162x}</m>.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <p><term>Solution</term></p>
+
+    <p>
+      <term>1.</term>
+
+      <md>(3+9x)^5 = 3^5(1+3x)^5</md>
+
+      <md>
+        <mrow>
+          3^5(1+3x)^5 &amp;= 3^5\Bigg[1 + 5(3x) + \frac{5(4)}{2\times1}(3x)^2
+          + \frac{5(4)(3)}{3\times2\times1}(3x)^3
+        </mrow>
+
+        <mrow>
+          &amp;\qquad + \frac{5(4)(3)(2)}{4\times3\times2\times1}(3x)^4 +
+          \frac{5(4)(3)(2)(1)}{5\times4\times3\times2\times1}(3x)^5\Bigg]
+        </mrow>
+      </md>
+
+      <md>
+        = 243\left[1 + 5(3x) + 10(9x^2) + 10(27x^3) + 5(81x^4) +
+        (243x^5)\right]
+      </md>
+
+      <md>
+        (3+9x)^5 = 243\left(1 + 15x + 90x^2 + 270x^3 + 405x^4 + 243x^5\right)
+      </md>
+
+      Compute the final coefficients:
+    </p>
+
+    <p>
+      <ul>
+        <li>
+          <p><m>243 \times 1 = 243</m></p>
+        </li>
+        <li>
+          <p><m>243 \times 15 = 3645</m></p>
+        </li>
+        <li>
+          <p><m>243 \times 90 = 21870</m></p>
+        </li>
+        <li>
+          <p><m>243 \times 270 = 65610</m></p>
+        </li>
+        <li>
+          <p><m>243 \times 405 = 98415</m></p>
+        </li>
+        <li>
+          <p><m>243 \times 243 = 59049</m></p>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      Therefore, the expansion is
+
+      <md>
+        (3+9x)^5 = 243 + 3645x + 21870x^2 + 65610x^3 + 98415x^4 + 59049x^5.
+      </md>
+    </p>
+
+    <p>
+      <term>2.</term>
+
+      <md>
+        \left(\frac{4}{9}+6x\right)^{1/2} =
+        \left(\frac{4}{9}\right)^{1/2}\left(1+\frac{27}{2}x\right)^{1/2}
+      </md>
+
+      <md>
+        = \left(\frac{4}{9}\right)^{1/2}\left[1 +
+        \frac{1}{2}\left(\frac{27}{2}x\right) +
+        \frac{\tfrac{1}{2}\left(\tfrac{1}{2}-1\right)}{2!}\left(\frac{27}{2}x\right)^2\right]
+      </md>
+
+      <md>
+        = \frac{2}{3}\left[1 + \frac{27}{4}x +
+        \frac{-\tfrac{1}{4}}{2}\left(\frac{729}{4}x^2\right)\right] =
+        \frac{2}{3}\left[1 + \frac{27}{4}x - \frac{729}{32}x^2\right]
+      </md>
+
+      <md>= \frac{2}{3} + \frac{9}{2}x - \frac{243}{16}x^2</md>
+    </p>
+
+    <p>
+      <term>3.</term>
+
+      <md>(10+4x)^3 = 10^3\left(1+\frac{2}{5}x\right)^3</md>
+
+      <md>
+        = 10^3\left[1 + 3\left(\frac{2}{5}x\right) +
+        \frac{3(2)}{2\times1}\left(\frac{2}{5}x\right)^2 +
+        \frac{3(2)(1)}{3\times2\times1}\left(\frac{2}{5}x\right)^3\right]
+      </md>
+
+      <md>
+        = 10^3\left[1 + \frac{6}{5}x + 3\left(\frac{4x^2}{25}\right) +
+        \frac{8}{125}x^3\right] = 1000\left[1 + \frac{6}{5}x +
+        \frac{12x^2}{25} + \frac{8x^3}{125}\right]
+      </md>
+
+      <md>(10+4x)^3 = 1000 + 1200x + 480x^2 + 64x^3</md>
+    </p>
+
+    <p>
+      <term>4.</term>
+
+      <md>\sqrt[4]{81+162x} = (81+162x)^{1/4} = 81^{1/4}(1+2x)^{1/4}</md>
+
+      <md>
+        = 81^{1/4}\left[1 + \frac{1}{4}(2x) +
+        \frac{\tfrac{1}{4}\left(\tfrac{1}{4}-1\right)}{2!}(2x)^2 +
+        \frac{\tfrac{1}{4}\left(\tfrac{1}{4}-1\right)\left(\tfrac{1}{4}-2\right)}{3!}(2x)^3\right]
+      </md>
+
+      <md>
+        = 81^{1/4}\left[1 + \frac{1}{4}(2x) +
+        \frac{-\tfrac{3}{16}}{2\times1}(4x^2) +
+        \frac{\tfrac{21}{64}}{3\times2\times1}(8x^3)\right] = 3\left[1 +
+        \frac{1}{2}x - \frac{3}{8}x^2 + \frac{7}{16}x^3\right]
+      </md>
+
+      <md>
+        \sqrt[4]{81+162x} = 3 + \frac{3}{2}x - \frac{9}{8}x^2 -
+        \frac{21}{16}x^3
+      </md>
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Example 1.17 The first three terms in the expansion of
+      <m>\left(1+\dfrac{x}{p}\right)^n</m> in ascending powers of <m>x</m> are
+      <m>1 + x + \dfrac{9}{20}x^2</m>. Find the values of <m>n</m> and
+      <m>p</m>.
+    </p>
+
+    <p><term>Solution</term></p>
+
+    <p>
+      Expand <m>\left(1+\dfrac{x}{p}\right)^n</m> using the binomial theorem:
+
+      <md>
+        \left(1+\frac{x}{p}\right)^n = 1 + n\frac{x}{p} +
+        \frac{n(n-1)}{2!}\left(\frac{x}{p}\right)^2 = 1 + nx +
+        \frac{n(n-1)}{2}\cdot\frac{x^2}{p^2}
+      </md>
+
+      Equating this to <m>1 + x + \dfrac{9}{20}x^2</m> and comparing the
+      coefficients of <m>x</m> and <m>x^2</m>:
+
+      <md>\frac{n}{p} = 1, \qquad \frac{n(n-1)}{2p^2} = \frac{9}{20}</md>
+
+      <md>
+        n = p \quad \ldots (1) \qquad\qquad 20n(n-1) = 18p^2 \quad \ldots (2)
+      </md>
+
+      Substituting <m>n=p</m> from (1) into (2):
+
+      <md>
+        20p(p-1) = 18p^2 \implies 20p^2 - 20p = 18p^2 \implies 2p^2 = 20p
+        \implies p = 10
+      </md>
+
+      <md>\therefore\ p = 10, \qquad n = 10</md>
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Example 1.18 Find the values of <m>t</m> and <m>n</m> in the equation
+      <m>(1+tx)^n = 1 - 6x + \dfrac{33}{2}x^2</m>.
+    </p>
+
+    <p><term>Solution</term></p>
+
+    <p>
+      Expand <m>(1+tx)^n</m> using the binomial theorem:
+
+      <md>
+        (1+tx)^n = 1 + ntx + \frac{n(n-1)}{2!}(tx)^2 = 1 + ntx +
+        \frac{n(n-1)}{2}t^2x^2
+      </md>
+
+      Equating this to <m>1 - 6x + \dfrac{33}{2}x^2</m> and comparing
+      coefficients of <m>x</m> and <m>x^2</m>:
+
+      <md>
+        nt = -6 \quad \ldots (1) \qquad\qquad \frac{n(n-1)}{2}t^2 =
+        \frac{33}{2} \implies 2n(n-1)t^2 = 66 \quad \ldots (2)
+      </md>
+
+      Rewriting (2): <m>(2n^2-2n)t^2 = 66 \implies 2(nt)^2 - 2(nt)t = 66</m>.
+      Since <m>nt=-6</m>:
+
+      <md>
+        2(-6)^2 - 2(-6)t = 66 \implies 72 + 12t = 66 \implies 12t = -6
+        \implies t = -\frac{1}{2}
+      </md>
+
+      Substituting back into <m>nt=-6</m>:
+
+      <md>
+        n\left(-\frac{1}{2}\right) = -6 \implies -n = -12 \implies n = 12
+      </md>
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Example 1.19 Expand <m>(1+2x-x^2)^6</m> as far as the <m>x^2</m> term.
+    </p>
+
+    <p><term>Solution</term></p>
+
+    <p>
+      How will you use the binomial theorem to solve a question of this
+      nature? Discuss your views with a classmate or in your groups.
+    </p>
+
+    <p>
+      You need to write the trinomial <m>1+2x-x^2</m> as a binomial in the
+      form <m>(1+x)^n</m>. We represent <m>2x - x^2</m> by a variable, say
+      <m>y</m>, i.e. <m>y = 2x - x^2</m>, so
+
+      <md>(1+2x-x^2)^6 = (1+y)^6.</md>
+
+      Expanding <m>(1+y)^6</m> using the binomial theorem:
+
+      <md>
+        (1+y)^6 = 1 + 6y + \frac{6(6-1)}{2!}y^2 + \cdots = 1 + 6y +
+        \frac{6(5)}{2}y^2 = 1 + 6y + 15y^2
+      </md>
+
+      But <m>y = 2x-x^2</m>, so substituting:
+
+      <md>= 1 + 6(2x-x^2) + 15(2x-x^2)^2 + \cdots</md>
+
+      <md>= 1 + 6(2x-x^2) + 15(4x^2 - 4x^3 + x^4) + \cdots</md>
+
+      <md>= 1 + 12x - 6x^2 + 60x^2 - 60x^3 + 15x^4 + \cdots</md>
+
+      <md>(1+2x-x^2)^6 = 1 + 12x + 54x^2 + \cdots</md>
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Example 1.20 Expand <m>(1-3x+x^2)^5</m> as far as the <m>x^3</m> term.
+    </p>
+
+    <p><term>Solution</term></p>
+
+    <p>
+      We represent <m>-3x+x^2</m> by a variable, say <m>y</m>, i.e. <m>y =
+      -3x+x^2</m>, so
+
+      <md>(1-3x+x^2)^5 = (1+y)^5.</md>
+
+      Expanding <m>(1+y)^5</m> using the binomial theorem:
+
+      <md>
+        (1+y)^5 = 1 + 5y + \frac{5(4)}{2}y^2 + \frac{5(4)(3)}{6}y^3 = 1 + 5y +
+        10y^2 + 10y^3
+      </md>
+
+      But <m>y = -3x+x^2</m>, so substituting:
+
+      <md>= 1 + 5(-3x+x^2) + 10(-3x+x^2)^2 + 10(-3x+x^2)^3</md>
+
+      <md>
+        = 1 + 5(-3x+x^2) + 10(9x^2 - 6x^3 + x^4) + 10(-27x^3 + 27x^4 - 9x^5 +
+        x^6)
+      </md>
+
+      <md>
+        = 1 - 15x + 5x^2 + 90x^2 - 60x^3 + 10x^4 - 270x^3 + 270x^4 - 90x^5 +
+        10x^6
+      </md>
+
+      Collecting terms up to <m>x^3</m>:
+
+      <md>(1-3x+x^2)^5 = 1 - 15x + 95x^2 - 330x^3 + \cdots</md>
+    </p>
+  </example>
+
+  <p>
+    Did you know we can use binomial expansion to approximate exponential
+    numbers? This powerful technique allows us to simplify complex expressions
+    and make calculations easier. We will explore how to apply binomial
+    expansion to approximate exponential functions.
+  </p>
+</section>

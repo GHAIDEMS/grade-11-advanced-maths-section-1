@@ -1,0 +1,385 @@
+<section xml:id="applying-binomial-expansion-to-approximate-exponential-numbers">
+  <title>
+    Applying Binomial Expansion to Approximate Exponential Numbers
+  </title>
+
+  <introduction>
+    <p>
+      Did you know we can use binomial expansion to approximate exponential
+      numbers? This powerful technique allows us to simplify complex
+      expressions and make calculations easier. We will explore how to apply
+      binomial expansion to approximate exponential functions.
+    </p>
+
+    <activity>
+      <p>
+        Activity 1.6: Approximating Exponential Numbers Using Binomial
+        Expansion <m>(a+b)^n</m> Ensure you have your notebook, calculator and
+        pen ready for the activity.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              Choose a number to work with. Examples include: 1.5, 3.5, 10,
+              etc.
+            </p>
+          </li>
+          <li>
+            <p>
+              Express your chosen number in the form <m>(a+b)</m>. For
+              example: if you chose 1.5, you could write it as <m>(1+0.5)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Select any integer to represent <m>n</m>. Examples include: 2,
+              4, <m>-4</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Write your decimal and <m>n</m> in the form <m>(a+b)^n</m>. For
+              example, using 1.5 and <m>n=4</m>, you would write
+              <m>(1+0.5)^4</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Apply the binomial theorem to expand and evaluate your
+              expression.
+            </p>
+          </li>
+          <li>
+            <p>
+              Choose different sets of numbers and repeat the steps above.
+              Experiment with various decimal values and <m>n</m> to see how
+              the approximations change.
+            </p>
+          </li>
+          <li>
+            <p>
+              Use your calculator to find the actual value of your chosen
+              decimal raised to the power of <m>n</m>. For example, calculate
+              <m>1.5^4</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Look at the results from your binomial expansion and the
+              calculator.
+            </p>
+          </li>
+          <li>
+            <p>Discuss:</p>
+
+            <p>
+              <ol>
+                <li>
+                  <p>
+                    How close were your approximations to the actual values?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    What did you observe about the accuracy of your
+                    approximations with different <m>n</m> values?
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </activity>
+
+    <p>
+      Great work! You have effectively used binomial expansion to approximate
+      exponential numbers. Now, let us solve more examples together to deepen
+      your understanding!
+    </p>
+
+    <example>
+      <p>
+        Example 1.21 Expand <m>(1+2y)^5</m> using the binomial theorem. Hence
+        use your results to evaluate <m>(1.04)^5</m>, correct to 4 decimal
+        places.
+      </p>
+
+      <p><term>Solution</term></p>
+
+      <p>
+        <md>
+          <mrow>
+            (1+2y)^5 &amp;= 1 + 5(2y) + \frac{5(4)}{2\times1}(2y)^2 +
+            \frac{5(4)(3)}{3\times2\times1}(2y)^3
+          </mrow>
+
+          <mrow>
+            &amp;\qquad + \frac{5(4)(3)(2)}{4\times3\times2\times1}(2y)^4 +
+            \frac{5(4)(3)(2)(1)}{5\times4\times3\times2\times1}(2y)^5
+          </mrow>
+        </md>
+
+        <me>= 1 + 5(2y) + 10(4y^2) + 10(8y^3) + 5(16y^4) + 1(32y^5)</me>
+
+        <me>(1+2y)^5 = 1 + 10y + 40y^2 + 80y^3 + 80y^4 + 32y^5</me>
+      </p>
+
+      <p>
+        <m>(1.04)^5</m> can be written as <m>(1+0.04)^5</m>. Comparing
+        <m>(1.04)^5</m> to <m>(1+2y)^5</m>:
+
+        <me>2y = 0.04 \implies y = 0.02</me>
+
+        Substituting <m>y = 0.02</m> into the expansion:
+
+        <me>
+          1 + 10(0.02) + 40(0.02)^2 + 80(0.02)^3 + 80(0.02)^4 + 32(0.02)^5
+        </me>
+
+        <me>
+          = 1 + 0.2 + 0.016 + 0.00064 + 0.0000128 + 0.0000001024 =
+          1.2166529024
+        </me>
+
+        <me>\approx 1.2167 \text{ (to 4 d.p.)}</me>
+
+        Thus <m>(1.04)^5 \approx 1.2167</m>.
+      </p>
+    </example>
+
+    <example>
+      <p>
+        Example 1.22 Find the first five terms of the expression
+        <m>\sqrt{1+3x}</m>. Hence find an estimate of the value of
+        <m>\sqrt{1.12}</m> to 5 decimal places.
+      </p>
+
+      <p><term>Solution</term></p>
+
+      <p>
+        <me>\sqrt{1+3x} = (1+3x)^{1/2}</me>
+
+        <md>
+          <mrow>
+            (1+3x)^{1/2} &amp;= 1 + \frac{1}{2}(3x) +
+            \frac{\tfrac{1}{2}\left(\tfrac{1}{2}-1\right)}{2!}(3x)^2 +
+            \frac{\tfrac{1}{2}\left(\tfrac{1}{2}-1\right)\left(\tfrac{1}{2}-2\right)}{3!}(3x)^3
+          </mrow>
+
+          <mrow>
+            &amp;\quad +
+            \frac{\tfrac{1}{2}\left(\tfrac{1}{2}-1\right)\left(\tfrac{1}{2}-2\right)\left(\tfrac{1}{2}-3\right)}{4!}(3x)^4
+          </mrow>
+
+          <mrow>
+            &amp;= 1 + \frac{3x}{2} + \frac{-\tfrac{1}{4}}{2}(3x)^2 +
+            \frac{\tfrac{3}{8}}{6}(3x)^3 + \frac{-\tfrac{15}{16}}{24}(3x)^4
+          </mrow>
+
+          <mrow>
+            &amp;= 1 + \frac{3x}{2} - \frac{1}{8}(9x^2) + \frac{1}{48}(27x^3)
+            - \frac{5}{128}(81x^4)
+          </mrow>
+        </md>
+
+        <me>
+          \sqrt{1+3x} = 1 + \frac{3x}{2} - \frac{9x^2}{8} + \frac{27x^3}{16} -
+          \frac{405x^4}{128}
+        </me>
+      </p>
+
+      <p>
+        <m>\sqrt{1.12}</m> can be written as <m>(1+0.12)^{1/2}</m>. Comparing
+        <m>(1+0.12)^{1/2}</m> to <m>(1+3x)^{1/2}</m>:
+
+        <me>3x = 0.12 \implies x = 0.04</me>
+
+        Substituting <m>x = 0.04</m> into the expansion:
+
+        <me>
+          1 + \frac{3(0.04)}{2} - \frac{9(0.04)^2}{8} + \frac{27(0.04)^3}{16}
+          - \frac{405(0.04)^4}{128}
+        </me>
+
+        <me>
+          = 1 + \frac{0.12}{2} - \frac{0.0144}{8} + \frac{0.001728}{16} -
+          \frac{0.00020736}{128}
+        </me>
+
+        <me>= 1 + 0.06 - 0.0018 + 0.000108 - 0.0000081 = 1.0582999</me>
+
+        <me>\approx 1.05830 \text{ (to 5 d.p.)}</me>
+
+        Thus <m>\sqrt{1.12} \approx 1.05830</m>.
+      </p>
+    </example>
+
+    <example>
+      <p>
+        Example 1.23 Using the binomial theorem, find an estimate for the
+        value of <m>\sqrt{101}</m>.
+      </p>
+
+      <p><term>Solution</term></p>
+
+      <p>
+        <me>
+          \sqrt{101} = \sqrt{100+1} = (100+1)^{1/2} =
+          100^{1/2}\left(1+\frac{1}{100}\right)^{1/2} =
+          10\left(1+0.01\right)^{1/2}
+        </me>
+
+        <md>
+          <mrow>
+            10(1+0.01)^{1/2} &amp;= 10\left[1 + \frac{1}{2}(0.01) +
+            \frac{\tfrac{1}{2}\left(-\tfrac{1}{2}\right)}{2!}(0.01)^2 +
+            \frac{\tfrac{1}{2}\left(-\tfrac{1}{2}\right)\left(-\tfrac{3}{2}\right)}{3!}(0.01)^3
+            + \cdots\right]
+          </mrow>
+
+          <mrow>
+            &amp;= 10\left[1 + \frac{1}{2}(0.01) - \frac{1}{8}(0.0001) +
+            \frac{1}{16}(0.000001)\right]
+          </mrow>
+
+          <mrow>
+            &amp;= 10\left[1 + 0.005 - 0.0000125 + 0.0000000625\right]
+          </mrow>
+
+          <mrow>&amp;= 10\left[1.004987563\right] = 10.04987563</mrow>
+        </md>
+
+        Thus <m>\sqrt{101} \approx 10.0499</m>.
+      </p>
+    </example>
+
+    <example>
+      <p>Example 1.24 Use the binomial theorem to find approximations for:</p>
+
+      <p>
+        <ol>
+          <li>
+            <p><m>(3.97)^{1/2}</m></p>
+          </li>
+          <li>
+            <p><m>(0.994)^{1/4}</m></p>
+          </li>
+          <li>
+            <p><m>\sqrt{25.05}</m></p>
+          </li>
+        </ol>
+      </p>
+
+      <p><term>Solution</term></p>
+
+      <p>
+        <term>a.</term>
+
+        <me>
+          (3.97)^{1/2} = (4-0.03)^{1/2} = 4^{1/2}(1-0.0075)^{1/2} =
+          2(1-0.0075)^{1/2}
+        </me>
+
+        <md>
+          <mrow>
+            2(1-0.0075)^{1/2} &amp;= 2\left[1 + \frac{1}{2}(-0.0075) +
+            \frac{\tfrac{1}{2}\left(-\tfrac{1}{2}\right)}{2!}(-0.0075)^2 +
+            \cdots\right]
+          </mrow>
+
+          <mrow>
+            &amp;= 2\left[1 - 0.00375 - \frac{1}{8}(0.0075)^2 + \cdots\right]
+          </mrow>
+
+          <mrow>&amp;= 2\left[1 - 0.00375 - 0.00003125 + \cdots\right]</mrow>
+
+          <mrow>&amp;= 2\left[0.99621875\right] = 1.9924375</mrow>
+        </md>
+
+        <me>\therefore (3.97)^{1/2} \approx 1.992 \text{ (to 4 s.f.)}</me>
+      </p>
+
+      <p>
+        <term>b.</term>
+
+        <me>(0.994)^{1/4} = (1-0.006)^{1/4}</me>
+
+        <md>
+          <mrow>
+            (1-0.006)^{1/4} &amp;= 1 + \frac{1}{4}(-0.006) +
+            \frac{\tfrac{1}{4}\left(-\tfrac{3}{4}\right)}{2!}(-0.006)^2 +
+            \cdots
+          </mrow>
+
+          <mrow>&amp;= 1 - 0.0015 - \frac{1}{32}(0.000036) + \cdots</mrow>
+
+          <mrow>&amp;= 1 - 0.0015 - 0.000001125 + \cdots</mrow>
+
+          <mrow>&amp;= 0.998498875</mrow>
+        </md>
+
+        <me>\therefore (0.994)^{1/4} \approx 0.9985 \text{ (to 4 s.f.)}</me>
+      </p>
+
+      <p>
+        <term>c.</term>
+
+        <me>
+          \sqrt{25.05} = (25+0.05)^{1/2} = 25^{1/2}(1+0.002)^{1/2} =
+          5(1+0.002)^{1/2}
+        </me>
+
+        <md>
+          <mrow>
+            5(1+0.002)^{1/2} &amp;= 5\left[1 + \frac{1}{2}(0.002) +
+            \frac{\tfrac{1}{2}\left(-\tfrac{1}{2}\right)}{2!}(0.002)^2 +
+            \cdots\right]
+          </mrow>
+
+          <mrow>
+            &amp;= 5\left[1 + 0.001 - \frac{1}{8}(0.000004) + \cdots\right]
+          </mrow>
+
+          <mrow>
+            &amp;= 5\left[1 + 0.001 - 0.0000005\right] =
+            5\left[1.0009995\right]
+          </mrow>
+
+          <mrow>&amp;= 5.0049975</mrow>
+        </md>
+
+        <me>\therefore \sqrt{25.05} \approx 5.005 \text{ (to 4 s.f.)}</me>
+      </p>
+    </example>
+  </introduction>
+
+  <subsection xml:id="extended-reading">
+    <title>Extended Reading</title>
+
+    <p>
+      <ul>
+        <li>
+          <p>
+            Cambridge Additional Mathematics by Michael Haese, Sandra Haese,
+            Mark Humphries, Chris Sangwin. Haese Mathematics (2014).
+          </p>
+        </li>
+        <li>
+          <p>
+            Goldie, S. (2012). <em>Pure Mathematics</em>. Hodder Education.
+          </p>
+        </li>
+        <li>
+          <p>
+            Talbert, J. F., &amp; Heng, H. H. (1995). <em>Additional
+            Mathematics: Pure &amp; Applied</em>. Pearson Education South
+            Asia.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </subsection>
+</section>

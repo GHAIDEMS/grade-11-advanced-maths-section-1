@@ -1,0 +1,658 @@
+<section xml:id="review-questions">
+  <title>Review Questions</title>
+
+  <subsection xml:id="part-a">
+    <title>Part A</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>Use the Venn diagram below to answer the questions.</p>
+
+          <!-- div center -->
+
+          <image source="figures/exercise-q1.png" width="55%">
+            <shortdescription>image</shortdescription>
+          </image>
+
+          <!-- end div center -->
+
+          <p>
+            <ol>
+              <li>
+                <p>List the elements in <m>A</m>, <m>B</m> and <m>C</m>.</p>
+              </li>
+              <li>
+                <p>
+                  List the elements in <m>A'</m>, <m>B'</m> and <m>C'</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find (i) <m>(A\cup B\cup C)'</m> (ii) <m>A'\cap B'\cap
+                  C'</m> (iii) <m>(A\cap B\cap C)'</m> (iv) <m>A'\cup B'\cup
+                  C'</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Compare your result in (c)(i) to (c)(ii). What conclusion
+                  can you draw?
+                </p>
+              </li>
+              <li>
+                <p>
+                  Compare your result in (c)(iii) to (c)(iv). What conclusion
+                  can you draw?
+                </p>
+              </li>
+              <li>
+                <p>Describe set <m>B</m>.</p>
+              </li>
+              <li>
+                <p>Describe set <m>C</m>.</p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Study the diagram carefully and use it to answer the questions.
+          </p>
+
+          <!-- div center -->
+
+          <image source="figures/exercise-q2.png" width="55%">
+            <shortdescription>image</shortdescription>
+          </image>
+
+          <!-- end div center -->
+
+          <p>
+            <ol>
+              <li>
+                <p>
+                  List the elements in <m>G</m>, <m>E</m>, <m>T</m> and
+                  <m>\varepsilon</m>.
+                </p>
+              </li>
+              <li>
+                <p>Show that <m>G' \cap E' = (G\cup E)'</m>.</p>
+              </li>
+              <li>
+                <p>Show that <m>(G\cap E\cap T)' = G'\cup E'\cup T'</m>.</p>
+              </li>
+              <li>
+                <p>Show that <m>(G\cup E\cup T)' = G'\cap E'\cap T'</m>.</p>
+              </li>
+            </ol>
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      For questions 3<ndash/>7, sets <m>X</m>, <m>Y</m> and <m>Z</m> are
+      subsets of the universal set <m>\mu</m>. Use the information to choose
+      the correct answer to the questions.
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Find <m>X \cup X'</m>.
+
+            <!-- linebreak -->
+
+            <term>A.</term> <m>\varnothing</m> <term>B.</term> <m>\mu</m>
+            <term>C.</term> <m>X</m> <term>D.</term> <m>Y</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Find <m>Z \cap Z'</m>.
+
+            <!-- linebreak -->
+
+            <term>A.</term> <m>\varnothing</m> <term>B.</term> <m>\mu</m>
+            <term>C.</term> <m>Z</m> <term>D.</term> <m>X</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Find <m>(Y')'</m>.
+
+            <!-- linebreak -->
+
+            <term>A.</term> <m>\varnothing</m> <term>B.</term> <m>\mu</m>
+            <term>C.</term> <m>X</m> <term>D.</term> <m>Y</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Find <m>(X\cup X')'</m>.
+
+            <!-- linebreak -->
+
+            <term>A.</term> <m>\varnothing</m> <term>B.</term> <m>\mu</m>
+            <term>C.</term> <m>X</m> <term>D.</term> <m>X'\cup X</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Find <m>(Z\cap Z')'</m>.
+
+            <!-- linebreak -->
+
+            <term>A.</term> <m>\varnothing</m> <term>B.</term> <m>\mu</m>
+            <term>C.</term> <m>X\cup Y</m> <term>D.</term> <m>Z'\cap Z</m>
+          </p>
+        </li>
+        <li>
+          <p>Rewrite:</p>
+
+          <p>
+            <ol>
+              <li>
+                <p><m>(R\cup S')'</m></p>
+              </li>
+              <li>
+                <p><m>(M'\cap N)'</m></p>
+              </li>
+              <li>
+                <p><m>[(A'\cup B)'\cap C]'</m></p>
+              </li>
+              <li>
+                <p><m>[(P\cap Q')'\cup P]'</m></p>
+              </li>
+              <li>
+                <p><m>[A\cap(A'\cup B)']'</m></p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>Show that</p>
+
+          <p>
+            <ol>
+              <li>
+                <p><m>[(R\cup M)'\cap P]' = R\cup M\cup P'</m></p>
+              </li>
+              <li>
+                <p><m>[(R\cap M)\cup M']' = R'\cap M</m></p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>On a Venn diagram, shade the region represented by:</p>
+
+          <p>
+            <ol>
+              <li>
+                <p><m>(A\cap B)'\cap C</m></p>
+              </li>
+              <li>
+                <p><m>A'\cup(Y\cap Z')</m></p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Sets <m>X = \{\text{prime numbers}\}</m>, <m>Y = \{W : 0 &lt; W
+            \le 11\}</m> and <m>Z = \{1,2,3,4,5,6,7,13,14,15,16,18\}</m> are
+            subsets of <m>A = \{0,1,2,3,4,\ldots,21\}</m>.
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>List the members of the following sets:</p>
+
+                <p>
+                  <ol>
+                    <li>
+                      <p><m>X</m></p>
+                    </li>
+                    <li>
+                      <p><m>Y</m></p>
+                    </li>
+                    <li>
+                      <p><m>X\cap Y\cap Z</m></p>
+                    </li>
+                    <li>
+                      <p><m>X\cup Y'</m></p>
+                    </li>
+                    <li>
+                      <p><m>(X\cup Y)\cap Z'</m></p>
+                    </li>
+                    <li>
+                      <p><m>(X'\cap Y)\cup Z</m></p>
+                    </li>
+                  </ol>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Use a Venn diagram to represent <m>X</m>, <m>Y</m>, <m>Z</m>
+                  and <m>A</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            A survey of 90 teachers reveals the following. 45 teach
+            Management, 57 Accounting and 50 Costing. 25 teach Management and
+            Accounting, 35 teach Accounting and Costing and 22 teach
+            Management and Costing. 5 teachers cannot teach any of the three
+            subjects.
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>Represent the information on a Venn diagram.</p>
+              </li>
+              <li>
+                <p>
+                  Calculate the number of teachers who can teach only one of
+                  the three subjects.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            A survey of 41 employees shows that 25 are skilled in Carpentry,
+            15 in Brick laying and 24 in Tiling. 12 are skilled in carpentry
+            and brick laying, 9 in brick laying and tiling, 17 in carpentry
+            and tiling, and 8 are not skilled in any of the three occupations.
+            Find the number of employees who are skilled in
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>all three occupations</p>
+              </li>
+              <li>
+                <p>exactly two of the occupations</p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            A class of 60 students were each required to have textbooks in
+            Accounting, Management and Costing. However, when the class
+            teacher checked their books, she found out that: 16 had Accounting
+            and Management books, 14 had Accounting and Costing books, 18 had
+            only two of the three books and 20 had Accounting plus at least
+            one other book. Every student had at least one of the three books.
+            Find the number of students who had
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>all three books.</p>
+              </li>
+              <li>
+                <p>only Costing and Accounting books.</p>
+              </li>
+              <li>
+                <p>exactly one of the three books.</p>
+              </li>
+              <li>
+                <p>
+                  If 16 students had neither Accounting nor Costing books,
+                  find the probability that a student selected at random from
+                  the class had Management books.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            The analysis of results of a sample of students who sat for the
+            WASSCE in Biology, Physics and Mathematics revealed that: 80%
+            passed in Biology, 65% passed in Mathematics, 70% passed in
+            Physics, 52% passed in Biology and Mathematics, 58% passed in
+            Biology and Physics, 55% passed in Physics and Mathematics, 45%
+            passed in all three subjects. What percentage of the students:
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>passed only Mathematics</p>
+              </li>
+              <li>
+                <p>passed only Physics</p>
+              </li>
+              <li>
+                <p>passed only Biology</p>
+              </li>
+              <li>
+                <p>passed Biology and Physics but not Mathematics</p>
+              </li>
+              <li>
+                <p>did not pass any of the subjects.</p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            A shop owner kept records of purchases made by customers over the
+            weekend. The shop sells food, clothing and hardware. She found
+            that, out of the customers who visited her shop, 210 purchased
+            food products, 100 hardware and 147 clothing. 30 purchased food
+            and hardware. 128 purchased two of the three products. She also
+            found that of those who purchased two of the three products, 14
+            did not buy clothing and 20 did not buy food. 13 of the customers
+            who visited the store did not buy any of the products.
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>How many customers visited the store over the weekend?</p>
+              </li>
+              <li>
+                <p>How many of the customers who visited the store:</p>
+
+                <p>
+                  <ol>
+                    <li>
+                      <p>purchased less than two products.</p>
+                    </li>
+                    <li>
+                      <p>purchased all three products.</p>
+                    </li>
+                    <li>
+                      <p>purchased food and other products.</p>
+                    </li>
+                  </ol>
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            A group of 210 tourists were asked to indicate which of the
+            languages, German, French and English they can speak. It was found
+            that 55 can speak German, 76 can speak French and 200 can speak
+            English. 103 can speak two of the three languages and 6 tourists
+            cannot speak any of the three languages. Find the number of
+            tourists who can speak:
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>all three languages</p>
+              </li>
+              <li>
+                <p>only one of the three languages.</p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            87 schools in Tamale have subscriptions to at least one of the
+            following newspapers: Graphic, Mirror and Times. 69 subscribe to
+            Graphic, 62 to Mirror and 55 to Times. 32 have subscriptions to
+            all three newspapers. Find the number of schools who have
+            subscriptions to:
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>exactly two of the newspapers</p>
+              </li>
+              <li>
+                <p>only one of the newspapers.</p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            A publishing company surveyed its employees about their
+            proficiency in three software: Photoshop, CorelDraw and InDesign.
+            The results show that all the employees were proficient in at
+            least one of the three software and 10 were proficient in all
+            three. The number of employees proficient in CorelDraw and other
+            software were twice those proficient in only CorelDraw. Of the
+            employees who were proficient in two of the software, 14 were not
+            proficient in InDesign, 8 were not proficient in CorelDraw and 6
+            were not proficient in Photoshop. The same number of employees
+            proficient in only InDesign are proficient in only Photoshop.
+            There were more employees proficient in only Photoshop and
+            InDesign than employees proficient in only Photoshop and there
+            were fewer employees proficient in only InDesign and CorelDraw
+            than employees proficient in only InDesign.
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>Use a Venn diagram to represent the above data.</p>
+              </li>
+              <li>
+                <p>How many employees were involved in the survey?</p>
+              </li>
+              <li>
+                <p>
+                  How many employees were proficient in only one of the
+                  software?
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </subsection>
+
+  <subsection xml:id="part-b">
+    <title>Part B</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>Write down the first five terms of the binomial expansion of:</p>
+
+          <p>
+            <ol>
+              <li>
+                <p><m>(1+4x)^{12}</m></p>
+              </li>
+              <li>
+                <p><m>(1-3x)^9</m></p>
+              </li>
+              <li>
+                <p><m>(3+2x)^7</m></p>
+              </li>
+              <li>
+                <p><m>\left(1-\dfrac{x}{2}\right)^8</m></p>
+              </li>
+              <li>
+                <p><m>\left(2-\dfrac{5}{2}x\right)^6</m></p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Write down the term indicated in the binomial expansion of the
+            following functions:
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p><m>(1+3x)^6</m>: 3rd term</p>
+              </li>
+              <li>
+                <p><m>\left(1+\dfrac{x}{3}\right)^{20}</m>: 7th term</p>
+              </li>
+              <li>
+                <p><m>(a+4b)^{12}</m>: term containing <m>a^4</m></p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Expand the following binomial expansions up to and including the
+            terms in <m>x^2</m>:
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p><m>(1-2x)(1+x)^8</m></p>
+              </li>
+              <li>
+                <p><m>(2+3x)(1+3x)^{10}</m></p>
+              </li>
+              <li>
+                <p><m>(5+2x)\left(1-\dfrac{2}{3}x\right)^{12}</m></p>
+              </li>
+              <li>
+                <p><m>(1+4x)(1-3x)^{20}</m></p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Expand <m>(1-2x)^7</m> and hence find the value of <m>(0.98)^7</m>
+            correct to 4 decimal places.
+          </p>
+        </li>
+        <li>
+          <p>
+            Find the first four terms of the following using the binomial
+            theorem.
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p><m>\left(1-\dfrac{1}{2}x\right)^{1/2}</m></p>
+              </li>
+              <li>
+                <p><m>(1-2x)^{-3}</m></p>
+              </li>
+              <li>
+                <p><m>(3-x)^{-2}</m></p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Use appropriate binomial expansions to find the approximate values
+            of:
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p><m>\sqrt[3]{8.7}</m> correct to 5 significant figures.</p>
+              </li>
+              <li>
+                <p><m>(81.162)^{1/4}</m> to 4 decimal places.</p>
+              </li>
+              <li>
+                <p><m>\sqrt{4.02}</m> to 3 decimal places.</p>
+              </li>
+              <li>
+                <p><m>\dfrac{1}{\sqrt{10}}</m> to 4 decimal places.</p>
+              </li>
+              <li>
+                <p><m>\sqrt{101}</m> to 4 decimal places.</p>
+              </li>
+              <li>
+                <p><m>(0.995)^5</m> to 4 decimal places.</p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Show that in ascending powers of <m>x</m>,
+            <m>\left(\dfrac{1-x}{1+x}\right)^{1/3}</m> is <m>1 - \dfrac{2}{3}x
+            + \dfrac{2}{9}x^2 - \dfrac{4}{21}x^3 - \cdots</m>.
+          </p>
+        </li>
+        <li>
+          <p>Expand the following as far as the <m>x^3</m> term:</p>
+
+          <p>
+            <ol>
+              <li>
+                <p><m>(1+x+2x^2)^3</m></p>
+              </li>
+              <li>
+                <p><m>(1+3x+x^2)^4</m></p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  Find the first 3 terms in ascending powers of <m>x</m> of
+                  the binomial expansion <m>(1+py)^9</m>, where <m>p</m> is a
+                  non-zero constant.
+                </p>
+              </li>
+              <li>
+                <p>
+                  If the first 3 terms are <m>1</m>, <m>36x</m> and
+                  <m>qx^2</m> where <m>q</m> is a constant, find the value of
+                  <m>p</m> and <m>q</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  Find the first 3 terms in ascending powers of <m>x</m> of
+                  the binomial expansion <m>(2+kx)^7</m>, where <m>k</m> is a
+                  constant.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Given that the coefficient of <m>x^2</m> is 6 times the
+                  coefficient of <m>x</m>, find the value of <m>k</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </subsection>
+</section>

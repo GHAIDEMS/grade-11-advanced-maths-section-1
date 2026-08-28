@@ -1,0 +1,92 @@
+<section xml:id="modelling-with-algebra">
+  <title>Modelling with Algebra</title>
+
+  <subsection xml:id="application-of-algebra">
+    <title>Application of Algebra</title>
+
+    <subsubsection xml:id="introduction">
+      <title>Introduction</title>
+
+      <p>
+        This section is a continuation of what was discussed in Year 1, sets
+        and binomial expansion. De Morgan's Laws is an important theorem in
+        sets as its application transcends beyond union, intersection and
+        complements. These laws are central to Boolean Algebra where it is
+        used to simplify expressions. In Digital Circuit Design, it is used to
+        transform logic gates with the intention of not only optimising
+        digital circuitry but also reducing cost and saving space. In Computer
+        programming, it is used to simplify logical expressions in code, which
+        can make code cleaner, simpler, and more readable. Database systems
+        use these laws to optimise queries in SQL (Structured Query Language),
+        which enhances data retrieval more efficiently.
+      </p>
+
+      <p>
+        The Binomial Theorem is a strong tool that makes the process of
+        expanding binomial expressions much simpler. In developing this
+        theorem, you further your algebra skills and prepare yourselves for
+        higher classes of mathematics. The Binomial Theorem is applied in
+        finance, investment, probability, statistics, computer science,
+        genetics, engineering, game theory, marketing, and physics. It helps
+        in calculating compound interest, risk assessment, modelling
+        success/failure outcomes, understanding data structure complexities,
+        predicting inheritance probabilities and enhancing decision-making in
+        real-world scenarios.
+      </p>
+
+      <!-- div keyideas -->
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              <term>Binomial Coefficients:</term> The coefficients
+              <m>\binom{n}{r}</m> represent the number of ways to choose
+              <m>r</m> elements from <m>n</m> elements and can be found using
+              Pascal's Triangle.
+
+              <me>\binom{n}{r} = \frac{n!}{r!(n-r)!}</me>
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Terms in the Expansion:</term> Each term in the expansion
+              is of the form:
+
+              <me>\binom{n}{r} a^{n-r} b^{r}</me>
+            </p>
+          </li>
+          <li>
+            <p>
+              The Binomial Theorem provides a formula for expanding
+              expressions of the form <m>(a+b)^n</m> where <m>n</m> is a
+              non-negative integer.
+            </p>
+          </li>
+          <li>
+            <p>
+              The complement of an empty set (<m>\emptyset</m>) is equal to
+              the universal set (<m>\mu</m>), i.e.<nbsp/><m>\phi' = \mu</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The intersection of a set <m>A</m> and its complement
+              (<m>A'</m>) is equal to the null set (<m>\varnothing</m>),
+              i.e.<nbsp/><m>A \cap A' = \varnothing</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The union of a set <m>A</m> and its complement (<m>A'</m>) is
+              equal to the universal set (<m>\mu</m>), i.e.<nbsp/><m>A \cup A'
+              = \mu</m>.
+            </p>
+          </li>
+        </ul>
+      </p>
+
+      <!-- end div keyideas -->
+    </subsubsection>
+  </subsection>
+</section>
