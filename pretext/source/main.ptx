@@ -10,24 +10,28 @@
   <book xml:id="grade-11-advanced-maths-section-1">
     <title>Introduction to Data Science</title>
 
-    <!-- Preface -->
-    <xi:include href="01-intro.ptx"/>
-    
-    <!-- Acknowledgments -->
-    <xi:include href="02-demorgans.ptx"/>
+    <chapter xml:id="section-1">
+        <title>Section 1</title>
 
-    <!-- Introduction -->
-    <xi:include href="03-applying-demorgans.ptx"/>
+        <!-- Preface -->
+        <xi:include href="01-intro.ptx"/>
+        
+        <!-- Acknowledgments -->
+        <xi:include href="02-demorgans.ptx"/>
 
-    <!-- Part 1: R -->
-    <xi:include href="04-binomial-expansion.ptx"/>
+        <!-- Introduction -->
+        <xi:include href="03-applying-demorgans.ptx"/>
 
-    <!-- Part 2: Data Visualization -->
-    <xi:include href="05-approximations.ptx"/>
+        <!-- Part 1: R -->
+        <xi:include href="04-binomial-expansion.ptx"/>
 
-    <!-- Part 3: Data Wrangling -->
-    <xi:include href="06-exercises.ptx"/>
+        <!-- Part 2: Data Visualization -->
+        <xi:include href="05-approximations.ptx"/>
 
+        <!-- Part 3: Data Wrangling -->
+        <xi:include href="06-exercises.ptx"/>
+
+    </chapter>
 
   </book>
 
