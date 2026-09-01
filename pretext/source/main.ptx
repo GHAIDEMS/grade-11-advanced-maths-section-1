@@ -8,27 +8,27 @@
   </docinfo>
 
   <book xml:id="grade-11-advanced-maths-section-1">
-    <title>Introduction to Data Science</title>
+    <title>Grade 11 Additional Mathematics</title>
 
     <chapter xml:id="section-1">
         <title>Section 1</title>
 
-        <!-- Preface -->
+        <!-- Introduction -->
         <xi:include href="01-intro.ptx"/>
         
-        <!-- Acknowledgments -->
+        <!-- De Morgans Laws -->
         <xi:include href="02-demorgans.ptx"/>
 
-        <!-- Introduction -->
+        <!-- Applying De Morgans Laws -->
         <xi:include href="03-applying-demorgans.ptx"/>
 
-        <!-- Part 1: R -->
+        <!-- Binomial Expansion -->
         <xi:include href="04-binomial-expansion.ptx"/>
 
-        <!-- Part 2: Data Visualization -->
+        <!-- Approximations -->
         <xi:include href="05-approximations.ptx"/>
 
-        <!-- Part 3: Data Wrangling -->
+        <!-- Exercises -->
         <xi:include href="06-exercises.ptx"/>
 
     </chapter>
