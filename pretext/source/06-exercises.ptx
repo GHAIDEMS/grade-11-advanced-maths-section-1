@@ -1,236 +1,292 @@
-<section xml:id="review-questions">
+<exercises xml:id="review-questions">
   <title>Review Questions</title>
-
-  <subsection xml:id="part-a">
+  <subexercises xml:id="part-a">
     <title>Part A</title>
-
-    <p>
-      <ol>
-        <li>
-          <p>Use the Venn diagram below to answer the questions.</p>
-
-          <!-- div center -->
-
-          <image source="figures/exercise-q1.png" width="55%">
-            <shortdescription>image</shortdescription>
-          </image>
-
-          <!-- end div center -->
-
-          <p>
-            <ol>
-              <li>
-                <p>List the elements in <m>A</m>, <m>B</m> and <m>C</m>.</p>
-              </li>
-              <li>
-                <p>
+    <exercise xml:id="rq-a1" number="1">
+      <statement>
+        <p>Use the Venn diagram below to answer the questions.</p>
+        <!-- div center -->
+        <image source="figures/exercise-q1.png" width="55%">
+          <shortdescription>image</shortdescription>
+        </image>
+        <!-- end div center -->
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>List the elements in <m>A</m>, <m>B</m> and <m>C</m>.</p>
+            </li>
+            <li>
+              <p>
                   List the elements in <m>A'</m>, <m>B'</m> and <m>C'</m>.
                 </p>
-              </li>
-              <li>
-                <p>
+            </li>
+            <li>
+              <p>
                   Find (i) <m>(A\cup B\cup C)'</m> (ii) <m>A'\cap B'\cap
                   C'</m> (iii) <m>(A\cap B\cap C)'</m> (iv) <m>A'\cup B'\cup
                   C'</m>.
                 </p>
-              </li>
-              <li>
-                <p>
+            </li>
+            <li>
+              <p>
                   Compare your result in (c)(i) to (c)(ii). What conclusion
                   can you draw?
                 </p>
-              </li>
-              <li>
-                <p>
+            </li>
+            <li>
+              <p>
                   Compare your result in (c)(iii) to (c)(iv). What conclusion
                   can you draw?
                 </p>
-              </li>
-              <li>
-                <p>Describe set <m>B</m>.</p>
-              </li>
-              <li>
-                <p>Describe set <m>C</m>.</p>
-              </li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
+            </li>
+            <li>
+              <p>Describe set <m>B</m>.</p>
+            </li>
+            <li>
+              <p>Describe set <m>C</m>.</p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="rq-a2" number="2">
+      <statement>
+        <p>
             Study the diagram carefully and use it to answer the questions.
           </p>
-
-          <!-- div center -->
-
-          <image source="figures/exercise-q2.png" width="55%">
-            <shortdescription>image</shortdescription>
-          </image>
-
-          <!-- end div center -->
-
-          <p>
-            <ol>
-              <li>
-                <p>
+        <!-- div center -->
+        <image source="figures/exercise-q2.png" width="55%">
+          <shortdescription>image</shortdescription>
+        </image>
+        <!-- end div center -->
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
                   List the elements in <m>G</m>, <m>E</m>, <m>T</m> and
                   <m>\varepsilon</m>.
                 </p>
-              </li>
-              <li>
-                <p>Show that <m>G' \cap E' = (G\cup E)'</m>.</p>
-              </li>
-              <li>
-                <p>Show that <m>(G\cap E\cap T)' = G'\cup E'\cup T'</m>.</p>
-              </li>
-              <li>
-                <p>Show that <m>(G\cup E\cup T)' = G'\cap E'\cap T'</m>.</p>
-              </li>
-            </ol>
-          </p>
-        </li>
-      </ol>
-    </p>
-
-    <p>
-      For questions 3<ndash/>7, sets <m>X</m>, <m>Y</m> and <m>Z</m> are
+            </li>
+            <li>
+              <p>Show that <m>G' \cap E' = (G\cup E)'</m>.</p>
+            </li>
+            <li>
+              <p>Show that <m>(G\cap E\cap T)' = G'\cup E'\cup T'</m>.</p>
+            </li>
+            <li>
+              <p>Show that <m>(G\cup E\cup T)' = G'\cap E'\cap T'</m>.</p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercisegroup>
+      <introduction>
+        <p>
+      For questions 3<ndash />7, sets <m>X</m>, <m>Y</m> and <m>Z</m> are
       subsets of the universal set <m>\mu</m>. Use the information to choose
       the correct answer to the questions.
     </p>
-
-    <p>
-      <ol>
-        <li>
+      </introduction>
+      <exercise xml:id="rq-a3" number="3">
+        <statement>
           <p>
             Find <m>X \cup X'</m>.
 
             <!-- linebreak -->
-
-            <term>A.</term> <m>\varnothing</m> <term>B.</term> <m>\mu</m>
-            <term>C.</term> <m>X</m> <term>D.</term> <m>Y</m>
+            <term>A.</term>
+            <m>\varnothing</m>
+            <term>B.</term>
+            <m>\mu</m>
+            <term>C.</term>
+            <m>X</m>
+            <term>D.</term>
+            <m>Y</m>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a4" number="4">
+        <statement>
           <p>
             Find <m>Z \cap Z'</m>.
 
             <!-- linebreak -->
-
-            <term>A.</term> <m>\varnothing</m> <term>B.</term> <m>\mu</m>
-            <term>C.</term> <m>Z</m> <term>D.</term> <m>X</m>
+            <term>A.</term>
+            <m>\varnothing</m>
+            <term>B.</term>
+            <m>\mu</m>
+            <term>C.</term>
+            <m>Z</m>
+            <term>D.</term>
+            <m>X</m>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a5" number="5">
+        <statement>
           <p>
             Find <m>(Y')'</m>.
 
             <!-- linebreak -->
-
-            <term>A.</term> <m>\varnothing</m> <term>B.</term> <m>\mu</m>
-            <term>C.</term> <m>X</m> <term>D.</term> <m>Y</m>
+            <term>A.</term>
+            <m>\varnothing</m>
+            <term>B.</term>
+            <m>\mu</m>
+            <term>C.</term>
+            <m>X</m>
+            <term>D.</term>
+            <m>Y</m>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a6" number="6">
+        <statement>
           <p>
             Find <m>(X\cup X')'</m>.
 
             <!-- linebreak -->
-
-            <term>A.</term> <m>\varnothing</m> <term>B.</term> <m>\mu</m>
-            <term>C.</term> <m>X</m> <term>D.</term> <m>X'\cup X</m>
+            <term>A.</term>
+            <m>\varnothing</m>
+            <term>B.</term>
+            <m>\mu</m>
+            <term>C.</term>
+            <m>X</m>
+            <term>D.</term>
+            <m>X'\cup X</m>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a7" number="7">
+        <statement>
           <p>
             Find <m>(Z\cap Z')'</m>.
 
             <!-- linebreak -->
-
-            <term>A.</term> <m>\varnothing</m> <term>B.</term> <m>\mu</m>
-            <term>C.</term> <m>X\cup Y</m> <term>D.</term> <m>Z'\cap Z</m>
+            <term>A.</term>
+            <m>\varnothing</m>
+            <term>B.</term>
+            <m>\mu</m>
+            <term>C.</term>
+            <m>X\cup Y</m>
+            <term>D.</term>
+            <m>Z'\cap Z</m>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a8" number="8">
+        <statement>
           <p>Rewrite:</p>
-
           <p>
-            <ol>
+            <ol marker="a.">
               <li>
-                <p><m>(R\cup S')'</m></p>
+                <p>
+                  <m>(R\cup S')'</m>
+                </p>
               </li>
               <li>
-                <p><m>(M'\cap N)'</m></p>
+                <p>
+                  <m>(M'\cap N)'</m>
+                </p>
               </li>
               <li>
-                <p><m>[(A'\cup B)'\cap C]'</m></p>
+                <p>
+                  <m>[(A'\cup B)'\cap C]'</m>
+                </p>
               </li>
               <li>
-                <p><m>[(P\cap Q')'\cup P]'</m></p>
+                <p>
+                  <m>[(P\cap Q')'\cup P]'</m>
+                </p>
               </li>
               <li>
-                <p><m>[A\cap(A'\cup B)']'</m></p>
+                <p>
+                  <m>[A\cap(A'\cup B)']'</m>
+                </p>
               </li>
             </ol>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a9" number="9">
+        <statement>
           <p>Show that</p>
-
           <p>
-            <ol>
+            <ol marker="a.">
               <li>
-                <p><m>[(R\cup M)'\cap P]' = R\cup M\cup P'</m></p>
+                <p>
+                  <m>[(R\cup M)'\cap P]' = R\cup M\cup P'</m>
+                </p>
               </li>
               <li>
-                <p><m>[(R\cap M)\cup M']' = R'\cap M</m></p>
+                <p>
+                  <m>[(R\cap M)\cup M']' = R'\cap M</m>
+                </p>
               </li>
             </ol>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a10" number="10">
+        <statement>
           <p>On a Venn diagram, shade the region represented by:</p>
-
           <p>
-            <ol>
+            <ol marker="a.">
               <li>
-                <p><m>(A\cap B)'\cap C</m></p>
+                <p>
+                  <m>(A\cap B)'\cap C</m>
+                </p>
               </li>
               <li>
-                <p><m>A'\cup(Y\cap Z')</m></p>
+                <p>
+                  <m>A'\cup(Y\cap Z')</m>
+                </p>
               </li>
             </ol>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a11" number="11">
+        <statement>
           <p>
             Sets <m>X = \{\text{prime numbers}\}</m>, <m>Y = \{W : 0 &lt; W
             \le 11\}</m> and <m>Z = \{1,2,3,4,5,6,7,13,14,15,16,18\}</m> are
             subsets of <m>A = \{0,1,2,3,4,\ldots,21\}</m>.
           </p>
-
           <p>
-            <ol>
+            <ol marker="a.">
               <li>
                 <p>List the members of the following sets:</p>
-
                 <p>
-                  <ol>
+                  <ol marker="i.">
                     <li>
-                      <p><m>X</m></p>
+                      <p>
+                        <m>X</m>
+                      </p>
                     </li>
                     <li>
-                      <p><m>Y</m></p>
+                      <p>
+                        <m>Y</m>
+                      </p>
                     </li>
                     <li>
-                      <p><m>X\cap Y\cap Z</m></p>
+                      <p>
+                        <m>X\cap Y\cap Z</m>
+                      </p>
                     </li>
                     <li>
-                      <p><m>X\cup Y'</m></p>
+                      <p>
+                        <m>X\cup Y'</m>
+                      </p>
                     </li>
                     <li>
-                      <p><m>(X\cup Y)\cap Z'</m></p>
+                      <p>
+                        <m>(X\cup Y)\cap Z'</m>
+                      </p>
                     </li>
                     <li>
-                      <p><m>(X'\cap Y)\cup Z</m></p>
+                      <p>
+                        <m>(X'\cap Y)\cup Z</m>
+                      </p>
                     </li>
                   </ol>
                 </p>
@@ -243,8 +299,10 @@
               </li>
             </ol>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a12" number="12">
+        <statement>
           <p>
             A survey of 90 teachers reveals the following. 45 teach
             Management, 57 Accounting and 50 Costing. 25 teach Management and
@@ -252,9 +310,8 @@
             Management and Costing. 5 teachers cannot teach any of the three
             subjects.
           </p>
-
           <p>
-            <ol>
+            <ol marker="a.">
               <li>
                 <p>Represent the information on a Venn diagram.</p>
               </li>
@@ -266,8 +323,10 @@
               </li>
             </ol>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a13" number="13">
+        <statement>
           <p>
             A survey of 41 employees shows that 25 are skilled in Carpentry,
             15 in Brick laying and 24 in Tiling. 12 are skilled in carpentry
@@ -275,9 +334,8 @@
             and tiling, and 8 are not skilled in any of the three occupations.
             Find the number of employees who are skilled in
           </p>
-
           <p>
-            <ol>
+            <ol marker="a.">
               <li>
                 <p>all three occupations</p>
               </li>
@@ -286,8 +344,10 @@
               </li>
             </ol>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a14" number="14">
+        <statement>
           <p>
             A class of 60 students were each required to have textbooks in
             Accounting, Management and Costing. However, when the class
@@ -297,9 +357,8 @@
             one other book. Every student had at least one of the three books.
             Find the number of students who had
           </p>
-
           <p>
-            <ol>
+            <ol marker="a.">
               <li>
                 <p>all three books.</p>
               </li>
@@ -318,8 +377,10 @@
               </li>
             </ol>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a15" number="15">
+        <statement>
           <p>
             The analysis of results of a sample of students who sat for the
             WASSCE in Biology, Physics and Mathematics revealed that: 80%
@@ -328,9 +389,8 @@
             Biology and Physics, 55% passed in Physics and Mathematics, 45%
             passed in all three subjects. What percentage of the students:
           </p>
-
           <p>
-            <ol>
+            <ol marker="a.">
               <li>
                 <p>passed only Mathematics</p>
               </li>
@@ -348,8 +408,10 @@
               </li>
             </ol>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a16" number="16">
+        <statement>
           <p>
             A shop owner kept records of purchases made by customers over the
             weekend. The shop sells food, clothing and hardware. She found
@@ -360,17 +422,15 @@
             did not buy clothing and 20 did not buy food. 13 of the customers
             who visited the store did not buy any of the products.
           </p>
-
           <p>
-            <ol>
+            <ol marker="a.">
               <li>
                 <p>How many customers visited the store over the weekend?</p>
               </li>
               <li>
                 <p>How many of the customers who visited the store:</p>
-
                 <p>
-                  <ol>
+                  <ol marker="i.">
                     <li>
                       <p>purchased less than two products.</p>
                     </li>
@@ -385,8 +445,10 @@
               </li>
             </ol>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a17" number="17">
+        <statement>
           <p>
             A group of 210 tourists were asked to indicate which of the
             languages, German, French and English they can speak. It was found
@@ -395,9 +457,8 @@
             cannot speak any of the three languages. Find the number of
             tourists who can speak:
           </p>
-
           <p>
-            <ol>
+            <ol marker="a.">
               <li>
                 <p>all three languages</p>
               </li>
@@ -406,8 +467,10 @@
               </li>
             </ol>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a18" number="18">
+        <statement>
           <p>
             87 schools in Tamale have subscriptions to at least one of the
             following newspapers: Graphic, Mirror and Times. 69 subscribe to
@@ -415,9 +478,8 @@
             all three newspapers. Find the number of schools who have
             subscriptions to:
           </p>
-
           <p>
-            <ol>
+            <ol marker="a.">
               <li>
                 <p>exactly two of the newspapers</p>
               </li>
@@ -426,8 +488,10 @@
               </li>
             </ol>
           </p>
-        </li>
-        <li>
+        </statement>
+      </exercise>
+      <exercise xml:id="rq-a19" number="19">
+        <statement>
           <p>
             A publishing company surveyed its employees about their
             proficiency in three software: Photoshop, CorelDraw and InDesign.
@@ -444,9 +508,8 @@
             were fewer employees proficient in only InDesign and CorelDraw
             than employees proficient in only InDesign.
           </p>
-
           <p>
-            <ol>
+            <ol marker="a.">
               <li>
                 <p>Use a Venn diagram to represent the above data.</p>
               </li>
@@ -461,198 +524,244 @@
               </li>
             </ol>
           </p>
-        </li>
-      </ol>
-    </p>
-  </subsection>
-
-  <subsection xml:id="part-b">
+        </statement>
+      </exercise>
+    </exercisegroup>
+  </subexercises>
+  <subexercises xml:id="part-b">
     <title>Part B</title>
-
-    <p>
-      <ol>
-        <li>
-          <p>Write down the first five terms of the binomial expansion of:</p>
-
-          <p>
-            <ol>
-              <li>
-                <p><m>(1+4x)^{12}</m></p>
-              </li>
-              <li>
-                <p><m>(1-3x)^9</m></p>
-              </li>
-              <li>
-                <p><m>(3+2x)^7</m></p>
-              </li>
-              <li>
-                <p><m>\left(1-\dfrac{x}{2}\right)^8</m></p>
-              </li>
-              <li>
-                <p><m>\left(2-\dfrac{5}{2}x\right)^6</m></p>
-              </li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
+    <exercise xml:id="rq-b1" number="1">
+      <statement>
+        <p>Write down the first five terms of the binomial expansion of:</p>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>(1+4x)^{12}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>(1-3x)^9</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>(3+2x)^7</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\left(1-\dfrac{x}{2}\right)^8</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\left(2-\dfrac{5}{2}x\right)^6</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="rq-b2" number="2">
+      <statement>
+        <p>
             Write down the term indicated in the binomial expansion of the
             following functions:
           </p>
-
-          <p>
-            <ol>
-              <li>
-                <p><m>(1+3x)^6</m>: 3rd term</p>
-              </li>
-              <li>
-                <p><m>\left(1+\dfrac{x}{3}\right)^{20}</m>: 7th term</p>
-              </li>
-              <li>
-                <p><m>(a+4b)^{12}</m>: term containing <m>a^4</m></p>
-              </li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>(1+3x)^6</m>: 3rd term</p>
+            </li>
+            <li>
+              <p>
+                <m>\left(1+\dfrac{x}{3}\right)^{20}</m>: 7th term</p>
+            </li>
+            <li>
+              <p>
+                <m>(a+4b)^{12}</m>: term containing <m>a^4</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="rq-b3" number="3">
+      <statement>
+        <p>
             Expand the following binomial expansions up to and including the
             terms in <m>x^2</m>:
           </p>
-
-          <p>
-            <ol>
-              <li>
-                <p><m>(1-2x)(1+x)^8</m></p>
-              </li>
-              <li>
-                <p><m>(2+3x)(1+3x)^{10}</m></p>
-              </li>
-              <li>
-                <p><m>(5+2x)\left(1-\dfrac{2}{3}x\right)^{12}</m></p>
-              </li>
-              <li>
-                <p><m>(1+4x)(1-3x)^{20}</m></p>
-              </li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>(1-2x)(1+x)^8</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>(2+3x)(1+3x)^{10}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>(5+2x)\left(1-\dfrac{2}{3}x\right)^{12}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>(1+4x)(1-3x)^{20}</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="rq-b4" number="4">
+      <statement>
+        <p>
             Expand <m>(1-2x)^7</m> and hence find the value of <m>(0.98)^7</m>
             correct to 4 decimal places.
           </p>
-        </li>
-        <li>
-          <p>
+      </statement>
+    </exercise>
+    <exercise xml:id="rq-b5" number="5">
+      <statement>
+        <p>
             Find the first four terms of the following using the binomial
             theorem.
           </p>
-
-          <p>
-            <ol>
-              <li>
-                <p><m>\left(1-\dfrac{1}{2}x\right)^{1/2}</m></p>
-              </li>
-              <li>
-                <p><m>(1-2x)^{-3}</m></p>
-              </li>
-              <li>
-                <p><m>(3-x)^{-2}</m></p>
-              </li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>\left(1-\dfrac{1}{2}x\right)^{1/2}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>(1-2x)^{-3}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>(3-x)^{-2}</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="rq-b6" number="6">
+      <statement>
+        <p>
             Use appropriate binomial expansions to find the approximate values
             of:
           </p>
-
-          <p>
-            <ol>
-              <li>
-                <p><m>\sqrt[3]{8.7}</m> correct to 5 significant figures.</p>
-              </li>
-              <li>
-                <p><m>(81.162)^{1/4}</m> to 4 decimal places.</p>
-              </li>
-              <li>
-                <p><m>\sqrt{4.02}</m> to 3 decimal places.</p>
-              </li>
-              <li>
-                <p><m>\dfrac{1}{\sqrt{10}}</m> to 4 decimal places.</p>
-              </li>
-              <li>
-                <p><m>\sqrt{101}</m> to 4 decimal places.</p>
-              </li>
-              <li>
-                <p><m>(0.995)^5</m> to 4 decimal places.</p>
-              </li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>\sqrt[3]{8.7}</m> correct to 5 significant figures.</p>
+            </li>
+            <li>
+              <p>
+                <m>(81.162)^{1/4}</m> to 4 decimal places.</p>
+            </li>
+            <li>
+              <p>
+                <m>\sqrt{4.02}</m> to 3 decimal places.</p>
+            </li>
+            <li>
+              <p>
+                <m>\dfrac{1}{\sqrt{10}}</m> to 4 decimal places.</p>
+            </li>
+            <li>
+              <p>
+                <m>\sqrt{101}</m> to 4 decimal places.</p>
+            </li>
+            <li>
+              <p>
+                <m>(0.995)^5</m> to 4 decimal places.</p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="rq-b7" number="7">
+      <statement>
+        <p>
             Show that in ascending powers of <m>x</m>,
             <m>\left(\dfrac{1-x}{1+x}\right)^{1/3}</m> is <m>1 - \dfrac{2}{3}x
             + \dfrac{2}{9}x^2 - \dfrac{4}{21}x^3 - \cdots</m>.
           </p>
-        </li>
-        <li>
-          <p>Expand the following as far as the <m>x^3</m> term:</p>
-
-          <p>
-            <ol>
-              <li>
-                <p><m>(1+x+2x^2)^3</m></p>
-              </li>
-              <li>
-                <p><m>(1+3x+x^2)^4</m></p>
-              </li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
-            <ol>
-              <li>
-                <p>
+      </statement>
+    </exercise>
+    <exercise xml:id="rq-b8" number="8">
+      <statement>
+        <p>Expand the following as far as the <m>x^3</m> term:</p>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>(1+x+2x^2)^3</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>(1+3x+x^2)^4</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="rq-b9" number="9">
+      <statement>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
                   Find the first 3 terms in ascending powers of <m>x</m> of
                   the binomial expansion <m>(1+py)^9</m>, where <m>p</m> is a
                   non-zero constant.
                 </p>
-              </li>
-              <li>
-                <p>
+            </li>
+            <li>
+              <p>
                   If the first 3 terms are <m>1</m>, <m>36x</m> and
                   <m>qx^2</m> where <m>q</m> is a constant, find the value of
                   <m>p</m> and <m>q</m>.
                 </p>
-              </li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
-            <ol>
-              <li>
-                <p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="rq-b10" number="10">
+      <statement>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
                   Find the first 3 terms in ascending powers of <m>x</m> of
                   the binomial expansion <m>(2+kx)^7</m>, where <m>k</m> is a
                   constant.
                 </p>
-              </li>
-              <li>
-                <p>
+            </li>
+            <li>
+              <p>
                   Given that the coefficient of <m>x^2</m> is 6 times the
                   coefficient of <m>x</m>, find the value of <m>k</m>.
                 </p>
-              </li>
-            </ol>
-          </p>
-        </li>
-      </ol>
-    </p>
-  </subsection>
-</section>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+  </subexercises>
+</exercises>
