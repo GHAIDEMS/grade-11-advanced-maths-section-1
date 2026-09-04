@@ -1,0 +1,111 @@
+% ---------------------------------------------------------------------
+% Shared preamble for the LaTeX transcription of
+%   "Additional Mathematics for Senior High Schools, Year 2"
+%   (Ministry of Education / Mathematics Association of Ghana, 2025)
+%
+% Loaded by book.tex (report class, one chapter per book Section) and by
+% each sectionNN/main.tex (article class, standalone).  It is a superset of
+% section01/preamble.tex (Section 1's original standalone preamble), so the
+% Section 1 files compile unchanged: the environment names
+% keyideas / activity{title} / example{title} and the Venn macros are kept
+% with the same signatures.
+% ---------------------------------------------------------------------
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc,positioning,patterns,arrows.meta,decorations.markings}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fancyhdr}
+\usepackage{booktabs,array,multirow}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue}
+
+\setlist[enumerate,1]{label=\arabic*.}
+\setlist[enumerate,2]{label=(\alph*)}
+\setlist[enumerate,3]{label=\roman*.}
+\setlist{itemsep=2pt,topsep=3pt}
+
+% Colours matching a typical textbook palette
+\definecolor{sectionblue}{HTML}{1F4E79}
+\definecolor{boxblue}{HTML}{E8F1FA}
+\definecolor{boxorange}{HTML}{FCEEE3}
+
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Key Ideas box
+\newtcolorbox{keyideas}{
+  colback=boxblue, colframe=sectionblue, breakable,
+  title={KEY IDEAS}, fonttitle=\bfseries
+}
+
+% Activity box
+\newtcolorbox{activity}[1]{
+  colback=boxorange, colframe=sectionblue, breakable,
+  title={#1}, fonttitle=\bfseries
+}
+
+% Example box
+\newtcolorbox{example}[1]{
+  colback=white, colframe=sectionblue, breakable,
+  title={#1}, fonttitle=\bfseries
+}
+
+% "Solution" sub-heading inside an example / activity
+\newcommand{\solution}{\medskip\noindent\textbf{Solution}\par\nopagebreak\smallskip}
+
+% Figure caption in the book's style ("Figure 2.1: ...") without a float
+\newcommand{\figcaption}[2]{\begin{center}\small\textbf{Figure #1:} #2\end{center}}
+
+% Transcriber's note on a defect carried over verbatim from the printed book
+\newcommand{\booknote}[1]{\par\smallskip\noindent\textit{(Note: #1)}\par}
+
+\newcommand{\Union}{\cup}
+\newcommand{\Inter}{\cap}
+
+% ---------------------------------------------------------------------
+% Reusable Venn-diagram backdrops (verbatim from the Section 1
+% preamble).  Each draws the outer universal-set box + three set outlines
+% + labels; callers add \node's for the region contents.
+% ---------------------------------------------------------------------
+\newcommand{\vennThreeEllipse}[4]{
+  \draw (0,0) rectangle (9,6.3);
+  \node at (8.7,6.0) {#4};
+  \draw[black, thick] (3.0,4.0) ellipse (2.1 and 1.5);
+  \node at (0.7,5.7) {#1};
+  \draw[blue, thick] (5.5,4.0) ellipse (2.1 and 1.5);
+  \node[blue] at (7.5,5.7) {#2};
+  \draw[red, thick] (4.25,2.2) ellipse (2.4 and 1.5);
+  \node[red] at (7.3,0.9) {#3};
+}
+\newcommand{\vennEllipseRectBottom}[4]{
+  \draw (0,0) rectangle (9,7.4);
+  \node at (8.7,7.1) {#4};
+  \draw[black, thick] (3.3,4.6) ellipse (2.1 and 2.2);
+  \node at (1.0,7.05) {#1};
+  \draw[blue, thick] (5.3,4.6) ellipse (2.1 and 2.2);
+  \node[blue] at (7.6,7.05) {#2};
+  \draw[red, thick] (1.0,0.8) rectangle (8.0,3.8);
+  \node[red] at (0.5,2.2) {#3};
+}
+\newcommand{\vennEllipseRectTop}[4]{
+  \draw (0,0) rectangle (9,7.4);
+  \node at (8.7,7.1) {#4};
+  \draw[red, thick] (1.0,3.6) rectangle (8.0,6.6);
+  \node[red] at (7.3,6.9) {#3};
+  \draw[blue, thick] (3.3,2.8) ellipse (2.1 and 2.2);
+  \node[blue] at (0.6,0.3) {#1};
+  \draw[black, thick] (5.3,2.8) ellipse (2.1 and 2.2);
+  \node[black] at (8.0,0.3) {#2};
+}
+
+% Ghana cedi, as the book prints it (GH followed by the cent sign)
+\usepackage{textcomp}
+\newcommand{\cedi}{GH\textcent}

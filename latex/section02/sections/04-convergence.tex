@@ -1,0 +1,66 @@
+% Book pp. 57-58 (PDF pp. 58-59)
+\section{Convergence and Divergence of Series}
+
+A series is a sum of a sequence of numbers. For example, $1 + 2 + 3 + 4 + \ldots$
+
+\subsection{Convergence of series}
+
+A series is \textbf{convergent} if its sum approaches a finite value. Think of it like a target.
+\begin{enumerate}
+  \item The series get closer and closer to the target (the finite value).
+  \item The sum of the series stabilises.
+  \item Example, $1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \ldots$
+  \item As n increases the nth term is converging to 0 and the sum of the series is
+  converging to 2.
+  \item If the limit of the $n$th term is 0, the series might converge.
+  \item If the ratio between the terms is constant, then the series converges when
+  $|r| < 1$.
+\end{enumerate}
+
+\subsection{Divergence}
+
+A series is \textbf{divergent} if its sum grows without bounds or approaches infinity.
+Think of it like a runaway train:
+\begin{enumerate}
+  \item The series gets farther and farther away from a finite value.
+  \item The sum of the series increases indefinitely.
+  \item Example; $1 + 2 + 4 + 8 + \ldots$ this series diverges.
+\end{enumerate}
+If the limit of the $n$th term is not 0, the series diverges.
+
+If the ratio between term is greater than 1, the series diverges, ie $|r| > 1$
+
+\subsection{Sum to infinity of a convergent Geometric Progression}
+
+For the general exponential sequence (GP):
+
+$S_n = \frac{a(1 - r^n)}{(1 - r)}$, \textit{if} $-1 < r < 1$, then $r^n$ becomes smaller and
+smaller as $n$ becomes larger and larger, so as $n \longrightarrow \infty$ then $r^n \to 0$
+and $(1 - r^n) \to 1$.
+
+We say the limiting value is denoted $S_\infty$ is $\frac{a}{1 - r}$.
+
+Hence, the sum to infinity of $a, ar, ar^2, \ldots$ is given by $S_\infty = \frac{a}{1 - r}$,
+provided $-1 < r < 1$.
+
+\begin{example}{Example 2.6}
+Determine the sum to infinity of the geometric series $5, -1 + \frac{1}{5}, \ldots$
+
+\solution
+$5, -1 + \frac{1}{5}, \ldots$
+
+$a = 5$, $r = -\frac{1}{5}$
+
+The sum to infinity is
+\begin{align*}
+  S\infty &= \frac{a}{1 - r} \\
+  &= \frac{5}{1 - \left(-\frac{1}{5}\right)} = \frac{5}{\left(\frac{6}{5}\right)}
+     = \frac{25}{6} = 5\frac{1}{6}
+\end{align*}
+\booknote{the series is printed as ``$5, -1 + \frac{1}{5}, \ldots$'' in the book; the
+intended geometric series is $5, -1, \frac{1}{5}, \ldots$}
+\end{example}
+
+\noindent\textbf{Note:} $S_1, S_2, S_3, \ldots$ are the partial sums of the series. If there is
+a number $L$ such that: $S_n = \sum_{r=1}^{\infty} Sn = L$. The number $L$ is called the
+sum of the infinity series. If there is no such number, the series is said to diverge.

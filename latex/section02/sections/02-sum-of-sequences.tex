@@ -1,0 +1,106 @@
+% Book pp. 51-53 (PDF pp. 52-54)
+\section{Sum of Sequences}
+
+In year one we identified number patterns and classified them into arithmetic and
+geometric sequences. While sequences are a list of numbers with defined patterns,
+a series is the sum of the terms of a sequence. This year we will be finding the
+sum of sequences and analysing the convergence or divergence of series.
+
+If the general term of a series with $n$ term is known, then the complete series can
+be written down in short notation as indicated by the following:
+\begin{enumerate}
+  \item $a + (a+d) + (a+2d) + \ldots + (a+[n-1]d) = \sum_{r=1}^{n} (a+[r-1]d)$
+  \item $a + ar + ar^2 + \ldots ar^{n-1} = \sum_{k=1}^{n} ar^{k-1}$
+  \item $1^2 + 2^2 + 3^2 + \ldots n^2 = \sum_{r=1}^{n} r^2$
+  \item $-1^3 + 2^3 - 3^3 + 4^3 + \ldots (-1)^n n^3 = \sum_{r=1}^{n} (-1)^r r^3$
+\end{enumerate}
+
+\noindent\textbf{Notes:}
+\begin{enumerate}
+  \item[a.] It is sometimes more convenient to count the term of a series from zero
+  rather than 1.
+
+  For example:
+  \[
+    a + (a+d) + (a+2d) + \ldots + (a+[n-1]d) = \sum_{r=0}^{n-1} (a+rd) \text{ and}
+  \]
+  \[
+    a + ar + ar^2 + \ldots ar^{n-1} = \sum_{k=0}^{n-1} ar^{k}
+  \]
+  In general, for a series with $n$ terms starting at $u_0$:
+  \[
+    u_0 + u_1 + u_2 + u_3 + \ldots u_{n-1} = \sum_{r=0}^{n-1} u_r
+  \]
+  \item[b.] We may also use the sigma notation for ``infinite series'' such as those already
+  encountered in the sum to infinity of a geometric series.
+
+  For example: $1 + \frac{1}{3} + \frac{1}{3^2} + \frac{1}{3^3} + \ldots = \sum_{r=1}^{\infty} \frac{1}{3^{r-1}}$
+  or $\sum_{r=0}^{\infty} \frac{1}{3^{r}}$
+\end{enumerate}
+
+\begin{activity}{Activity 2.1 -- Sums of Sequences}
+Perform this activity in pairs or groups.
+
+In year one we learnt about Arithmetic and Geometric Progression. Let us
+revise and build on that knowledge by creating the sequence terms and find
+the sum of the terms of the expressions below.
+\begin{enumerate}
+  \item Evaluate $\sum_{n=0}^{6} 2(n-3)$
+  \item Find the sum $\sum_{k=1}^{50} (3k+2)$
+  \item Evaluate $\sum_{r=1}^{3} \left(\frac{1}{2}\right)^r$
+\end{enumerate}
+
+\solution
+\begin{enumerate}
+  \item $\sum_{n=0}^{6} 2(n-3) = 2(0-3) + 2(1-3) + 2(2-3) + 2(3-3) + 2(4-3) + 2(5-3) + 2(6-3)$
+  \begin{align*}
+    &= 2(-3) + 2(-2) + 2(-1) + 2(0) + 2(1) + 2(2) + 2(3) \\
+    &= (-6) + (-4) + (-2) + 0 + 2 + 4 + 6 \\
+    &= 0
+  \end{align*}
+  \item $\sum_{k=1}^{50} (3k+2)$
+  \begin{align*}
+    u_1 &= 3(1) + 2 = 5 \\
+    u_{50} &= 3(50) + 2 = 152 \\
+    s_k &= \frac{k\,(u_1 + u_{50})}{2} \\
+    s_k &= \frac{50(5+152)}{2} = 3925
+  \end{align*}
+  \item $\sum_{r=1}^{3} \left(\frac{1}{2}\right)^r$
+  \begin{align*}
+    \text{when } r = 1,\ \left(\tfrac{1}{2}\right)^1 &= \tfrac{1}{2} \\
+    \text{when } r = 2,\ \left(\tfrac{1}{2}\right)^2 &= \tfrac{1}{4} \\
+    \text{when } r = 3,\ \left(\tfrac{1}{2}\right)^3 &= \tfrac{1}{8} \\
+    \Longrightarrow \tfrac{1}{2} + \tfrac{1}{4} + \tfrac{1}{8} &= \tfrac{7}{8}
+  \end{align*}
+\end{enumerate}
+\end{activity}
+
+\subsection{Method of undetermined coefficients}
+
+The method of undetermined coefficients is a powerful technique for finding the
+general solution of linear recurrence relations with constant coefficients
+
+If the $n$th term of a linear sequence is denoted by $x_n$, then the recurrence relation
+is of the form: $x_{n+1} = f(x_n)$ for some of the function $f$.
+
+For example, in $x_{n+1} = 4 - \frac{x_n}{2}$, when $x_2 = 2$, then $x_3$ is expressed as
+$x_{2+1} = 4 - \frac{x_2}{2}$
+\begin{align*}
+  x_3 &= 4 - \frac{2}{2} \\
+  x_3 &= 4 - 1 \\
+  x_3 &= 3
+\end{align*}
+
+\begin{example}{Example 2.1}
+The $n$th term of a sequence is $U_n$. If $U_1 = 3$ and $U_{n+1} = U_n + 5$, find $U_3$.
+
+\solution
+\begin{align*}
+  U_{n+1} &= U_n + 5 \\
+  U_1 &= 3 \\
+  U_2 &= U_{1+1} = U_1 + 5, \text{ but } U_1 = 3 \\
+  U_2 &= 3 + 5 = 8 \\
+  U_3 &= U_{2+1} = U_2 + 5 \\
+  U_3 &= 8 + 5 = 13
+\end{align*}
+\end{example}
