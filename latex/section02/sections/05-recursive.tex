@@ -1,0 +1,170 @@
+% Book pp. 58-62 (PDF pp. 59-63)
+\section{Recursive Sequences}
+
+A recursive sequence is a sequence where each term is defined using previous
+terms.
+
+For example, for an Arithmetic Sequence:
+
+First term $a_1 = 2$
+
+Recursive formula: $a_n = a_{n-1} + 3$
+\begin{enumerate}
+  \item Start with $a_1 = 2$
+  \item To find $a_2$, add 3 to $a_1$ : $a_2 = 2 + 3 = 5$
+  \item To find $a_3$, add 3 to $a_2$ : $a_3 = 5 + 3 = 8$
+  \item To find $a_4$, add 3 to $a_3$ : $a_4 = 8 + 3 = 11$
+
+  Sequence: 2, 5, 8, 11, 14, 17\ldots
+\end{enumerate}
+
+For example, for a Geometric Sequence:
+
+First Term: $a_1 = 2$
+
+Recursive formula: $a_n = 2 \times a_{n-1}$
+\begin{enumerate}
+  \item Start with $a_1 = 2$
+  \item To find $a_2$, multiply $a_1$ \textit{by} $2 \to a_2 = 2 \times 2 = 4$
+  \item To find $a_3$, multiply $a_2$ \textit{by} $2 \to a_3 = 2 \times 4 = 8$
+  \item To find $a_4$, multiply $a_3$ \textit{by} $2 \to a_4 = 2 \times 8 = 16$
+
+  Sequence: 2, 4, 8, 16, 32, 64, \ldots
+\end{enumerate}
+
+In both examples;
+\begin{itemize}
+  \item The first term $(a_1)$ is given
+  \item The recursive formula defines how to find the next term $(a_n)$ using the
+  previous term $(a_{n-1})$
+\end{itemize}
+
+\subsection{Recurrent decimals}
+
+Recurrent decimals are repeated decimals. It can be seen that every recurrent
+decimal represents a rational number. Every rational number can be represented
+by a terminal decimal or a recurrent decimal. If the denominator of a rational
+number (written in its simplest form) has prime factors, other than 2 and 5, then
+the rational number is recognised as a recurrent decimal.
+
+For example; $\frac{5}{9} = 0.5555\ldots$ \textit{or} $0.\dot{5}$,
+$\frac{2}{11} = 0.181818\ldots$ \textit{or} $0.\dot{1}\dot{8}$,
+$\frac{8}{15} = 0.53333\ldots$ \textit{or} $0.5\dot{3}$
+
+\begin{example}{Example 2.7}
+Write the recurring decimals as a series. Identify the common ratio, the first term
+and an explicit formula for the $n$th term:
+\begin{enumerate}
+  \item[a.] 0.222222\ldots
+  \item[b.] 0.323232\ldots
+  \item[c.] 5.414141\ldots
+\end{enumerate}
+
+\solution
+\begin{enumerate}
+  \item[a.] $0.2222... = 0.2 + 0.02 + 0.002 + 0.0002 + \cdots$
+  \begin{align*}
+    &= 0.2 + 0.2(0.1) + 0.2(0.01) + 0.2(0.001) + \cdots \\
+    &= 0.2 + 0.2(0.1) + 0.2(0.1)^2 + 0.2(0.1)^3 + \cdots
+  \end{align*}
+  The first term is 0.2, and the common ratio between each successive term is
+  0.1. The formula for the $n$th term will be $U_n = 0.2\left(\frac{1}{10}\right)^{n-1}$
+
+  \item[b.] $0.323232\ldots = 0.32 + 0.0032 + 0.000032 + 0.00000032 + \cdots$
+  \begin{align*}
+    &= 0.32 + 0.32(0.01) + 0.32(0.0001) + 0.32(0.000001) + \cdots \\
+    &= 0.32 + 0.32(0.01) + 0.32(0.01)^2 + 0.32(0.01)^3 + \cdots
+  \end{align*}
+  The first term is 0.32, and the common ratio between each successive term
+  is 0.01. The formula for the $n$th term will be $U_n = 0.32\left(\frac{1}{100}\right)^{n-1}$
+
+  \item[c.] $5.414141\ldots = 5 + 0.41 + 0.0041 + 0.000041 + 0.00000041 + \cdots$
+  \[
+    = 5 + 0.41 + 0.41(0.01) + 0.41(0.1)^2 + 0.41(0.1)^3 + \cdots
+  \]
+  From the second term (0.41), a geometric sequence with first term 0.41, and
+  the common ratio 0.01 can be observed. The formula for the $n$th term will
+  be
+
+  For 0.414141\ldots, $U_n = 0.41\left(\frac{1}{100}\right)^{n-1}$
+
+  Thus, $5.414141\ldots = 5 + 0.41\left(\frac{1}{100}\right)^{n-1}$ for $n = 1, 2, 3, \ldots$
+  \booknote{the book prints $0.41(0.1)^2 + 0.41(0.1)^3$; with common ratio $0.01$ these
+  should read $0.41(0.01)^2 + 0.41(0.01)^3$.}
+\end{enumerate}
+\end{example}
+
+\begin{example}{Example 2.8}
+Write 0.9999\ldots as an exponential series and show that in the limit, the sum of
+series equals one.
+
+\solution
+$0.9999\ldots = 0.9 + 0.09 + 0.009 + 0.0009 + \ldots$
+
+This is a G.P. with first term, $a = 0.9$ and common ratio, $r = \frac{0.09}{0.9} = 0.1$
+
+The series is an infinite series with sum; $S_\infty = \frac{a}{1 - r} = \frac{0.9}{1 - 0.1}
+= \frac{0.9}{0.1} = 1$
+\booknote{$1 - 0.1 = 0.9$, so the last step should read $\frac{0.9}{0.9} = 1$; the book
+prints $\frac{0.9}{0.1}$.}
+\end{example}
+
+\begin{example}{Example 2.9}
+Express $0.1\dot{6}$ as an infinite geometric series and find the sum of the geometric
+series.
+
+\solution
+\begin{align*}
+  0.1\dot{6} &= 0.166666\ldots \\
+  &= 0.1 + 0.06 + 0.006 + 0.0006 + \ldots \\
+  &= \frac{1}{10} + \frac{6}{100} + \frac{6}{1000} + \frac{6}{10000} + \ldots
+\end{align*}
+From the series, the term after $\frac{1}{10}$ from geometric series with $= \frac{6}{100}$,
+$r = \frac{6}{100} \div \frac{6}{1000} = \frac{1}{10}$
+
+Sum of the geometric series:
+\begin{align*}
+  0.0\dot{6} = S_\infty &= \frac{\frac{6}{100}}{1 - \frac{1}{10}} \\
+  &= \frac{\frac{6}{100}}{\frac{9}{10}} \\
+  &= \frac{1}{15}
+\end{align*}
+$\therefore 0.1\dot{6} = \frac{1}{10} + \frac{1}{15} = \frac{1}{6}$
+\booknote{the common ratio is $\frac{6}{1000} \div \frac{6}{100} = \frac{1}{10}$; the book
+prints the division the other way round.}
+\end{example}
+
+\begin{example}{Example 2.10}
+If a sequence $U_1, U_2, U_3\ldots$ is define by the relation $U_{n+1} = 3 + U_n$ for
+$n \ge 1$ and $U_1 = 1$, find;
+\begin{enumerate}
+  \item[a.] $U_2, U_3$ and $U_4$
+  \item[b.] a formula for $U_n$ in terms of $n$.
+  \item[c.] the sum of the 1\textit{st} $n$ terms
+\end{enumerate}
+
+\solution
+\begin{enumerate}
+  \item[a.] Using the relation
+  \begin{align*}
+    U_{n+1} &= 3 + U_n \\
+    \text{If } n &= 1 \\
+    U_2 &= 3 + U_1 = 3 + 1 = 4 \\
+    U_3 &= 3 + U_2 = 3 + 4 = 7 \\
+    U_4 &= 3 + U_3 = 3 + 7 = 10
+  \end{align*}
+  The sequence is $1, 4, 7, 10, \ldots$, so it is a linear sequence
+  \item[b.] $U_n = a + (n-1)d$ and $a = 1, d = 3$
+  \begin{align*}
+    U_n &= 1 + (n-1)3 \\
+    U_n &= 1 + 3n - 3 \\
+    U_n &= 3n - 2
+  \end{align*}
+  \item[c.] The sum of $n$ terms of $1, 4, 7, 10, \ldots$
+  \begin{align*}
+    S_n &= \frac{n}{2}[2a + (n-1)d] \\
+    S_n &= \frac{n}{2}[2(1) + (n-1)3] \\
+    S_n &= \frac{n}{2}[2 + 3n - 3] \\
+    S_n &= \frac{n}{2}[3n - 1]
+  \end{align*}
+\end{enumerate}
+\end{example}

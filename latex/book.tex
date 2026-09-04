@@ -1,0 +1,59 @@
+% Whole-book build: one chapter per book Section.  Compile from this directory:
+%   pdflatex book   (twice)
+%
+% Each sectionNN/ folder also compiles on its own (sectionNN/main.tex).
+\documentclass[11pt]{report}
+\input{preamble}
+\graphicspath{{section01/}{section02/}}
+\renewcommand{\chaptername}{Section}
+
+\title{\textbf{Additional Mathematics}\\[0.5ex]\Large for Senior High Schools\\[2ex]\LARGE Year 2}
+\author{Ministry of Education\\Mathematics Association of Ghana\\[3ex]
+  \normalsize LaTeX transcription -- IDEMS Ghanaian textbooks project}
+\date{}
+
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{SECTION \thechapter \quad \MakeUppercase{#1}}{}}
+\fancyhead[L]{\small\leftmark}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Sets and Binomial Expansions}
+\input{section01/sections/01-intro}
+\input{section01/sections/02-demorgans}
+\input{section01/sections/03-applying-demorgans}
+\input{section01/sections/04a-pascal-nCr}
+\input{section01/sections/04b-general-theorem}
+\input{section01/sections/04c-factoring-form}
+\input{section01/sections/04d-approximations}
+\input{section01/sections/05-exercises}
+
+\chapter{Sequences and Inequalities}
+\input{section02/sections/01-intro}
+\input{section02/sections/02-sum-of-sequences}
+\input{section02/sections/03-arithmetic-and-geometric}
+\input{section02/sections/04-convergence}
+\input{section02/sections/05-recursive}
+\input{section02/sections/06-means}
+\input{section02/sections/07-max-min}
+\input{section02/sections/08-real-life}
+\input{section02/sections/09-quadratic-inequalities}
+\input{section02/sections/10-systems-quadratic}
+\input{section02/sections/11-real-life-quadratic}
+\input{section02/sections/12-exercises}
+
+% Sections 3-14: not yet transcribed.
+
+\chapter*{Answers to Review Questions}
+\addcontentsline{toc}{chapter}{Answers to Review Questions}
+\markboth{ANSWERS TO REVIEW QUESTIONS}{}
+
+\section*{Review Questions for Section 1}
+\input{section01/answers}
+
+\section*{Review Questions for Section 2}
+\input{section02/answers}
+
+\end{document}
