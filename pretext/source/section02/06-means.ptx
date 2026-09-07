@@ -1,0 +1,147 @@
+<section xml:id="arithmetic-and-geometric-means-of-sequences">
+  <title>Arithmetic and Geometric Means of Sequences</title>
+
+  <introduction>
+    <p>
+      The mean of any two numbers, for example, <m>a</m> and <m>b</m>, is
+      obtained by finding a half of the sum of the numbers thus:
+      <em>Mean</em>, <m>(\mu) = \frac{1}{2}(a + b)</m>. The difference between
+      <m>a</m> and <m>\mu</m> is equal to the difference, or distance, between
+      <m>\mu</m> and <m>b</m> i.e., <m>\mu - a = b - \mu</m>.
+    </p>
+
+    <p>
+      Now, <m>a</m>, <m>\mu</m>, <m>b</m> form an arithmetic sequence since
+      there is a common difference and that for any arithmetic sequence with
+      <m>a</m> and <m>b</m> as terms, some means namely, <m>\mu_1, \mu_2,
+      \mu_3, \ldots \mu_k</m> can be found between <m>a</m> and <m>b</m> such
+      that <m>a</m>, <m>\mu_1, \mu_2, \mu_3, \ldots \mu_k</m>, <m>b</m>,
+      remains an arithmetic sequence as <m>\mu_1 - a = \mu_2 - \mu_1 = \ldots
+      \mu_k - b</m> and the means are equally spaced.
+    </p>
+
+    <example>
+      <p>Example 2.11</p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              Find the arithmetic mean sequence of students' scores in
+              mathematics test: 80, 75, 90, 85, 95.
+            </p>
+          </li>
+          <li>
+            <p>
+              A baker wants to increase the amount of sugar in a recipe from
+              200g to 500g in four equal steps. What arithmetic sequence
+              represents the amount of sugar (in grammes) added and what are
+              the intermediate values?
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              Arithmetic mean <m>= \dfrac{80 + 75 + 90 + 85 + 95}{5} =
+              \dfrac{425}{5} = 85</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              The baker wants to increase the sugar from 200g to 500g
+
+              <md>
+                <mrow>500 - 200 &amp;= 300g</mrow>
+
+                <mrow>d &amp;= \frac{300}{4 - 1}</mrow>
+
+                <mrow>&amp;= \frac{300}{3}</mrow>
+
+                <mrow>&amp;= 100g</mrow>
+              </md>
+
+              Arithmetic mean
+
+              <md>
+                <mrow>200 + 100 &amp;= 300g</mrow>
+
+                <mrow>300 + 100 &amp;= 400g</mrow>
+
+                <mrow>400 + 100 &amp;= 500g</mrow>
+              </md>
+
+              The arithmetic sequence: <m>200, 300, 400, 500</m>.
+            </p>
+
+            <p>
+              The intermediate sequence <m>300</m> <em>and</em> <m>400</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </example>
+  </introduction>
+
+  <subsection xml:id="geometric-mean">
+    <title>Geometric mean</title>
+
+    <p>
+      The geometric mean of a sequence is the measure of the central tendency
+      of the sequence, similar to the arithmetic mean. However, it is
+      calculated differently.
+    </p>
+
+    <p>
+      For a sequence of <m>n</m> numbers <m>(a_1 \times a_2 \times a_3 \times
+      \ldots \times a_n)^{\frac{1}{n}}</m>
+    </p>
+
+    <example>
+      <p>Example 2.12</p>
+
+      <p>
+        <ol>
+          <li>
+            <p>Find the geometric mean of the sequence <m>2, 4, 8, 16</m></p>
+          </li>
+          <li>
+            <p>Find the geometric mean of the sequence <m>10, 20, 40</m>.</p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              <m>2, 4, 8, 16</m>
+
+              <md>
+                <mrow>
+                  (a_1 \times a_2 \times a_3 \ldots a_n)^{\frac{1}{n}}
+                </mrow>
+              </md>
+
+              <md>
+                <mrow>
+                  (2 \times 4 \times 8 \times 16)^{\frac{1}{4}} =
+                  \sqrt[4]{1024} = 5.65685\ldots \approx 5.7
+                </mrow>
+              </md>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(10 \times 20 \times 40)^{\frac{1}{3}} = \sqrt[3]{8000} =
+              20</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </example>
+  </subsection>
+</section>

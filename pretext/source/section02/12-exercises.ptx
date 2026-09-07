@@ -1,0 +1,259 @@
+<section xml:id="review-questions-2">
+  <title>Review Questions</title>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          The sum of the 2<em>nd</em> and the 4<em>th</em> term of a geometric
+          sequence is 10 and the sum of the 3<em>nd</em> and 5<em>th</em> term
+          is 20. Find the first term and the common ratio.
+        </p>
+      </li>
+      <li>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Given that <m>a_1 = 25</m> and <m>a_n = a_{n-1} + 4</m> for
+                <m>n &gt; 1</m>
+              </p>
+
+              <p>Find:</p>
+
+              <p>
+                <ol>
+                  <li>
+                    <p><m>a_2, a_3</m>, and <m>a_4</m></p>
+                  </li>
+                  <li>
+                    <p>a formula for <m>a_n</m> in terms of <m>n</m></p>
+                  </li>
+                </ol>
+              </p>
+            </li>
+            <li>
+              <p>
+                Use your formula for <m>a_n</m> to deduce a formula for
+                <m>S_n</m>, the sum of the first <m>n</m> terms of the
+                sequence <m>a_1, a_2, a_3, \ldots a_n</m> and hence find
+                <m>S_{10}</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li>
+        <p>
+          The sum of the three consecutive term of an Arithmetic Progression
+          is <m>-3</m> and the product is 24. Find the terms.
+        </p>
+      </li>
+      <li>
+        <p>
+          The <m>n</m>th term of an exponential sequence (G.P) is
+          <m>2^{1-n}</m>.
+        </p>
+
+        <p>Calculate:</p>
+
+        <p>
+          <ol>
+            <li>
+              <p>
+                the sum <m>S_n</m>, of the first four terms of the sequence.
+              </p>
+            </li>
+            <li>
+              <p>the sum of the sequence to infinity.</p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li>
+        <p>
+          Calculate the difference between the sum to infinity of the series
+          <m>1 + \frac{1}{3} + \frac{1}{9} + \ldots</m>, and the sum of the
+          first 5 terms.
+        </p>
+      </li>
+      <li>
+        <p>
+          A sequence defined by <m>U_1 = 2</m>, <m>U_{n+1} = 2U_n - 1</m>,
+          <m>n = 2, 3, 4, \ldots</m>
+        </p>
+
+        <p>
+          <ol>
+            <li>
+              <p>Find the first five terms of the sequence</p>
+            </li>
+            <li>
+              <p>Show that <m>U_{n+1} = 3U_n - 2U_{n-1}</m></p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li>
+        <p>
+          The sum of the 5<em>th</em> and 9<em>th</em> terms of an A.P, is
+          <m>-40</m> and and the 11<em>th</em> term is <m>-32</m>. Find the
+          first term and the common difference.
+        </p>
+      </li>
+      <li>
+        <p>
+          A man's salary is increased by GHc 24 000 each year. His total salary at
+          the end of 14 years is GHc 184 000.
+        </p>
+
+        <p>Find:</p>
+
+        <p>
+          <ol>
+            <li>
+              <p>his initial salary</p>
+            </li>
+            <li>
+              <p>his salary in the 14<em>th</em> year</p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li>
+        <p>
+          The sum of the first <m>n</m> terms of a series is given by <m>(n +
+          1)^2 - 1</m>. Find the first three terms and an expression in terms
+          of <m>n</m> for <m>U_n</m>, <m>(n &gt; 1)</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          A tennis ball is released from a height <m>h</m> cm, it rebounds
+          one-third of the distance it has fallen after each fall. Find the
+          height of;
+        </p>
+
+        <p>
+          <ol>
+            <li>
+              <p>the third bounce</p>
+            </li>
+            <li>
+              <p>the <m>n</m>th bounce</p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li>
+        <p>
+          Find the sum of the first <m>n</m> terms of a linear sequence whose
+          common difference is 2 is 120 and the sum of the <m>2n</m> term is
+          440. Calculate the first term.
+        </p>
+      </li>
+      <li>
+        <p>Evaluate <m>\sum_{r=1}^{6} (r^2 - 2)</m></p>
+      </li>
+      <li>
+        <p>
+          Renie's outlet manufactures two types of clothing (shirts and
+          trousers). The profit is for each shirt and for each pair of
+          trousers.
+        </p>
+      </li>
+      <li>
+        <p>
+          Due to limited resources, the company can produce a combined total
+          of no more than 120 pieces. Additionally, to meet demand, they must
+          produce at least 20 shirts and 10 pairs of trousers. How many of
+          each of the clothing should be produced to make the most profit?
+        </p>
+      </li>
+      <li>
+        <p>Find the solution(s) to:</p>
+
+        <p>
+          <ol>
+            <li>
+              <p><m>3x^2 + 5x \ge 2</m>.</p>
+            </li>
+            <li>
+              <p><m>x^2 - 2x - 3 \ge 0</m>.</p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li>
+        <p>
+          A company determines that the cost in cedis <m>C</m>, of producing
+          <m>m</m> bags of maize is <m>C = 170m + 150</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          The revenue <m>R</m>, in cedis, from selling all of the bags of
+          maize is <m>R = m^2 + 530</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          How many bags of maize should the company produce and sell if the
+          company wishes to earn a profit of at least GHc 4 000.00?
+        </p>
+      </li>
+      <li>
+        <p>
+          Mr. Buabeng and Ms. Osei run business assembling Hyundai Toyota
+          cars.
+        </p>
+
+        <p>
+          The cost of parts and labour needed for each type of car is shown in
+          the table below.
+        </p>
+
+        <!-- div center -->
+
+        <tabular>
+          <col halign="left"/> <col halign="center"/> <col halign="center"/>
+          <row header="yes">
+            <cell><term>Car type</term></cell>
+            <cell><term>Cost of Parts (<nbsp/>thousand)</term></cell>
+            <cell><term>Labour (man-hours)</term></cell>
+          </row>
+          <row>
+            <cell>Hyundai</cell>
+            <cell>18</cell>
+            <cell>15</cell>
+          </row>
+          <row>
+            <cell>Toyota</cell>
+            <cell>36</cell>
+            <cell>30</cell>
+          </row>
+        </tabular>
+
+        <!-- end div center -->
+
+        <p>The business has GHc 150 (thousand) available to buy parts each week.</p>
+
+        <p>
+          However, the total labour available each week is 85 man-hours. If
+          they make <m>h</m> of Hyundai and <m>t</m> of Toyota each week:
+        </p>
+
+        <p>
+          <ol>
+            <li>
+              <p>Write down all the inequalities on <m>h</m> and <m>t</m>.</p>
+            </li>
+            <li>
+              <p>Determine the solution to the set of inequalities.</p>
+            </li>
+          </ol>
+        </p>
+      </li>
+    </ol>
+  </p>
+</section>
