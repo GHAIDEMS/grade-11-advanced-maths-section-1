@@ -1,0 +1,65 @@
+<section xml:id="modelling-with-algebra-2">
+  <title>Modelling with Algebra</title>
+
+  <subsection xml:id="application-of-algebra-2">
+    <title>Application of Algebra</title>
+
+    <subsubsection xml:id="introduction-2">
+      <title>Introduction</title>
+
+      <p>
+        Studying sequences and inequalities is important because arithmetic
+        and geometric sequences provide statistical understanding into central
+        tendencies, growth rates, etc. Also, quadratic inequalities help in
+        decision-making processes where certain conditions or constraints must
+        be met. For example, in business and economics, they are used to model
+        profit maximisation or loss minimisation under specific constraints.
+        In physics and engineering, quadratic inequalities arise when
+        determining safe operating conditions, or analysing forces. In
+        architecture and design, they help define areas, volumes or structural
+        integrity within specific boundaries. This section introduces you to
+        the concept of the sum of sequences, convergent and divergent series,
+        recursive sequences, arithmetic and geometric sequences. You will also
+        learn how to solve quadratic inequalities, systems of quadratic
+        inequalities and real-life problems involving quadratic inequalities.
+      </p>
+
+      <!-- div keyideas -->
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              A <term>sequence</term> is a set of numbers in a given order.
+            </p>
+          </li>
+          <li>
+            <p>Each of the numbers in a sequence is called a term.</p>
+          </li>
+          <li>
+            <p>
+              Maximum values are the largest possible values of variables
+              within a system that satisfy a set of constraints, each
+              represented by an inequality.
+            </p>
+          </li>
+          <li>
+            <p>
+              Minimum values are the least possible values of variables within
+              a system that satisfy a set of constraints, each represented by
+              an inequality.
+            </p>
+          </li>
+          <li>
+            <p>
+              When finding the solution to a quadratic inequality, it is
+              advisable to start by sketching the associated quadratic graph.
+            </p>
+          </li>
+        </ul>
+      </p>
+
+      <!-- end div keyideas -->
+    </subsubsection>
+  </subsection>
+</section>

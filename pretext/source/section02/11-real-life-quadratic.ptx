@@ -1,0 +1,310 @@
+<section xml:id="solving-real-life-problems-involving-quadratic-inequalities">
+  <title>Solving Real-Life Problems Involving Quadratic Inequalities</title>
+
+  <p>
+    Quadratic inequalities are a powerful tool used to model and solve
+    various real-world problems that involve limits, boundaries, or
+    optimisation of quantities. These inequalities describe relationships
+    where one side of the equation is a quadratic expression and are used in
+    situations where the possible outcomes form a range or region rather
+    than a single point.
+  </p>
+
+  <p>By learning how to solve quadratic inequalities, we can:</p>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Predict outcomes that must fall within thresholds like safety
+          limits, financial losses, etc.
+        </p>
+      </li>
+      <li>
+        <p>
+          Identify ranges of values that satisfy conditions in optimisation
+          problems such as finding the most efficient design.
+        </p>
+      </li>
+      <li>
+        <p>
+          Understand the critical points where changes in conditions occur,
+          allowing for better decision-making and problem-solving.
+        </p>
+      </li>
+    </ol>
+  </p>
+
+  <p>
+    Let's go through these examples to see how the concept of quadratic
+    inequalities is useful in real-life.
+  </p>
+
+  <example>
+    <p>
+      Example 2.21 An artist is planning an art exhibition and needs to
+      create rectangular canvases with a specific aesthetic balance.
+    </p>
+
+    <p>
+      The total area available for displaying the artworks is limited to 80
+      square feet. The artist wants the length of each canvas to be 2 feet
+      less than its width.
+    </p>
+
+    <p>
+      To ensure that the artworks are visually appealing and fit within the
+      assigned space, determine the maximum width for each canvas such that
+      the total area used does not exceed 80 square feet.
+    </p>
+
+    <p><term>Step 1:</term> Represent the statement algebraically</p>
+
+    <p>Let w be the width of each canvas</p>
+
+    <p>Length of each canvas <m>=</m> w <m>-\ 2</m></p>
+
+    <p><term>Step 2:</term> Write the equation for area of a rectangle</p>
+
+    <p>Since Area(A) <m>=</m> width <m>\times</m> length,</p>
+
+    <p><m>A = w(w - 2)</m></p>
+
+    <p><m>A = w^2 - 2w</m></p>
+
+    <p><term>Step 3:</term> Set up the linear inequality</p>
+
+    <p>
+      Since the space available for display is maximum 80 sq. feet, the
+      total space covered by the art can be less or equal to 80 square feet.
+    </p>
+
+    <p>width <m>\times</m> length <m>\le 80</m></p>
+
+    <p>
+      <term>Step 4:</term> Set up the quadratic inequality and simplify.
+
+      <md>
+        <mrow>w^2 - 2w &amp;\le 80</mrow>
+
+        <mrow>w^2 - 2w - 80 &amp;\le 0</mrow>
+
+        <mrow>
+          (w - 10)(w + 8) &amp;\le 0 \text{ (Sketch the inequality to
+          confirm the required values)}
+        </mrow>
+
+        <mrow>\therefore -8 \le w &amp;\le 10</mrow>
+      </md>
+
+      Since width can only be positive, the width of each canvas must be
+      less than or equal to 10 feet.
+    </p>
+
+    <p><term>Step 6:</term> State your conclusion</p>
+
+    <p>
+      The artist can create canvases with a width up to 10 feet, ensuring
+      the canvases fit within the available display area at the exhibition.
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Example 2.22 Millicent would like to design a necklace for her mother
+      and decides it should resemble an eye. She makes a drawing as shown in
+      Figure. 2.12. Identify the systems of quadratic inequalities that
+      helped her draw the necklace.
+    </p>
+
+    <!-- div center -->
+
+    <!-- end div center -->
+
+    <p>
+      The blue quadratic inequality curve was drawn with <m>y \le -0.5x^2 +
+      3</m>
+    </p>
+
+    <p>
+      The brown quadratic inequality curve was drawn with <m>y \ge -0.5x^2 +
+      1.5</m>
+    </p>
+
+    <p>
+      The magenta quadratic inequality curve was drawn with <m>y \le 0.5x^2
+      - 1.5</m>
+    </p>
+
+    <p>
+      The orange quadratic inequality curve was drawn with <m>y \ge 0.5x^2 -
+      3</m>
+    </p>
+  </example>
+
+  <activity>
+    <p>Activity 2.9 <ndash/> Research a Real-Life Problem</p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Identify a real-world scenario where quadratic inequalities can
+            be applied. Use any of the following themes to base your
+            research on:
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>
+                  <term>Agriculture:</term> Maximising the area of a crop
+                  field, given constraints such as fencing materials.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <term>Sports:</term> Determining the best angle and force
+                  to kick a ball in football for a successful shot.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <term>Architecture:</term> Designing the maximum height of
+                  an arch or doorway while ensuring structural safety.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <term>Business:</term> Managing production costs to ensure
+                  profit margins while minimising loss, such as determining
+                  the optimal number of products to produce.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <term>Physics:</term> Understanding projectile motion when
+                  an object is thrown into the air.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Research how quadratic functions and inequalities play a role in
+            this real-world context. Use reliable online sources, textbooks,
+            or interview experts if possible.
+          </p>
+        </li>
+        <li>
+          <p>
+            Once you've chosen your problem, model it using a quadratic
+            inequality.
+          </p>
+
+          <p>
+            Identify the variables in your scenario (e.g., height, distance,
+            time, cost) and set up the quadratic inequality that best
+            represents the situation.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve the quadratic inequality you have written. Use algebraic
+            methods or graphical tools to determine the solution set. You
+            can use graphing software, calculators, or sketch graphs by hand
+            to visualise the solution.
+          </p>
+        </li>
+        <li>
+          <p>Discuss the real-life implications of your solution.</p>
+
+          <p>
+            <ol>
+              <li>
+                <p>
+                  What do the solutions of the quadratic inequality mean in
+                  terms of the real-world problem?
+                </p>
+              </li>
+              <li>
+                <p>What decisions can be made based on your results?</p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Create a visual presentation of your findings to share with your
+            classmates or teacher. Your presentation should include:
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>The real-world problem you chose.</p>
+              </li>
+              <li>
+                <p>
+                  The quadratic inequality you modelled from the problem.
+                </p>
+              </li>
+              <li>
+                <p>The steps you took to solve the inequality.</p>
+              </li>
+              <li>
+                <p>The real-world interpretation of the solution.</p>
+              </li>
+              <li>
+                <p>
+                  Any challenges or insights you encountered while working
+                  on this problem.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      You can create a poster, a digital slide presentation or even a short
+      video to present your work.
+    </p>
+  </activity>
+
+  <exploration xml:id="extended-reading-2">
+    <title>Extended Reading</title>
+
+    <p>
+      <ul>
+        <li>
+          <p>
+            Baffour Ba series for schools and Colleges. (Pages 444 <ndash/>
+            472).
+          </p>
+        </li>
+        <li>
+          <p>
+            Effective Elective Mathematics for Senior High School; Christian
+            Akrong Hesse (Pages 202 <ndash/> 232).
+          </p>
+        </li>
+        <li>
+          <p>
+            Effective Elective Mathematics for Senior High School, Mathematics
+            Association of Ghana. (Pages 247 <ndash/> 267).
+          </p>
+        </li>
+        <li>
+          <p>
+            Talbert, J. F., &amp; Heng, H. H. (1995). <em>Additional
+            Mathematics: Pure &amp; Applied</em>. Pearson Education South
+            Asia. Page(s) 90 <ndash/> 98.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </exploration>
+</section>

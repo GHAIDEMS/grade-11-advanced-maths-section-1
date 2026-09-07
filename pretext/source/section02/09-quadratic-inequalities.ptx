@@ -1,0 +1,344 @@
+<section xml:id="solving-quadratic-inequalities">
+  <title>Solving Quadratic Inequalities</title>
+
+  <p>
+    In year one we learnt about quadratic functions, how to solve them
+    algebraically and how to illustrate them graphically. Remember that
+    quadratic functions are of the form
+  </p>
+
+  <p><m>M(x) = ax^2 + bx + c</m>, where <m>a, b, c ∈ ℝ</m>, <m>a ≠ 0</m>.</p>
+
+  <p>
+    Combining this knowledge and what we know about linear inequalities, we
+    can represent general quadratic inequalities in the forms;
+  </p>
+
+  <p>
+    <ol>
+      <li>
+        <p><m>ax^2 + bx + c &lt; w</m></p>
+      </li>
+      <li>
+        <p><m>ax^2 + bx + c &gt; w</m></p>
+      </li>
+      <li>
+        <p><m>ax^2 + bx + c ≤ w</m></p>
+      </li>
+      <li>
+        <p><m>ax^2 + bx + c ≥ w</m>, where <m>w</m> is a constant.</p>
+      </li>
+    </ol>
+  </p>
+
+  <p>
+    To find the solution to a quadratic inequality of any of the forms above:
+  </p>
+
+  <p>
+    <ol>
+      <li>
+        <p>First determine the value of <m>w</m></p>
+      </li>
+      <li>
+        <p>Simplify the inequality so that one side is zero</p>
+      </li>
+      <li>
+        <p>Factorise to determine the range of values for <m>x</m></p>
+      </li>
+      <li>
+        <p>Represent it graphically to know the solution region</p>
+      </li>
+    </ol>
+  </p>
+
+  <activity>
+    <p>
+      Activity 2.6 – Individual/Group Exploration of Quadratic Inequalities
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>Brainstorm how you would solve the inequalities:</p>
+        </li>
+        <li>
+          <p><m>x^2 - 3x - 10 &gt; 0</m> and <m>-2x^2 + 5x ≤ 3</m>.</p>
+        </li>
+        <li>
+          <p>
+            Discuss multiple approaches (factorising, completing the square or
+            using the quadratic formula).
+          </p>
+        </li>
+        <li>
+          <p>
+            Consider when the expression is equal to zero and how this can
+            help determine the solution.
+          </p>
+        </li>
+        <li>
+          <p>
+            Draw separately the graph of each of the quadratic inequalities to
+            understand the regions where the inequality is true or false.
+          </p>
+        </li>
+        <li>
+          <p>Share your observations from the process with a peer.</p>
+        </li>
+      </ol>
+    </p>
+  </activity>
+
+  <example>
+    <p>
+      Example 2.18 Find the solution to the inequality <m>x^2 - 2x - 15 &lt;
+      0</m>.
+    </p>
+
+    <p><term>Step 1:</term> Factorise the left-hand side of the inequality</p>
+
+    <p><m>x^2 - 2x - 15 = (x + 3)(x - 5)</m></p>
+
+    <p>Hence <m>(x + 3)(x - 5) &lt; 0</m></p>
+
+    <p><term>Step 2:</term> Find the critical values</p>
+
+    <p><m>x = 5</m> and <m>x = -3</m></p>
+
+    <p><term>Step 3:</term></p>
+
+    <p>
+      <term>Method 1:</term> Represent the extreme values of the expected
+      solution on a number line and test them.
+    </p>
+
+    <!-- div center -->
+
+    <!-- end div center -->
+
+    <!-- div center -->
+
+    <tabular>
+      <col halign="left"/> <col halign="left"/> <col halign="center"/>
+      <col halign="center"/> <col halign="center"/> <col halign="left"/>
+      <row header="yes">
+        <cell><term>Possible Solution Regions</term></cell>
+        <cell><term>Test Values</term></cell>
+        <cell><m>\boldsymbol{x + 3}</m></cell>
+        <cell><m>\boldsymbol{x - 5}</m></cell>
+        <cell><m>\boldsymbol{(x + 3)(x - 5)}</m></cell>
+        <cell><term>Sign</term></cell>
+      </row>
+      <row>
+        <cell><m>x &lt; -3</m></cell>
+        <cell><m>-4</m></cell>
+        <cell><m>-1</m></cell>
+        <cell><m>-9</m></cell>
+        <cell>9</cell>
+        <cell>Positive</cell>
+      </row>
+      <row>
+        <cell><m>-3 &lt; x &lt; 5</m></cell>
+        <cell>3</cell>
+        <cell>6</cell>
+        <cell><m>-2</m></cell>
+        <cell><m>-12</m></cell>
+        <cell>Negative</cell>
+      </row>
+      <row>
+        <cell><m>x &gt; 5</m></cell>
+        <cell>6</cell>
+        <cell>9</cell>
+        <cell>1</cell>
+        <cell>9</cell>
+        <cell>Positive</cell>
+      </row>
+    </tabular>
+
+    <!-- end div center -->
+
+    <p>
+      <term>Step 4:</term> Select the solution region that corresponds to the
+      sign satisfying the inequality.
+    </p>
+
+    <p>
+      Since <m>x^2 - 2x - 15 &lt; 0</m> holds for only values of <m>x</m> for
+      which the product of the factors is negative (less than zero), <m>-3
+      &lt; x &lt; 5</m> is the solution to the inequality.
+    </p>
+
+    <p><term>OR</term></p>
+
+    <p><term>Step 3:</term></p>
+
+    <p><term>Method 2:</term> Graph the quadratic inequality</p>
+
+    <!-- div center -->
+
+    <!-- end div center -->
+
+    <p>
+      <term>Step 4:</term> Identify the portion of the graph that satisfies
+      the inequality. In this case, the portion below the <m>x</m>-axis.
+    </p>
+
+    <!-- div center -->
+
+    <!-- end div center -->
+
+    <p>Thus <m>-3 &lt; x &lt; 5</m></p>
+  </example>
+
+  <example>
+    <p>
+      Example 2.19 Find the solution to the inequality <m>-5x^2 + 12x - 7 &gt;
+      0</m>.
+    </p>
+
+    <p><term>Step 1:</term> Factorise the left-hand side of the inequality</p>
+
+    <p><m>-5x^2 + 12x - 7 = (-5x + 7)(x - 1)</m></p>
+
+    <p>Hence <m>(-5x + 7)(x - 1) &gt; 0</m></p>
+
+    <p><term>Step 2:</term> Find the critical values</p>
+
+    <p><m>x = \frac{7}{5}</m> and <m>x = 1</m>.</p>
+
+    <p>
+      <term>Step 3:</term> Represent the extreme values of the expected
+      solution on a number line and test them.
+    </p>
+
+    <!-- div center -->
+
+    <!-- end div center -->
+
+    <!-- div center -->
+
+    <tabular>
+      <col halign="left"/> <col halign="left"/> <col halign="center"/>
+      <col halign="center"/> <col halign="center"/> <col halign="left"/>
+      <row header="yes">
+        <cell><term>Possible Solution Regions</term></cell>
+        <cell><term>Test Values</term></cell>
+        <cell><m>\boldsymbol{-5x + 7}</m></cell>
+        <cell><m>\boldsymbol{x - 1}</m></cell>
+        <cell><m>\boldsymbol{(-5x + 7)(x - 1)}</m></cell>
+        <cell><term>Sign</term></cell>
+      </row>
+      <row>
+        <cell><m>x &lt; 1</m></cell>
+        <cell>0</cell>
+        <cell>7</cell>
+        <cell><m>-1</m></cell>
+        <cell><m>-7</m></cell>
+        <cell>Negative</cell>
+      </row>
+      <row>
+        <cell><m>1 &lt; x &lt; 1.4</m></cell>
+        <cell>1.2</cell>
+        <cell>1</cell>
+        <cell>0.2</cell>
+        <cell>0.2</cell>
+        <cell>Positive</cell>
+      </row>
+      <row>
+        <cell><m>x &gt; 1.4</m></cell>
+        <cell>3</cell>
+        <cell><m>-8</m></cell>
+        <cell>2</cell>
+        <cell><m>-16</m></cell>
+        <cell>Negative</cell>
+      </row>
+    </tabular>
+
+    <!-- end div center -->
+
+    <p>
+      <term>Step 4:</term> Select the solution region that corresponds to the
+      sign satisfying the inequality.
+    </p>
+
+    <p>
+      Since <m>-5x^2 + 12x - 7 &gt; 0</m> holds for only values of <m>x</m>
+      for which the product of the factors is positive (greater than zero),
+      <m>1 &lt; x &lt; 1.4</m> is the solution to the inequality.
+    </p>
+  </example>
+
+  <activity>
+    <p>
+      Activity 2.7 – Graphical Solution to <m>-5x^2 + 12x - 7 &gt; 0</m>
+      Represent the solution to <m>-5x^2 + 12x - 7 &gt; 0</m> graphically and
+      share the results with a classmate.
+    </p>
+  </activity>
+
+  <activity>
+    <p>Activity 2.8 – Research on Quadratic Inequalities</p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Conduct research on the behaviour of solutions to maximum and
+            minimum curves of quadratic functions.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <p><term>Instructions:</term></p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Explore the nature of the solution when a quadratic function with
+            a minimum curve is:
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>greater than zero</p>
+              </li>
+              <li>
+                <p>less than zero</p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Explore the nature of the solution when a quadratic function with
+            a maximum curve is:
+          </p>
+
+          <p>
+            <ol>
+              <li>
+                <p>less than zero</p>
+              </li>
+              <li>
+                <p>greater than zero</p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>Include graphical representations to support your argument.</p>
+        </li>
+        <li>
+          <p>Consult open education resources, YouTube, textbooks, etc.</p>
+        </li>
+        <li>
+          <p>Provide references to the sources you consult and use.</p>
+        </li>
+      </ol>
+    </p>
+  </activity>
+</section>

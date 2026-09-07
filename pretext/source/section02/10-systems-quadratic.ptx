@@ -1,0 +1,138 @@
+<section xml:id="solving-systems-of-quadratic-inequalities">
+  <title>Solving Systems of Quadratic Inequalities</title>
+
+  <p>
+    We have explored how to solve single quadratic inequalities algebraically
+    and graphically. Now, we will learn how to solve systems of quadratic
+    inequalities (two or more quadratic inequalities) through algebra and
+    graphing.
+  </p>
+
+  <p>
+    In finding solutions to quadratic inequalities algebraically, you solve
+    them simultaneously.
+  </p>
+
+  <example>
+    <p>
+      Example 2.20 Graph the system of quadratic inequalities <m>y \ge 4x^2 +
+      5x</m>, <m>y &lt; -3x^2 - 7x</m>.
+    </p>
+
+    <p><em>Solving the systems of inequalities simultaneously</em></p>
+
+    <p><term>Step 1:</term> Equate the two expressions</p>
+
+    <p><m>4x^2 + 5x = -3x^2 - 7x</m></p>
+
+    <p>
+      <term>Step 2:</term> Simplify and make <m>x</m> the subject.
+
+      <md>
+        <mrow>4x^2 + 3x^2 + 7x + 5x &amp;= 0</mrow>
+
+        <mrow>7x^2 + 12x &amp;= 0</mrow>
+
+        <mrow>x(7x + 12) &amp;= 0</mrow>
+
+        <mrow>x = 0,\ x &amp;= -\frac{12}{7}.</mrow>
+      </md>
+
+      <term>Step 3:</term> Identify whether the point of intersection is
+      inclusive in the solution to the systems.
+    </p>
+
+    <p>
+      Since the <m>y &lt; -3x^2 - 7x</m> has the strictly <m>&lt;</m> symbol,
+      the points of intersection will not satisfy this inequality.
+    </p>
+
+    <p>For <m>y \ge 4x^2 + 5x</m>,</p>
+
+    <p>At <m>x = 0</m>, <m>y \ge 4(0)^2 + 5(0)</m>,</p>
+
+    <p><m>y \ge 0</m>.</p>
+
+    <p>For <m>y &lt; -3x^2 - 7x</m>,</p>
+
+    <p>At <m>x = 0</m>, <m>y &lt; -3(0)^2 - 7(0)</m>,</p>
+
+    <p><m>y &lt; 0</m></p>
+
+    <p>
+      At <m>x = 0</m>, <m>y</m> must be 0 in both inequalities, but since the
+      second inequality requires <m>y &lt; 0</m>, there is no solution at this
+      point.
+    </p>
+
+    <p>
+      At <m>x = \frac{-12}{7}</m>, <m>y \ge 4\left(\frac{-12}{7}\right)^2 +
+      5\left(\frac{-12}{7}\right)</m>,
+    </p>
+
+    <p><m>y \ge 3\frac{3}{49}</m>.</p>
+
+    <p>
+      At <m>x = 0</m>, <m>y &lt; -3\left(\frac{-12}{7}\right)^2 -
+      7\left(\frac{-12}{7}\right)</m>,
+    </p>
+
+    <p><m>y &lt; \frac{156}{49}</m>.</p>
+
+    <p><m>y &lt; 3\frac{9}{49}</m>.</p>
+
+    <p>
+      At <m>x = \frac{-12}{7}</m>, <m>y</m> must be <m>3\frac{9}{49}</m> in
+      both inequalities, but since the second inequality requires <m>y &lt;
+      3\frac{9}{49}</m>, there is no solution at this point.
+    </p>
+
+    <p><term>Step 4:</term> State the solution</p>
+
+    <p>
+      Since the points of intersection will not satisfy one of the
+      inequalities, the solution becomes <m>-1\frac{5}{7} &lt; x &lt; 0</m>.
+      That is, the region between the points of intersection.
+    </p>
+
+    <p><term>Step 1:</term> Draw the graphs of the two inequalities.</p>
+
+    <!-- div center -->
+
+    <image source="figures/fig2-11.png" width="90%">
+      <shortdescription>image</shortdescription>
+    </image>
+
+    <!-- end div center -->
+
+    <p>
+      <term>Step 2:</term> Identify the region that is common to both
+      inequalities.
+    </p>
+
+    <p><m>R_3</m></p>
+
+    <p>
+      <term>Step 3:</term> State the solution to the system of inequalities.
+    </p>
+
+    <p><m>-1\frac{5}{7} &lt; x &lt; 0</m></p>
+
+    <p><term>Step 3:</term> State the conclusion.</p>
+
+    <p>
+      All points in the region <m>R_3</m> including but not exclusive to
+      <m>(-1, 0)</m>, <m>(-1, 3)</m> <m>(-0.5, 2)</m>, <m>(-1, 1)</m> and
+      <m>(-0.5, -1)</m> are in the solution set for the system.
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Self-assessment task Find the solution to <m>y &lt; -7x^2 - 8x + 3</m>
+      and <m>y &gt; 3x^2 - 7x</m>.
+    </p>
+
+    <p>You should find <m>-0.6 &lt; x &lt; 0.5</m></p>
+  </example>
+</section>

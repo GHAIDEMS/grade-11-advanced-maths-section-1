@@ -1,0 +1,316 @@
+<section xml:id="determining-maximumminimum-values">
+  <title>Determining Maximum/Minimum Values</title>
+
+  <p>
+    In year one, we learnt how to solve linear equations and inequalities
+    using graphing and algebraic reasoning. With this knowledge, we will be
+    able to graph polygons when given specific linear equations or
+    inequalities which will help us determine the maximum/minimum value for a
+    function.
+  </p>
+
+  <p>
+    Working in pairs or groups, go through this activity to review graphing of
+    linear inequalities.
+  </p>
+
+  <activity>
+    <p>Activity 2.3 <ndash/> Graphing Linear Inequalities</p>
+
+    <p>
+      <ol>
+        <li>
+          <p>Pick a graph book/sheet</p>
+        </li>
+        <li>
+          <p>Represent the following inequalities graphically</p>
+
+          <p>
+            <ol>
+              <li>
+                <p><m>y \le 0.67x + 2</m></p>
+              </li>
+              <li>
+                <p><m>y \le -x + 2</m></p>
+              </li>
+              <li>
+                <p><m>y \ge -2</m></p>
+              </li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Write out the coordinates for the points at which the inequalities
+            intersect.
+          </p>
+        </li>
+        <li>
+          <p>What polygon did the intersecting lines create?</p>
+        </li>
+        <li>
+          <p>
+            Does your graph look like the one in Figure. 2.1: Graphing Linear
+            Inequalities?
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <!-- div center -->
+
+    <image source="figures/fig2-1.jpg" width="85%">
+      <shortdescription>image</shortdescription>
+    </image>
+
+    <!-- end div center -->
+  </activity>
+
+  <p>
+    Congratulations! You have adequately remembered how to graph linear
+    inequalities.
+  </p>
+
+  <p>
+    Now, we will learn how to determine the maximum/minimum value(s) of a
+    given function.
+  </p>
+
+  <p>
+    We can determine the maximum or minimum value of a given function based on
+    a specific objective. Maximum values are the highest points of a function
+    while minimum values are the lowest points of a function. In finding
+    maximum or minimum values of a function algebraically, you have to
+    substitute all the coordinates of the vertices of the region of interest
+    that forms the solution to the function. For example, if you are
+    interested in getting the maximum/minimum area of a given rectangle, you
+    would evaluate the function at each corner or edge by substituting the
+    coordinates. If the polygon of interest (triangle, square, etc.) is
+    represented graphically, you need to identify the pair of coordinates and
+    substitute in the given function. On the other hand, if equations of lines
+    are given, you solve these equations simultaneously and determine the
+    values for the pair of coordinates.
+  </p>
+
+  <example>
+    <p>
+      Example 2.13 Evaluate the expression <m>V = 2x - 3y</m> for the given
+      feasible region to determine the point at which <sq>V</sq> has a maximum
+      value and the point at which <sq>V</sq> has a minimum value.
+    </p>
+
+    <!-- div center -->
+
+    <image source="figures/fig2-2.png" width="80%">
+      <shortdescription>image</shortdescription>
+    </image>
+
+    <!-- end div center -->
+
+    <p><term>Step 1:</term> Identify all the vertices in Figure. 2.2</p>
+
+    <p>A <m>(-5, -2)</m>, B<m>(0, 3)</m> and C <m>(4, -1)</m></p>
+
+    <p>
+      <term>Step 2:</term> Substitute the coordinates of each of the vertices
+      in the function <m>V = 2x - 3y</m> and compute.
+    </p>
+
+    <p>
+      For <m>(-5, -2)</m>, <m>x = -5</m>, <m>y = -2</m>.
+
+      <md>
+        <mrow>V &amp;= 2(-5) - 3(-2)</mrow>
+
+        <mrow>&amp;= -4</mrow>
+      </md>
+
+      For <m>(0, 3)</m>, <m>x = 0</m>, <m>y = 3</m>.
+
+      <md>
+        <mrow>V &amp;= 2(0) - 3(3)</mrow>
+
+        <mrow>&amp;= -9</mrow>
+      </md>
+
+      For <m>(4, -1)</m>, <m>x = 4</m>, <m>y = -1</m>.
+
+      <md>
+        <mrow>V &amp;= 2(4) - 3(-1)</mrow>
+
+        <mrow>&amp;= 11</mrow>
+      </md>
+    </p>
+
+    <p>
+      <term>Step 3:</term> Choose the highest result as the maximum value and
+      the least as the minimum value
+    </p>
+
+    <p>Maximum value is 11 at vertex <m>(4, -1)</m>.</p>
+
+    <p>Minimum value is <m>-9</m> at vertex <m>(0, 3)</m>.</p>
+  </example>
+
+  <example>
+    <p>
+      Example 2.14 On the same graph, illustrate the inequalities, <m>y \ge
+      \frac{7}{3}x - 5</m>, <m>y \le x - 1</m> and <m>x \ge 0</m>.
+    </p>
+
+    <p>
+      Using the polygon created, determine the minimum and maximum values of
+      the function <m>m = 7x - y</m>.
+    </p>
+
+    <p>
+      <term>Step 1:</term> Draw the three linear inequalities on a graph
+      sheet.
+    </p>
+
+    <!-- div center -->
+
+    <image source="figures/fig2-3.png" width="85%">
+      <shortdescription>image</shortdescription>
+    </image>
+
+    <!-- end div center -->
+
+    <p>
+      <term>Step 2:</term> Identify the coordinates of the vertices polygon
+      created as a result of the intersection of the lines.
+    </p>
+
+    <p>M<m>(0, -1)</m>, T<m>(3, 2)</m> and N<m>(0, -5)</m></p>
+
+    <p>
+      <term>Step 3:</term> Substitute the values of the coordinates in the
+      function <m>m = 7x - y</m>.
+    </p>
+
+    <p>
+      For <m>(0, -1)</m>, <m>x = 0</m>, <m>y = -1</m>.
+
+      <md>
+        <mrow>m &amp;= 7(0) - (-1)</mrow>
+
+        <mrow>&amp;= 1</mrow>
+      </md>
+
+      For <m>(3, 2)</m>, <m>x = 3</m>, <m>y = 2</m>.
+
+      <md>
+        <mrow>m &amp;= 7(3) - 2</mrow>
+
+        <mrow>&amp;= 19</mrow>
+      </md>
+
+      For <m>(0, -5)</m>, <m>x = 0</m>, <m>y = -5</m>.
+
+      <md>
+        <mrow>m &amp;= 7(0) - (-5)</mrow>
+
+        <mrow>&amp;= 5</mrow>
+      </md>
+    </p>
+
+    <p>
+      <term>Step 4:</term> Select the highest result as the maximum value and
+      the least as the minimum value
+    </p>
+
+    <p>Maximum value is 19 at vertex <m>(3, 2)</m>.</p>
+
+    <p>Minimum value is 1 at vertex <m>(0, -1)</m>.</p>
+  </example>
+
+  <example>
+    <p>
+      Example 2.15 On the same graph, illustrate the inequalities, <m>x + y
+      \le 8</m>, <m>y \ge 2</m>, <m>x - y \le 3</m>, <m>-x + 2y \le 10</m> and
+      <m>x \ge 1</m>. Using the boundaries of the polygon created, determine
+      the minimum and maximum values of the function <m>w = x^2 + y^2</m>.
+    </p>
+
+    <p>Step 1: Draw the five linear inequalities on a graph sheet.</p>
+
+    <!-- div center -->
+
+    <image source="figures/fig2-4.png" width="85%">
+      <shortdescription>image</shortdescription>
+    </image>
+
+    <!-- end div center -->
+
+    <p>
+      <term>Step 2:</term> Identify the coordinates of the vertices polygon
+      created as a result of the intersection of the lines.
+    </p>
+
+    <p>
+      P<m>(1, 2)</m>, S<m>(1, 5.5)</m>, Q<m>(2, 6)</m>, T<m>(5.5, 2.5)</m> and
+      R<m>(5, 2)</m>
+    </p>
+
+    <p>
+      <term>Step 3:</term> Substitute the values of the coordinates in the
+      function <m>w = x^2 + y^2</m>.
+    </p>
+
+    <p>
+      For <m>(1, 2)</m>, <m>x = 1</m>, <m>y = 2</m>.
+
+      <md>
+        <mrow>w &amp;= (1)^2 + (2)^2</mrow>
+
+        <mrow>&amp;= 5</mrow>
+      </md>
+
+      For <m>(1, 5.5)</m>, <m>x = 1</m>, <m>y = 5.5</m>.
+
+      <md>
+        <mrow>w &amp;= (1)^2 + (5.5)^2</mrow>
+
+        <mrow>&amp;= 31.25</mrow>
+      </md>
+
+      For <m>(2, 6)</m>, <m>x = 2</m>, <m>y = 6</m>.
+
+      <md>
+        <mrow>w &amp;= (2)^2 + (6)^2</mrow>
+
+        <mrow>&amp;= 40</mrow>
+      </md>
+
+      For <m>(5.5, 2.5)</m>, <m>x = 5.5</m>, <m>y = 2.5</m>.
+
+      <md>
+        <mrow>w &amp;= (5.5)^2 + (2.5)^2</mrow>
+
+        <mrow>&amp;= 36.5</mrow>
+      </md>
+
+      For <m>(5, 2)</m>, <m>x = 5</m>, <m>y = 2</m>.
+
+      <md>
+        <mrow>w &amp;= (5)^2 + (2)^2</mrow>
+
+        <mrow>&amp;= 29</mrow>
+      </md>
+    </p>
+
+    <p>
+      <term>Step 4:</term> Select the highest result as the maximum value and
+      the least as the minimum value
+    </p>
+
+    <p>Maximum value is 40 at vertex <m>(2, 6)</m>.</p>
+
+    <p>Minimum value is 5 at vertex <m>(1, 2)</m>.</p>
+  </example>
+
+  <p>
+    Now, let's see how our knowledge on solving linear inequalities can be
+    used to solve real life problems.
+  </p>
+</section>

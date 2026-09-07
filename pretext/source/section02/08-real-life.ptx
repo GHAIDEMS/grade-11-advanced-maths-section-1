@@ -1,0 +1,371 @@
+<section xml:id="solving-real-life-problems-involving-systems-of-linear-inequalities">
+  <title>
+    Solving Real Life Problems Involving Systems of Linear Inequalities
+  </title>
+
+  <p>
+    Knowledge for knowledge's sake is commendable. However, utility of the
+    knowledge is even more satisfying. Let us go through this activity to
+    explore the usefulness of knowledge on solving systems of linear
+    equations.
+  </p>
+
+  <activity>
+    <p>
+      Activity 2.4 <ndash/> Optimising the Production of Furniture Working in
+      pairs, or small groups, work on this activity.
+    </p>
+
+    <p><term>Scenario</term></p>
+
+    <p>
+      Kpogas company manufactures two types of products (chairs and tables).
+    </p>
+
+    <p>
+      Each chair requires 2 hours of carpentry and 1 hour of painting, while
+      each table requires 3 hours of carpentry and 2 hours of painting. The
+      company has a maximum of 60 hours of carpentry and 40 hours of painting
+      available per week.
+    </p>
+
+    <p>They make a profit of per chair and per table.</p>
+
+    <p>
+      How many chairs (c) and tables (t) should be produced each week to
+      maximise profit, while staying within the carpentry and painting
+      constraints?
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Write out algebraic expressions for the hours of carpentry and
+            painting.
+          </p>
+
+          <p>Hours for carpentry: <m>2c + 3t \le 60</m></p>
+
+          <p>Hours for painting: <m>c + 2t \le 40</m></p>
+        </li>
+        <li>
+          <p>
+            Write out algebraic expressions for the number of chairs and
+            tables.
+          </p>
+
+          <p>Number of chairs cannot be negative: <m>c \ge 0</m></p>
+
+          <p>Number of tables cannot be negative: <m>t \ge 0</m></p>
+        </li>
+        <li>
+          <p>Write out an equation for the expected profit.</p>
+
+          <p>Let P represent profit</p>
+
+          <p><m>P = 50c + 80t</m></p>
+        </li>
+        <li>
+          <p>
+            Express the system of linear inequalities as the constraints of
+            production.
+
+            <md>
+              <mrow>
+                \begin{cases} c \ge 0 \\ t \ge 0 \\ 2c + 3t \le 60 \\ c + 2t
+                \le 40 \end{cases}
+              </mrow>
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>Note that the equation of profit is the objective function.</p>
+        </li>
+        <li>
+          <p>Graph the system of linear inequalities</p>
+
+          <image source="figures/fig2-5.jpg" width="85%">
+            <shortdescription>image</shortdescription>
+          </image>
+        </li>
+        <li>
+          <p>
+            Identify the coordinates of the vertices to the solution region.
+          </p>
+
+          <p>
+            <m>(20, 0)</m>, <m>(0, 0)</m>, <m>(15, 10)</m> and <m>(0, 20)</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Substitute the coordinates of the vertices into the profit
+            equation.
+
+            <md>
+              <mrow>\text{At } (20, 0),\ \text{P} &amp;= 50(20) + 80(0)</mrow>
+
+              <mrow>&amp;= 1000</mrow>
+
+              <mrow>\text{At } (0, 0),\ \text{P} &amp;= 50(0) + 80(0)</mrow>
+
+              <mrow>&amp;= 0</mrow>
+
+              <mrow>
+                \text{At } (15, 10),\ \text{P} &amp;= 50(15) + 80(10)
+              </mrow>
+
+              <mrow>&amp;= 1550</mrow>
+
+              <mrow>\text{At } (0, 20),\ \text{P} &amp;= 50(0) + 80(20)</mrow>
+
+              <mrow>&amp;= 1600</mrow>
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>Write out your conclusion</p>
+
+          <p>
+            The maximum profit is , and it occurs when Kpogas produces no
+            chairs and 20 tables.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </activity>
+
+  <example>
+    <p>
+      Example 2.16 A bakery produces cakes (<m>x</m>) and cookies (<m>y</m>)
+      daily. A cake takes 2 hours to make while a batch of cookies takes 1
+      hour to make. The bakery can spend at most 12 hours per day baking. Each
+      cake requires 3 units of flour and a batch of cookies requires 1 unit of
+      flour. The bakery has at most 15 units of flour available each day. The
+      bakery earns profit per cake and profit per batch of cookies. Without an
+      increase in the units of flour and hours of baking, how many of each
+      product should be baked daily to make the most profit?
+    </p>
+
+    <p>
+      <term>Step 1:</term> Identify the constraints communicated by the
+      bakery.
+
+      <md>
+        <mrow>
+          \begin{cases} 2x + y \le 12 \\ 3x + y \le 15 \\ x \ge 0 \\ y \ge 0
+          \end{cases}
+        </mrow>
+      </md>
+
+      <term>Step 2:</term> Write out the equation of the profit (objective
+      function).
+    </p>
+
+    <p><m>P = 5x + 3y</m></p>
+
+    <p><term>Step 3:</term> Graph the inequalities.</p>
+
+    <image source="figures/fig2-6.png" width="85%">
+      <shortdescription>image</shortdescription>
+    </image>
+
+    <p>
+      <term>Step 4:</term> Identify the coordinates of the vertices to the
+      solution region.
+    </p>
+
+    <p><m>(0, 12)</m>, <m>(5, 0)</m>, <m>(4, 6)</m> and <m>(0,0)</m></p>
+
+    <p>
+      <term>Step 5:</term> Substitute the coordinates of the vertices into the
+      profit equation.
+
+      <md>
+        <mrow>\text{At } (0, 12),\ \text{P} &amp;= 5(0) + 3(12)</mrow>
+
+        <mrow>&amp;= 36</mrow>
+
+        <mrow>\text{At } (5, 0),\ \text{P} &amp;= 5(5) + 3(0)</mrow>
+
+        <mrow>&amp;= 25</mrow>
+
+        <mrow>\text{At } (4, 6),\ \text{P} &amp;= 5(4) + 3(6)</mrow>
+
+        <mrow>&amp;= 38</mrow>
+
+        <mrow>\text{At } (0, 0),\ \text{P} &amp;= 5(0) + 3(0)</mrow>
+
+        <mrow>&amp;= 0</mrow>
+      </md>
+
+      <term>Step 6:</term> Write out your conclusion.
+    </p>
+
+    <p>
+      The bakery should bake 4 cakes and 6 batches of cookies daily to make
+      the most profit.
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Example 2.17 A farmer has 300 metres of fencing material to enclose a
+      rectangular field for planting crops. The farmer wants to maximise the
+      area of the field to get the best crop yield, but there is a
+      restriction. The length of the field must be 10 metres longer than the
+      width to accommodate the farm machinery.
+    </p>
+
+    <p>
+      What should be the dimensions of the field that will maximise the
+      enclosed area, keeping in mind the restriction on the total fencing
+      available?
+    </p>
+
+    <p><term>Step 1:</term> Represent the statement algebraically.</p>
+
+    <p>Let <m>w</m> be the width of the field</p>
+
+    <p>Length of the field <m>= w + 10</m></p>
+
+    <p><term>Step 2:</term> Write the equation for perimeter of the field.</p>
+
+    <p>
+      Since Perimeter(P) <m>= 2(width) + 2(length)</m>,
+
+      <md>
+        <mrow>\text{P} &amp;= 2\text{w} + 2(\text{w} + 10)</mrow>
+
+        <mrow>\text{P} &amp;= 2\text{w} + 2\text{w} + 20</mrow>
+
+        <mrow>\text{P} &amp;= 4\text{w} + 20.</mrow>
+      </md>
+
+      <term>Step 3:</term> Set up the linear inequality
+    </p>
+
+    <p>
+      Since the material available for fencing is 300m, the total distance
+      around the field can be less or equal to 300.
+    </p>
+
+    <p><m>4\text{w} + 20 \le 300</m></p>
+
+    <p>
+      <term>Step 4:</term> Simplify the inequality.
+
+      <md>
+        <mrow>4\text{w} &amp;\le 300 - 20</mrow>
+
+        <mrow>4\text{w} &amp;\le 280</mrow>
+
+        <mrow>\text{w} &amp;\le \frac{280}{4}</mrow>
+
+        <mrow>\text{w} &amp;\le 70</mrow>
+      </md>
+
+      So, the width of the field must be less than or equal to 70 metres.
+    </p>
+
+    <p><term>Step 5:</term> Test values for width.</p>
+
+    <p>
+      Since the highest value for the width will be 70, the length will be
+      <m>70 + 10 = 80</m>
+    </p>
+
+    <p>
+      Testing for perimeter, <m>2(70) + 2(80) = 300</m>, satisfying perimeter
+      requirement.
+    </p>
+
+    <p>
+      Testing for maximum area of the rectangular field: length <m>\times</m>
+      width
+    </p>
+
+    <p>Area <m>= 70 \times 80 = 5600 \text{ m}^2</m></p>
+
+    <p><term>Step 6:</term> State your conclusion</p>
+
+    <p>
+      The area can be maximised when the rectangle has dimensions of 70 by 80,
+      satisfying all constraints.
+    </p>
+  </example>
+
+  <activity>
+    <p>
+      Activity 2.5 <ndash/> Real Life Project Involving Linear Inequalities
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Identify an industry or company that produces/manufactures goods
+            in your locality.
+          </p>
+        </li>
+        <li>
+          <p>
+            Obtain the restrictions/constraints guiding the production of
+            their goods.
+          </p>
+        </li>
+        <li>
+          <p>Identify the profit made on the items of production.</p>
+        </li>
+        <li>
+          <p>
+            Write a two-page report comprising:
+
+            <ol>
+              <li>
+                <p>where the company is located.</p>
+              </li>
+              <li>
+                <p>
+                  goods produced and constraints communicated by the company
+                  officials.
+                </p>
+              </li>
+              <li>
+                <p>expected profit on each of the goods.</p>
+              </li>
+              <li>
+                <p>
+                  an algebraic representation of constraints and objective
+                  function.
+                </p>
+              </li>
+              <li>
+                <p>
+                  a graphical representation of constraints (manually or by
+                  software).
+                </p>
+              </li>
+              <li>
+                <p>
+                  a suggestion on the decision the company should make to
+                  minimise profit.
+                </p>
+              </li>
+              <li>
+                <p>
+                  a suggestion on the decision the company should make to
+                  maximise profit.
+                </p>
+              </li>
+              <li>
+                <p>conclusion based on your observations and findings.</p>
+              </li>
+            </ol>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </activity>
+</section>

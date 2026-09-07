@@ -1,0 +1,309 @@
+<section xml:id="sum-of-an-arithmetic-progression-ap">
+  <title>Sum of an Arithmetic Progression (AP)</title>
+
+  <introduction>
+    <activity>
+      <p>Activity 2.2</p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              Working in pairs or small groups, work through the following
+              steps to discover how to find the general sum of an arithmetic
+              sequence, ie a sequence with a common difference.
+            </p>
+          </li>
+          <li>
+            <p>
+              Let <m>Sn</m> denote the sum of the first <m>n</m> terms of a
+              linear sequence, where <q><m>a</m></q> is the first term and
+              <q><m>d</m></q> the common difference.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>Sn = a + (a+d) + (a+2d) + \ldots + [a+(n-1)d] \
+              \ldots\ldots\ldots\ldots\ldots\ (1)</m>
+            </p>
+          </li>
+          <li>
+            <p>Writing the terms in the reverse order, we get :</p>
+          </li>
+          <li>
+            <p>
+              <m>Sn = [a+(n-1)d] + [a+2d(n-2)] + \ldots + (a+2d) + (a+d) + a \
+              \ldots\ldots\ldots\ (2)</m>
+            </p>
+
+            <p>
+              Adding (1) and (2), we get
+
+              <md>
+                <mrow>
+                  2Sn = [2a+(n-1)d] + [2a+(n-1)d] + [2a+(n-1)d] + \ldots =
+                  n[2a+(n-1)d]
+                </mrow>
+              </md>
+
+              (Since we are adding <m>n</m> terms we have <m>n</m> lots of
+              this expression.)
+
+              <md>
+                <mrow>S_n = \frac{n}{2}[2a + (n-1)d]</mrow>
+              </md>
+            </p>
+          </li>
+          <li>
+            <p>Let <m>U_1 = a</m>,</p>
+          </li>
+          <li>
+            <p>Then, <m>Sn = \frac{n}{2}\big[2U_1 + (n-1)d\big]</m></p>
+          </li>
+          <li>
+            <p>
+              Similarly, <m>Sn = \frac{n}{2}\big[U_1 + \{U_1 +
+              (n-1)d\}\big]</m>
+            </p>
+          </li>
+          <li>
+            <p>But <m>U_n = U_1 + (n-1)d</m></p>
+          </li>
+          <li>
+            <p>By substitution, we get</p>
+          </li>
+          <li>
+            <p>
+              <m>S_n = \frac{n}{2}\big[U_1 + U_n\big]</m> (Remember that
+              <m>U_1</m> = the first term and <m>U_n</m> = the last term)
+            </p>
+          </li>
+        </ol>
+      </p>
+    </activity>
+
+    <example>
+      <p>Example 2.2</p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              Find the sum of the first 35 terms of the linear sequence 2, 5,
+              8<ellipsis/>
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        <md>
+          <mrow>a &amp;= 2,\ d = 3 \text{ and } n = 35</mrow>
+
+          <mrow>Sn &amp;= \frac{n}{2}\big[2a + (n-1)d\big]</mrow>
+
+          <mrow>
+            S_{35} &amp;= \frac{35}{2}\big[2(2) + (35-1)(3)\big] = 1855
+          </mrow>
+        </md>
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              A sequence is defined by <m>U_{n+1} = 3 + U_n</m> and <m>U_1 =
+              1</m>
+            </p>
+          </li>
+          <li>
+            <p>Find the sum of the first ten terms of the sequence.</p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        <md>
+          <mrow>U_{n+1} &amp;= 3 + U_n</mrow>
+
+          <mrow>U_1 &amp;= 1\ (= a)</mrow>
+
+          <mrow>U_2 &amp;= 4</mrow>
+        </md>
+
+        Common difference <m>d = U_2 - U_1 = 4 - 1 = 3</m>
+
+        <md>S_n = \frac{n}{2}[2a + (n-1)d],</md>
+
+        where <m>a</m> = first term, <m>d</m> the common difference and
+        <m>n</m> the number of terms
+
+        <md>
+          <mrow>S_{10} &amp;= \frac{10}{2}[2(1) + (10-1)3]</mrow>
+
+          <mrow>S_{10} &amp;= 5[2 + 9(3)]</mrow>
+
+          <mrow>S_{10} &amp;= 5[29]</mrow>
+
+          <mrow>S_{10} &amp;= 145</mrow>
+        </md>
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>Find the sum of the first 10 positive even numbers:</p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        <md>
+          <mrow>S_{10} &amp;= 2 + 4 + 6 + 8 + 10 \cdots + 18 + 20</mrow>
+
+          <mrow>
+            S_n &amp;= \frac{n}{2}[U_1 + U_n] = \frac{n}{2}[\textit{first
+            term} + \textit{last term}]
+          </mrow>
+
+          <mrow>S_{10} &amp;= \frac{10}{2}[2 + 20] = 5 \times 22 = 110</mrow>
+        </md>
+      </p>
+    </example>
+
+    <example>
+      <p>
+        Example 2.3 A conference hall has 189 seats, arranged in 9 rows. The
+        organiser wants to arrange the seats such that the difference in the
+        number of seats between any two consecutive rows is 5 seats. If there
+        are 9 rows in total, how many seats should be in the third row?
+      </p>
+
+      <p>Number of rows <m>n = 9</m></p>
+
+      <p>Capacity of the room <m>S_9 = 189</m></p>
+
+      <p>Difference <m>d = 5</m></p>
+
+      <p>
+        Let the number of seats in the first row <m>= a</m>
+
+        <md>
+          <mrow>S_n &amp;= \frac{n}{2}[2a + (n-1)d]</mrow>
+
+          <mrow>S_9 &amp;= \frac{9}{2}[2a + (9-1)5]</mrow>
+
+          <mrow>189 &amp;= \frac{9}{2}[2a + (8)5]</mrow>
+
+          <mrow>378 &amp;= 9[2a + (8)5]</mrow>
+
+          <mrow>378 &amp;= 18a + 360</mrow>
+
+          <mrow>18a &amp;= 378 - 360</mrow>
+
+          <mrow>18a &amp;= 18</mrow>
+
+          <mrow>a &amp;= 1</mrow>
+        </md>
+
+        Number of seats in the third row <m>a + 2d \Rightarrow 1 + 2(5) =
+        11</m>
+      </p>
+    </example>
+  </introduction>
+
+  <subsection xml:id="sum-of-a-geometric-progression-gp">
+    <title>Sum of a Geometric Progression (GP)</title>
+
+    <p>
+      Remember that a geometric progression has the first term, <m>a</m> and a
+      common ratio, <m>r</m>.
+    </p>
+
+    <p>
+      The position of terms represented by <m>n</m> can be written as:
+
+      <md>
+        <mrow>
+          S_n &amp;= a + ar + ar^2 + ar^3 + \ldots + ar^{n-2} + ar^{n-1} \
+          \ldots\ldots\ (1)
+        </mrow>
+
+        <mrow>
+          rS_n &amp;= ar + ar^2 + ar^3 + \ldots\ldots + ar^{n-1} + ar^{n} \
+          \ldots\ldots\ (2)
+        </mrow>
+      </md>
+
+      <m>\text{eqn } (2) - \text{eqn } (1)</m>
+
+      <md>
+        <mrow>rSn - Sn &amp;= -a + ar^n</mrow>
+
+        <mrow>S_n(r-1) &amp;= ar^n - a</mrow>
+
+        <mrow>
+          S_n &amp;= \frac{a(r^n - 1)}{r - 1} = \frac{-a(1 - r^n)}{-(1 - r)}
+        </mrow>
+
+        <mrow>S_n &amp;= \frac{a(r^n - 1)}{r - 1},\ r \ne 1</mrow>
+
+        <mrow>S_n &amp;= \frac{a(1 - r^n)}{(1 - r)},\ r \ne 1</mrow>
+      </md>
+    </p>
+
+    <example>
+      <p>
+        Example 2.4 Find the sum of the first seven terms of the sequence 2,
+        8, 32<ellipsis/>
+      </p>
+
+      <p>
+        <md>
+          <mrow>S_n &amp;= \frac{a(r^n - 1)}{r - 1},\ r \ne 1</mrow>
+
+          <mrow>a &amp;= 2,\ r = 4 \text{ and } n = 7</mrow>
+
+          <mrow>S_7 &amp;= \frac{2(4^7 - 1)}{4 - 1}</mrow>
+
+          <mrow>S_7 &amp;= \frac{2(16384 - 1)}{3}</mrow>
+
+          <mrow>S_7 &amp;= \frac{2 \times 16\,382}{3}</mrow>
+
+          <mrow>S_7 &amp;= 10922</mrow>
+        </md>
+      </p>
+    </example>
+
+    <example>
+      <p>
+        Example 2.5 Find the sum of the first 10 terms of <m>\frac{1}{2},
+        \frac{1}{4}, \frac{1}{8}, \ldots</m>
+      </p>
+
+      <p>
+        <md>
+          <mrow>S_n &amp;= \frac{a(1 - r^n)}{(1 - r)},\ r \ne 1</mrow>
+
+          <mrow>
+            a &amp;= \frac{1}{2},\ r = \frac{1}{2} \text{ and } n = 10
+          </mrow>
+
+          <mrow>
+            S_{10} &amp;= \frac{\frac{1}{2}\left(1 -
+            \left(\frac{1}{2}\right)^{10}\right)}{\left(1 -
+            \frac{1}{2}\right)}
+          </mrow>
+
+          <mrow>
+            S_{10} &amp;= \frac{1}{2}\left(1 - \frac{1}{1024}\right)
+          </mrow>
+
+          <mrow>S_{10} &amp;= \frac{1024 - 1}{1024}</mrow>
+
+          <mrow>S_{10} &amp;= \frac{1023}{1024}</mrow>
+        </md>
+      </p>
+    </example>
+  </subsection>
+</section>

@@ -1,0 +1,342 @@
+<section xml:id="recursive-sequences">
+  <title>Recursive Sequences</title>
+
+  <introduction>
+    <p>
+      A recursive sequence is a sequence where each term is defined using
+      previous terms.
+    </p>
+
+    <p>For example, for an Arithmetic Sequence:</p>
+
+    <p>First term <m>a_1 = 2</m></p>
+
+    <p>Recursive formula: <m>a_n = a_{n-1} + 3</m></p>
+
+    <p>
+      <ol>
+        <li>
+          <p>Start with <m>a_1 = 2</m></p>
+        </li>
+        <li>
+          <p>
+            To find <m>a_2</m>, add 3 to <m>a_1</m> : <m>a_2 = 2 + 3 = 5</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            To find <m>a_3</m>, add 3 to <m>a_2</m> : <m>a_3 = 5 + 3 = 8</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            To find <m>a_4</m>, add 3 to <m>a_3</m> : <m>a_4 = 8 + 3 = 11</m>
+          </p>
+
+          <p>Sequence: <m>2, 5, 8, 11, 14, 17, \dots</m></p>
+        </li>
+      </ol>
+    </p>
+
+    <p>For example, for a Geometric Sequence:</p>
+
+    <p>First Term: <m>a_1 = 2</m></p>
+
+    <p>Recursive formula: <m>a_n = 2 \times a_{n-1}</m></p>
+
+    <p>
+      <ol>
+        <li>
+          <p>Start with <m>a_1 = 2</m></p>
+        </li>
+        <li>
+          <p>
+            To find <m>a_2</m>, multiply <m>a_1</m> <em>by</em> <m>2 \implies
+            a_2 = 2 \times 2 = 4</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            To find <m>a_3</m>, multiply <m>a_2</m> <em>by</em> <m>2 \implies
+            a_3 = 2 \times 4 = 8</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            To find <m>a_4</m>, multiply <m>a_3</m> <em>by</em> <m>2 \implies
+            a_4 = 2 \times 8 = 16</m>
+          </p>
+
+          <p>Sequence: <m>2, 4, 8, 16, 32, 64, \dots</m></p>
+        </li>
+      </ol>
+    </p>
+
+    <p>In both examples;</p>
+
+    <p>
+      <ul>
+        <li>
+          <p>The first term <m>(a_1)</m> is given</p>
+        </li>
+        <li>
+          <p>
+            The recursive formula defines how to find the next term
+            <m>(a_n)</m> using the previous term <m>(a_{n-1})</m>
+          </p>
+        </li>
+      </ul>
+    </p>
+  </introduction>
+
+  <subsection xml:id="recurrent-decimals">
+    <title>Recurrent decimals</title>
+
+    <p>
+      Recurrent decimals are repeated decimals. It can be seen that every
+      recurrent decimal represents a rational number. Every rational number
+      can be represented by a terminal decimal or a recurrent decimal. If the
+      denominator of a rational number (written in its simplest form) has
+      prime factors, other than 2 and 5, then the rational number is
+      recognised as a recurrent decimal.
+    </p>
+
+    <p>
+      For example; <m>\frac{5}{9} = 0.5555\ldots</m> <em>or</em>
+      <m>0.\dot{5}</m>, <m>\frac{2}{11} = 0.181818\ldots</m> <em>or</em>
+      <m>0.\dot{1}\dot{8}</m>, <m>\frac{8}{15} = 0.53333\ldots</m> <em>or</em>
+      <m>0.5\dot{3}</m>
+    </p>
+
+    <example>
+      <p>
+        Example 2.7 Write the recurring decimals as a series. Identify the
+        common ratio, the first term and an explicit formula for the
+        <m>n</m>th term:
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p><m>0.222222, \dots</m></p>
+          </li>
+          <li>
+            <p><m>0.323232, \dots</m></p>
+          </li>
+          <li>
+            <p><m>5.414141, \dots</m></p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              <m>0.2222... = 0.2 + 0.02 + 0.002 + 0.0002 + \cdots</m>
+
+              <md>
+                <mrow>
+                  &amp;= 0.2 + 0.2(0.1) + 0.2(0.01) + 0.2(0.001) + \cdots
+                </mrow>
+
+                <mrow>
+                  &amp;= 0.2 + 0.2(0.1) + 0.2(0.1)^2 + 0.2(0.1)^3 + \cdots
+                </mrow>
+              </md>
+
+              The first term is 0.2, and the common ratio between each
+              successive term is 0.1. The formula for the <m>n</m>th term will
+              be <m>U_n = 0.2\left(\frac{1}{10}\right)^{n-1}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>0.323232\ldots = 0.32 + 0.0032 + 0.000032 + 0.00000032 +
+              \cdots</m>
+
+              <md>
+                <mrow>
+                  &amp;= 0.32 + 0.32(0.01) + 0.32(0.0001) + 0.32(0.000001) +
+                  \cdots
+                </mrow>
+
+                <mrow>
+                  &amp;= 0.32 + 0.32(0.01) + 0.32(0.01)^2 + 0.32(0.01)^3 +
+                  \cdots
+                </mrow>
+              </md>
+
+              The first term is 0.32, and the common ratio between each
+              successive term is 0.01. The formula for the <m>n</m>th term
+              will be <m>U_n = 0.32\left(\frac{1}{100}\right)^{n-1}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>5.414141\ldots = 5 + 0.41 + 0.0041 + 0.000041 + 0.00000041 +
+              \cdots</m>
+
+              <md>
+                <mrow>
+                  <mn>5</mn><mo>+</mo><mn>0.41</mn><mo>+</mo><mn>0.41</mn><mo stretchy="false">(</mo><mn>0.01</mn><mo stretchy="false">)</mo><mo>+</mo><mn>0.41</mn><mo stretchy="false">(</mo><mn>0.1</mn><mo stretchy="false">)</mo><msup><mrow/><mn>2</mn></msup><mo>+</mo><mn>0.41</mn><mo stretchy="false">(</mo><mn>0.1</mn><mo stretchy="false">)</mo><msup><mrow/><mn>3</mn></msup><mo>+</mo><mo>⋯</mo>
+                </mrow>
+              </md>
+
+              From the second term (0.41), a geometric sequence with first
+              term 0.41, and the common ratio 0.01 can be observed. The
+              formula for the <m>n</m>th term will be
+            </p>
+
+            <p>
+              For <m>0.414141, \dots</m>, <m>U_n =
+              0.41\left(\frac{1}{100}\right)^{n-1}</m>
+            </p>
+
+            <p>
+              Thus, <m>5.414141\ldots = 5 +
+              0.41\left(\frac{1}{100}\right)^{n-1}</m> for <m>n = 1, 2, 3,
+              \ldots</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </example>
+
+    <example>
+      <p>
+        Example 2.8 Write <m>0.9999, \dots</m> as an exponential series and
+        show that in the limit, the sum of series equals one.
+      </p>
+
+      <p><m>0.9999\ldots = 0.9 + 0.09 + 0.009 + 0.0009 + \ldots</m></p>
+
+      <p>
+        This is a G.P. with first term, <m>a = 0.9</m> and common ratio, <m>r
+        = \frac{0.09}{0.9} = 0.1</m>
+      </p>
+
+      <p>
+        The series is an infinite series with sum; <m>S_\infty = \frac{a}{1 -
+        r} = \frac{0.9}{1 - 0.1} = \frac{0.9}{0.1} = 1</m>
+      </p>
+    </example>
+
+    <example>
+      <p>
+        Example 2.9 Express <m>0.1\dot{6}</m> as an infinite geometric series
+        and find the sum of the geometric series.
+      </p>
+
+      <p>
+        <md>
+          <mrow>0.1\dot{6} &amp;= 0.166666\ldots</mrow>
+
+          <mrow>&amp;= 0.1 + 0.06 + 0.006 + 0.0006 + \ldots</mrow>
+
+          <mrow>
+            &amp;= \frac{1}{10} + \frac{6}{100} + \frac{6}{1000} +
+            \frac{6}{10000} + \ldots
+          </mrow>
+        </md>
+
+        From the series, the term after <m>\frac{1}{10}</m> from geometric
+        series with <m>a = \frac{6}{100}</m>, <m>r = \frac{6}{1000} \div
+        \frac{6}{100} = \frac{1}{10}</m>
+      </p>
+
+      <p>
+        Sum of the geometric series:
+
+        <md>
+          <mrow>
+            0.0\dot{6} = S_\infty &amp;= \frac{\frac{6}{100}}{1 -
+            \frac{1}{10}}
+          </mrow>
+
+          <mrow>&amp;= \frac{\frac{6}{100}}{\frac{9}{10}}</mrow>
+
+          <mrow>&amp;= \frac{1}{15}</mrow>
+        </md>
+
+        <m>\therefore 0.1\dot{6} = \frac{1}{10} + \frac{1}{15} =
+        \frac{1}{6}</m>
+      </p>
+    </example>
+
+    <example>
+      <p>
+        Example 2.10 If a sequence <m>U_1, U_2, U_3\ldots</m> is define by the
+        relation <m>U_{n+1} = 3 + U_n</m> for <m>n \ge 1</m> and <m>U_1 =
+        1</m>, find;
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p><m>U_2, U_3</m> and <m>U_4</m></p>
+          </li>
+          <li>
+            <p>a formula for <m>U_n</m> in terms of <m>n</m>.</p>
+          </li>
+          <li>
+            <p>the sum of the 1<em>st</em> <m>n</m> terms</p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              Using the relation
+
+              <md>
+                <mrow>U_{n+1} &amp;= 3 + U_n</mrow>
+
+                <mrow>\text{If } n &amp;= 1</mrow>
+
+                <mrow>U_2 &amp;= 3 + U_1 = 3 + 1 = 4</mrow>
+
+                <mrow>U_3 &amp;= 3 + U_2 = 3 + 4 = 7</mrow>
+
+                <mrow>U_4 &amp;= 3 + U_3 = 3 + 7 = 10</mrow>
+              </md>
+
+              The sequence is <m>1, 4, 7, 10, \ldots</m>, so it is a linear
+              sequence
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>U_n = a + (n-1)d</m> and <m>a = 1, d = 3</m>
+
+              <md>
+                <mrow>U_n &amp;= 1 + (n-1)3</mrow>
+
+                <mrow>U_n &amp;= 1 + 3n - 3</mrow>
+
+                <mrow>U_n &amp;= 3n - 2</mrow>
+              </md>
+            </p>
+          </li>
+          <li>
+            <p>
+              The sum of <m>n</m> terms of <m>1, 4, 7, 10, \ldots</m>
+
+              <md>
+                <mrow>S_n &amp;= \frac{n}{2}[2a + (n-1)d]</mrow>
+
+                <mrow>S_n &amp;= \frac{n}{2}[2(1) + (n-1)3]</mrow>
+
+                <mrow>S_n &amp;= \frac{n}{2}[2 + 3n - 3]</mrow>
+
+                <mrow>S_n &amp;= \frac{n}{2}[3n - 1]</mrow>
+              </md>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </example>
+  </subsection>
+</section>

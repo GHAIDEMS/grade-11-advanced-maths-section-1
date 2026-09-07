@@ -14,22 +14,66 @@
         <title>Section 1</title>
 
         <!-- Introduction -->
-        <xi:include href="01-intro.ptx"/>
-        
+        <xi:include href="section01/01-intro.ptx"/>
+
         <!-- De Morgans Laws -->
-        <xi:include href="02-demorgans.ptx"/>
+        <xi:include href="section01/02-demorgans.ptx"/>
 
         <!-- Applying De Morgans Laws -->
-        <xi:include href="03-applying-demorgans.ptx"/>
+        <xi:include href="section01/03-applying-demorgans.ptx"/>
 
         <!-- Binomial Expansion -->
-        <xi:include href="04-binomial-expansion.ptx"/>
+        <xi:include href="section01/04-binomial-expansion.ptx"/>
 
         <!-- Approximations -->
-        <xi:include href="05-approximations.ptx"/>
+        <xi:include href="section01/05-approximations.ptx"/>
 
         <!-- Exercises -->
-        <xi:include href="06-exercises.ptx"/>
+        <xi:include href="section01/06-exercises.ptx"/>
+
+    </chapter>
+
+    <chapter xml:id="section-2">
+        <title>Section 2</title>
+
+        <!-- Introduction -->
+        <xi:include href="section02/01-intro.ptx"/>
+
+        <!-- Sum of Sequences -->
+        <xi:include href="section02/02-sum-of-sequences.ptx"/>
+
+        <!-- Sum of an Arithmetic Progression (AP) -->
+        <xi:include href="section02/03-arithmetic-and-geometric.ptx"/>
+
+        <!-- Convergence and Divergence of Series -->
+        <xi:include href="section02/04-convergence.ptx"/>
+
+        <!-- Recursive Sequences -->
+        <xi:include href="section02/05-recursive.ptx"/>
+
+        <!-- Arithmetic and Geometric Means of Sequences -->
+        <xi:include href="section02/06-means.ptx"/>
+
+        <!-- Determining Maximum/Minimum Values -->
+        <xi:include href="section02/07-max-min.ptx"/>
+
+        <!-- Solving Real Life Problems Involving Systems of Linear Inequalities -->
+        <xi:include href="section02/08-real-life.ptx"/>
+
+        <!-- Solving Quadratic Inequalities -->
+        <xi:include href="section02/09-quadratic-inequalities.ptx"/>
+
+        <!-- Solving Systems of Quadratic Inequalities -->
+        <xi:include href="section02/10-systems-quadratic.ptx"/>
+
+        <!-- Solving Real-Life Problems Involving Quadratic Inequalities, and Extended Reading -->
+        <xi:include href="section02/11-real-life-quadratic.ptx"/>
+
+        <!-- Exercises -->
+        <xi:include href="section02/12-exercises.ptx"/>
+
+        <!-- Answers -->
+        <xi:include href="section02/answers.ptx"/>
 
     </chapter>
 

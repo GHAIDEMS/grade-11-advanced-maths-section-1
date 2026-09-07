@@ -1,0 +1,141 @@
+<section xml:id="convergence-and-divergence-of-series">
+  <title>Convergence and Divergence of Series</title>
+
+  <introduction>
+    <p>
+      A series is a sum of a sequence of numbers. For example, <m>1 + 2 + 3 +
+      4 + \ldots</m>
+    </p>
+  </introduction>
+
+  <subsection xml:id="convergence-of-series">
+    <title>Convergence of series</title>
+
+    <p>
+      A series is <term>convergent</term> if its sum approaches a finite
+      value. Think of it like a target.
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            The series get closer and closer to the target (the finite value).
+          </p>
+        </li>
+        <li>
+          <p>The sum of the series stabilises.</p>
+        </li>
+        <li>
+          <p>
+            Example, <m>1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} +
+            \ldots</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            As <m>n</m> increases the <m>n</m>th term is converging to 0 and
+            the sum of the series is converging to 2.
+          </p>
+        </li>
+        <li>
+          <p>
+            If the limit of the <m>n</m>th term is 0, the series might
+            converge.
+          </p>
+        </li>
+        <li>
+          <p>
+            If the ratio between the terms is constant, then the series
+            converges when <m>|r| &lt; 1</m>.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </subsection>
+
+  <subsection xml:id="divergence">
+    <title>Divergence</title>
+
+    <p>
+      A series is <term>divergent</term> if its sum grows without bounds or
+      approaches infinity. Think of it like a runaway train:
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>The series gets farther and farther away from a finite value.</p>
+        </li>
+        <li>
+          <p>The sum of the series increases indefinitely.</p>
+        </li>
+        <li>
+          <p>Example; <m>1 + 2 + 4 + 8 + \ldots</m> this series diverges.</p>
+        </li>
+      </ol>
+    </p>
+
+    <p>If the limit of the <m>n</m>th term is not 0, the series diverges.</p>
+
+    <p>
+      If the ratio between term is greater than 1, the series diverges, ie
+      <m>|r| &gt; 1</m>
+    </p>
+  </subsection>
+
+  <subsection xml:id="sum-to-infinity-of-a-convergent-geometric-progression">
+    <title>Sum to infinity of a convergent Geometric Progression</title>
+
+    <p>For the general exponential sequence (GP):</p>
+
+    <p>
+      <m>S_n = \frac{a(1 - r^n)}{(1 - r)}</m>, <em>if</em> <m>-1 &lt; r &lt;
+      1</m>, then <m>r^n</m> becomes smaller and smaller as <m>n</m> becomes
+      larger and larger, so as <m>n \longrightarrow \infty</m> then <m>r^n \to
+      0</m> and <m>(1 - r^n) \to 1</m>.
+    </p>
+
+    <p>
+      We say the limiting value is denoted <m>S_\infty</m> is <m>\frac{a}{1 -
+      r}</m>.
+    </p>
+
+    <p>
+      Hence, the sum to infinity of <m>a, ar, ar^2, \ldots</m> is given by
+      <m>S_\infty = \frac{a}{1 - r}</m>, provided <m>-1 &lt; r &lt; 1</m>.
+    </p>
+
+    <example>
+      <p>
+        Example 2.6 Determine the sum to infinity of the geometric series
+        <m>5, -1 + \frac{1}{5}, \ldots</m>
+      </p>
+
+      <p><m>5, -1 + \frac{1}{5}, \ldots</m></p>
+
+      <p><m>a = 5</m>, <m>r = -\frac{1}{5}</m></p>
+
+      <p>
+        The sum to infinity is
+
+        <md>
+          <mrow>S_\infty &amp;= \frac{a}{1 - r}</mrow>
+
+          <mrow>
+            &amp;= \frac{5}{1 - \left(-\frac{1}{5}\right)} =
+            \frac{5}{\left(\frac{6}{5}\right)} = \frac{25}{6} = 5\frac{1}{6}
+          </mrow>
+        </md>
+      </p>
+    </example>
+
+    <p>
+      <term>Note:</term> <m>S_1, S_2, S_3, \ldots</m> are the partial sums of
+      the series. If there is a number <m>L</m> such that: <m>S_n =
+      \sum_{r=1}^{\infty} Sn = L</m>. The number <m>L</m> is called the sum of
+      the infinity series. If there is no such number, the series is said to
+      diverge.
+    </p>
+  </subsection>
+</section>
