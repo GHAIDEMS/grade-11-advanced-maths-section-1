@@ -36,3 +36,23 @@ S3-18,3,455,Answer key Section 3 Q6(b),error,"…, −√5, √5","−i√5, i�
 S3-19,3,455,Answer key Section 3 Q8,error,"a = 11, b = 6; (2x + 1)(x + 2)(x + 3)","answer does not fit Q(x) = 10x³ + ax² − 10x + b (leading coefficient 2, Q(−½) = 12.5, Q(−1) = 17); as printed the question has no integer solution",verbatim + note,open,transcription,2026-09-08,question or answer needs rewriting
 S3-20,3,455,Answer key Section 3 Q9,error,x⁴ − 6x³ + 24x² − 38x + 29,x⁴ − 6x³ + 24x² − 38x + 39,verbatim + note,open,transcription,2026-09-08,
 S3-21,3,456,Answer key Section 3 Q11(c),error,x⁴ − 8x² + 16,x⁴ − 4x³ − 3x² + 16x − 4 (= (x² − 4)(x² − 4x + 1)),verbatim + note,open,transcription,2026-09-08,
+S4-01,4,138,Example 4.1 solution,error,working of part (c) lettered d. to j.,one part c.; the question has parts a-c only,verbatim + note,open,transcription,2026-09-08,
+S4-02,4,138,Example 4.1 solution (c),error,(-5—15)^2,(-5 - (-15))^2 = 10^2,verbatim + note,open,transcription,2026-09-08,
+S4-03,4,142,Example 4.2 solution,error,solution lettered a. to i. for four parts,"(b) = b-e, (c) = f-h, (d) = i",verbatim + note,open,transcription,2026-09-08,
+S4-04,4,145-146,Example 4.4 solution,error,b. labels the centre and equation (part of (a)); the answers 57km and 23 km both sit under c.,b. 57km; c. 23 km,verbatim + note,open,transcription,2026-09-08,
+S4-05,4,149,Example 4.6 (a) Method 2,error,"Centre = (-4 _ -2, -2 _ -2)","(-4 ÷ -2, -2 ÷ -2)",verbatim + note,open,transcription,2026-09-08,InMath division sign lost
+S4-06,4,150,Example 4.6 (d) Method 1,error,two equations on one line; (x - 1)^2 + (y + 0)^2 = 1 _ 4,= 1/4,verbatim + note,open,transcription,2026-09-08,
+S4-07,4,152,Example 4.7 Method 1,error,four lines of working numbered 1. to 4.,unnumbered working,verbatim + note,open,transcription,2026-09-08,
+S4-08,4,152,Method 2 text after Figure 4.15,error,is AOB = 90°,APB = 90° (O is the centre),verbatim + note,open,transcription,2026-09-08,
+S4-09,4,153,Example 4.7 Method 2,error,"gradient connecting (-2, 2) and (x, y) = -2/(x - (-2))",(y - 2)/(x - (-2)),verbatim + note,open,transcription,2026-09-08,
+S4-10,4,160,Example 4.9 solution,error,m = -(12 - 0)/(5 - 0) = -1 2/5; gradient of tangent -1/m = -(1/12)/5 = 1 × 5/12,m = -12/5 = -2 2/5; -1/m = -1/(-12/5) = 5/12,verbatim + note,open,transcription,2026-09-08,
+S4-11,4,163-164,Example 4.12 (question and Figure 4.25 caption),error,circle x² + y² - 2x + 12y - 3 = 0,"solution works x² + y² - 6x + 4y - 3 = 0 (centre (3, -2), r = 4); for the printed circle L = √61",verbatim + note,open,transcription,2026-09-08,question or solution needs rewriting
+S4-12,4,165,Example 4.13 (a),error,(x - (-5)^2 + (y - (-2))^2 = 3^2,(x - (-5))^2 + …,verbatim + note,open,transcription,2026-09-08,
+S4-13,4,165,Example 4.13 (b),error,√(6² - 3²) = √(36 - 6) = √30,√(36 - 9) = √27 = 3√3,verbatim + note,open,transcription,2026-09-08,
+S4-14,4,166,Example 4.14 solution,error,Using the general equation of the circle,the standard equation (x - h)² + (y - k)² = r² is used,verbatim + note,open,transcription,2026-09-08,
+S4-15,4,172-175,Review Questions numbering,error,"questions numbered 1-25; single problems split over 1/2, 6/7, 10/11, 12/13, 14/15, 24/25; 1 g is the end of 1 f","19 problems, as in the answer key",verbatim + note,open,transcription,2026-09-08,
+S4-16,4,175,Review Questions Q21,error,lines 3y - x = 0 and x - 3y = 0,the two lines coincide; the question needs two different lines,verbatim + note,open,transcription,2026-09-08,see S4-20
+S4-17,4,456,Answer key Section 4 Q3(d),error,10 + 4√5,"10 + 2√5 (|AB| = √20, |BC| = |AC| = 5)",verbatim + note,open,transcription,2026-09-08,
+S4-18,4,457,Answer key Section 4 Q5(a),error,(x + 5)² + (y + 12)² = 30²,"(x - 5)² + (y - 12)² = 30² (post office is 5 km east, 12 km north of the house)",verbatim + note,open,transcription,2026-09-08,(b) 43km and (c) 17km are right
+S4-19,4,457,Answer key Section 4 Q9(b),error,x² + y² + 4x - 12 = 0,"x² + y² - 4x - 12 = 0 (centre (2, 0))",verbatim + note,open,transcription,2026-09-08,
+S4-20,4,458,Answer key Section 4 Q16,error,y - x = 0,does not follow: the two lines in the question are the same line (S4-16),verbatim + note,open,transcription,2026-09-08,

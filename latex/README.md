@@ -12,7 +12,8 @@ is committed, never the PDF or page scans.
 | 1 Sets and Binomial Expansions | `section01/` | 7–48 | Santiago's transcription (upload of 2026-08-27, moved here from `section1-latex/` on 2026-09-04); `answers.tex` added 2026-09-04 |
 | 2 Sequences and Inequalities | `section02/` | 49–87 | transcribed 2026-09-04, with answers (book pp. 452–453) |
 | 3 Polynomial Functions | `section03/` | 88–132 | transcribed 2026-09-08, with answers (book pp. 453–456); 21 errata (S3-01…S3-21) |
-| 4–14 | — | 133–447 | not started |
+| 4 Circles and Loci | `section04/` | 133–175 | transcribed 2026-09-08, with answers (book pp. 456–458); 20 errata (S4-01…S4-20) |
+| 5–14 | — | 176–447 | not started |
 
 `book.tex` builds the whole book (one `report` chapter per book Section, answers as an
 unnumbered chapter at the end).  Each `sectionNN/main.tex` builds that Section on its own.
@@ -22,8 +23,8 @@ original transcription lacked, with its five Venn diagrams cropped from the PDF 
 `section01/figures/ans-*.png`.  `book.tex` includes the answers; `section01/main.tex` does
 not, so `section01/main.pdf` (the compiled Section 1 committed with the original upload)
 is still an exact build of it.  Section 1 also keeps its own `section01/preamble.tex`, so it
-compiles standalone exactly as before; `book.tex`, `section02/main.tex` and `section03/main.tex` use the shared
-`preamble.tex`.
+compiles standalone exactly as before; `book.tex` and `section02/main.tex` to
+`section04/main.tex` use the shared `preamble.tex`.
 
 ## Building
 
