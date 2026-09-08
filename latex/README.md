@@ -80,3 +80,10 @@ Section 2 came to 1 650 lines of LaTeX, 7 cropped figures, 5 TikZ/pgfplots figur
 - `tools/crop_figures.py` — list the figure rectangles on a page, or crop one to PNG.
 
 Both need PyMuPDF (`fitz`).
+
+## Errata
+
+Every defect kept verbatim in the text carries a `\booknote[SN-kk]{...}` whose id is a row of
+`../errata.csv`; `tools/errata.py` checks the two agree and regenerates `../ERRATA.md`. The
+build workflow runs the check on every PR. Suggestions for changes (not errors) are rows of
+kind `suggestion` with an optional `% SUGGEST id:` comment at the spot. See `../CLAUDE.md`.
