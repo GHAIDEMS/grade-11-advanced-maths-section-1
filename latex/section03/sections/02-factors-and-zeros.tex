@@ -1,0 +1,384 @@
+% Book pp. 90-97 (PDF pp. 91-98)
+\section{Finding Factors and Zeros of Polynomial Functions}
+
+\begin{activity}{Activity 3.1: Revision of finding quadratic factors}
+In pairs or small groups or individually, perform these activities.
+\begin{enumerate}
+  \item Factorise the following quadratic expressions:
+  \begin{enumerate}
+    \item[a.] $y^2 + 3y + 2$
+    \item[b.] $3y^2 + 11y + 10$
+    \item[c.] $6x^2 + 5x + 1$
+    \item[d.] $x^2 - 9$
+  \end{enumerate}
+  \item Write down the factorising process clearly, showing each step taken to
+  arrive at the factors.
+  \item Exchange your work with other groups or peers to compare answers.
+  \item Discuss any differences in methods used and validate the correctness of
+  each group's results.
+\end{enumerate}
+\end{activity}
+
+An expression $(\boldsymbol{x + y})$ is a factor if you can multiply it by another
+expression $\boldsymbol{(e + f)}$ to get the original expression
+$(\boldsymbol{ex + fx + ey + fy})$. In simple terms, if you can find two or more
+expressions that multiply together to make a certain expression, then those are
+its factors.
+
+For example, $(x + 2)(x - 3)$ are factors of $x^2 - x - 6$ because expanding
+$(x + 2)(x - 3)$:
+
+$x(x - 3) + 2(x - 3)$
+
+$x^2 - 3x + 2x - 6$
+
+$x^2 - x - 6$
+
+Therefore, we see that $(x + 2)(x - 3)$ is indeed equal to $x^2 - x - 6$ confirming
+that they are factors of the expression. If you found activity 3.1 challenging, use
+the task below to help you.
+
+To \textbf{factorise quadratics} of the form $ax^2 + bx + c$:
+
+\medskip
+\noindent\textbf{Example}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{0.6\linewidth}|p{0.32\linewidth}|}
+\hline
+\textbf{Task} & $\boldsymbol{2x^2 + 7x + 6}$ \\
+\hline
+\textbf{Task 1}\newline
+Find two numbers that multiply to give ac (the product of a and c) and add to give b.
+& $a = 2$, $b = 7$ and $c = 6$\newline
+$ac = 2 \times 6 = 12$\newline
+$4 + 3 = 7$ and $4 \times 3 = 12$ \\
+\hline
+\textbf{Task 2}\newline
+Rewrite the middle term using these two numbers as coefficients of x.
+& $2x^2 + 4x + 3x + 6$ \\
+\hline
+\textbf{Task 3}\newline
+If the polynomial has four terms, group the terms in pairs.
+& $(2x^2 + 4x) + (3x + 6)$ \\
+\hline
+\textbf{Task 4}\newline
+Factorise out the common factor from each group.
+& $2x(x + 2) + 3(x + 2)$ \\
+\hline
+\textbf{Task 5}\newline
+Look for a common binomial factor and factorise it out and you have the
+factorised solution.
+& $(2x + 3)(x + 2)$ \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{Factor Theorem and Remainder Theorem}
+
+In addition to quadratic functions, there are several other types of polynomial
+functions that can be factorised using the Factor Theorem and the Remainder
+Theorem. Remember that if $(x \pm h)$ is a factor of a polynomial, then the remainder
+will be zero. Conversely, if the remainder is zero, then $(x \pm h)$ is a factor.
+
+Here are some common types of polynomials:
+
+\subsection{Types of Polynomials}
+\begin{enumerate}
+  \item \textbf{Cubic Polynomials:} Polynomials of \textit{degree} three, in the form:
+  $f(x) = ax^3 + bx^2 + cx + d$
+  \item \textbf{Quartic Polynomials:} Polynomials of degree four, in the form:\\
+  $f(x) = ax^4 + bx^3 + cx^2 + dx + e$
+  \item \textbf{Quintic Polynomials:} Polynomials of degree five, in the form:\\
+  $f(x) = ax^5 + bx^4 + cx^3 + dx^2 + ex + f$
+\end{enumerate}
+
+\begin{activity}{Activity 3.2: Revision on factorisation}
+In groups or individually, use the idea of the factor and remainder theorems to
+find the factors or the remainders of the following polynomials.
+\begin{enumerate}
+  \item Find the remainder when:
+  \begin{enumerate}
+    \item[a.] $f(x) = 3x^3 - 4x^2 + 2x + 3$ is divided by $(x + 1)$
+    \item[b.] $f(x) = 8x^3 - 3x^2 + 6x + 4$ is divided by $(x - 2)$
+    \item[c.] $f(x) = 7x^3 + 3x^2 - x + 6$ is divided by $(x + 3)$
+    \item[d.] $f(x) = x^3 - x^2 + x + 1$ is divided by $(x - 1)$
+  \end{enumerate}
+  \item
+  \begin{enumerate}
+    \item[a.] show that $x + 2$ is a factor of $f(x) = x^3 - 2x^2 - 5x + 6$
+    \item[b.] show that $x - 3$ is a factor of $f(x) = x^3 - 3x^2 - 4x + 12$
+  \end{enumerate}
+  \item Compare your answers with other groups.
+\end{enumerate}
+\end{activity}
+
+\subsection{Zero-Product Property}
+
+This property of real numbers says that if you multiply two numbers together
+and the result is zero, then at least one of those numbers must be zero. In simpler
+terms, if you have two numbers, \textbf{a} and b, and when you multiply them
+(a$\times$b), and you get zero, it means that either $a$ is zero, or $b$ is zero or
+both are zero. This property helps us to find the \textbf{zeros} or \textbf{roots} of
+functions of quadratic functions.
+
+The \textbf{zeros} or \textbf{roots} of a function are the values of the input (usually
+represented as x) that make the function equal to zero. In other words, if you have
+a function f(x), the zeros are the values of x for which f(x) $=$ 0. For example,
+given the function $f(x) = 2x^2 - x - 6$, You:
+\begin{enumerate}
+  \item equate f(x) $=$ 0
+
+  $2x^2 - x - 6 = 0$
+  \item factorise the function
+
+  $2x^2 - 4x + 3x - 6 = 0$
+
+  $2x(x - 2) + 3(x - 2) = 0$
+
+  $(2x + 3)(x - 2) = 0$
+
+  Either $(2x + 3) = 0$ or $(x - 2) = 0$
+  \item find the solution for each factor
+
+  $(2x + 3) = 0$
+
+  $2x = -3$
+
+  $x = -\frac{3}{2}$
+
+  $(x - 2) = 0$
+
+  $x = 0 - 2$
+
+  $x = 2$
+\end{enumerate}
+Therefore, the zeros, or roots, of the function $f(x) = 2x^2 - x - 6$ are
+$x = -\frac{3}{2}$ and $x = 2$ because both values make the function equal to zero.
+
+We will apply the Zero-Product Property to solve polynomial equations in the
+next task.
+
+\subsection{Solving a Polynomial Equation}
+
+There are a number of ways that can be used to find the zeros, or the roots, of
+polynomial functions. We can use a calculator, plot a graph, use GeoGebra
+(software) and we can also calculate by using the zero property.
+
+\textit{To find the zeros, or roots, by the calculation method:}
+
+Step 1: use the factor theorem approach to factorise the expression completely.
+
+Step 2: equate each factor to 0 and solve.
+
+In pairs or in groups, let's work through the following examples using the steps
+above.
+
+\begin{example}{Example 3.1}
+Find the zeros of the cubic function $f(x) = x^3 - 2x^2 - 5x + 6$
+
+\solution
+$x^3 - 2x^2 - 5x + 6 = 0$
+
+Possible factors of $6 = \pm 1, \pm 2, \pm 3, \pm 6$
+
+Testing with these factors,
+
+When x $=$ 1,
+
+$f(x) = (1)^3 - 2(1)^2 - 5(1) + 6$
+
+$f(x) = 1 - 2 - 5 + 6$
+
+$f(x) = 0$
+
+$\therefore (x - 1)$ is a factor. If x=1 was not a factor, try another option, eg x=-1.
+
+Using the long division method:
+\[
+\begin{array}{r@{\;}r}
+ & x^2 - x - 6 \\ \cline{2-2}
+x - 1\,\big) & x^3 - 2x^2 - 5x + 6 \\
+ & \underline{-(x^3 - x^2 + 0x + 0)} \\
+ & -x^2 - 5x + 6 \\
+ & \underline{-(-x^2 + x - 0)} \\
+ & -6x + 6 \\
+ & \underline{-(-6x + 6)} \\
+ & 0
+\end{array}
+\]
+Factorising, $x^2 - x - 6$
+
+$x^2 - 3x + 2x - 6$
+
+$(x^2 - 3x) + (2x - 6)$
+
+$x(x - 3) + 2(x - 3)$
+
+$(x + 2)(x - 3)$
+
+$\therefore \mathrm{f}(\mathrm{x}) = (x - 1)(x + 2)(x - 3)$
+
+$f(x) = 0$
+
+$(x - 1)(x + 2)(x - 3) = 0$
+
+For $(x - 1) = 0$
+
+$x = 1$
+
+For $(x + 2) = 0$
+
+$x = -2$
+
+For $(x - 3) = 0$
+
+$x = 3$
+
+Hence the zeros are when x $= -2, 1, 3$
+\end{example}
+
+\begin{example}{Example 3.2}
+Find the roots, or zeros, of the cubic function $f(x) = x^3 + x^2 - 10x + 8$
+
+\solution
+$x^3 + x^2 - 10x + 8 = 0$
+
+Possible factors of $8 = \pm 1, \pm 2, \pm 4, \pm 8$
+
+Testing with these factors,
+
+When x $=$ 1,
+
+$f(x) = (1)^3 + (1)^2 - 10(1) + 8$
+
+$f(x) = 1 + 1 - 10 + 8$
+
+$f(x) = 0$
+
+$\therefore (x - 1)$ is a factor.
+
+Using the long division method:
+\[
+\begin{array}{r@{\;}r}
+ & x^2 + 2x - 8 \\ \cline{2-2}
+x - 1\,\big) & x^3 + x^2 - 10x + 8 \\
+ & \underline{-(x^3 - x^2 + 0x + 0)} \\
+ & 2x^2 - 10x + 8 \\
+ & \underline{-(2x^2 - 2x - 0)} \\
+ & -8x + 8 \\
+ & \underline{-(-8x + 8)} \\
+ & 0
+\end{array}
+\]
+Factorising, $x^2 + 2x - 8$
+
+$x^2 + 4x - 2x - 8$
+
+$(x^2 + 4x) + (2x - 8)$
+
+$x(x + 4) - 2(x + 4)$
+
+$(x + 4)(x - 2)$
+
+$\therefore \mathrm{f}(\mathrm{x}) = (x - 1)(x - 2)(x + 4)$
+
+$f(x) = 0$
+
+$(x - 1)(x - 2)(x + 4) = 0$
+
+For $(x - 1) = 0$
+
+$x = 1$
+
+For $(x - 2) = 0$
+
+$x = 2$
+
+For $(x + 4) = 0$
+
+$x = -4$
+
+Hence the roots, or zeros, are when x $= -4, 2, 1$
+\end{example}
+
+\begin{example}{Example 3.3}
+Find the zeros of the cubic function. $f(x) = x^3 - 3x^2 - 4x + 12$
+
+\solution
+$x^3 - 3x^2 - 4x + 12 = 0$
+
+Possible factors of $12 = \pm 1, \pm 2, \pm 3, \pm 4, \pm 6, \pm 12$
+
+Testing with these factors,
+
+When x $=$ 1,
+
+$f(x) = (1)^3 - 3(1)^2 - 4(1) + 12$
+
+$f(x) = 1 - 3 - 4 + 12$
+
+$f(x) = 6$
+
+$\therefore (x - 1)$ is not a factor and we need to try another potential factor.
+
+When $x = 2$,
+
+$f(x) = (2)^3 - 3(2)^2 - 4(2) + 12$
+
+$f(x) = 8 - 12 - 8 + 12$
+
+$f(x) = 0$
+
+$\therefore (x - 2)$ is a factor.
+
+Using the long division method:
+\[
+\begin{array}{r@{\;}r}
+ & x^2 - x - 6 \\ \cline{2-2}
+x - 2\,\big) & x^3 - 3x^2 - 4x + 12 \\
+ & \underline{-(x^3 - 2x^2 + 0x + 0)} \\
+ & -x^2 - 4x + 12 \\
+ & \underline{-(x^2 + 2x - 0)} \\
+ & -6x + 12 \\
+ & \underline{-(6x + 12)} \\
+ & 0
+\end{array}
+\]
+\booknote[S3-01]{the book's long division subtracts $(x^2 + 2x - 0)$ and $(6x + 12)$;
+the lines being subtracted are $(-x^2 + 2x - 0)$ and $(-6x + 12)$. The quotient
+$x^2 - x - 6$ is correct.}
+
+Factorising, $x^2 - x - 6$
+
+$x^2 - 3x + 2x - 6$
+
+$(x^2 - 3x) + (2x - 6)$
+
+$x(x - 3) + 2(x - 3)$
+
+$(x + 2)(x - 3)$
+
+$\therefore \mathrm{f}(\mathrm{x}) = (x - 2)(x + 2)(x - 3)$
+
+$f(x) = 0$
+
+$(x - 2)(x + 2)(x - 3) = 0$
+
+For $(x - 2) = 0$
+
+$x = 2$
+
+For $(x + 2) = 0$
+
+$x = -2$
+
+For $(x - 3) = 0$
+
+$x = 3$
+
+Hence the zeros are when x $= -2, 2, 3$
+\end{example}
+
+Following the remainder theorem is the Rational Zero Theorem which helps to
+identify exactly which of the factor will give us zero.

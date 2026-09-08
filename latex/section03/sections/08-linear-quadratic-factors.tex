@@ -1,0 +1,187 @@
+% Book pp. 125-128 (PDF pp. 126-129)
+\section{Linear and Quadratic Factor Theorems}
+
+The linear quadratic factor theorem is another method which can be used to solve
+polynomial functions. This is when we break polynomial functions into linear and
+quadratic factors to make solving it simpler.
+
+For example, to use the linear and quadratic factor approach to find the factors of
+$x^4 - 9x^2 + 14$, we:
+
+\textbf{Step 1}: Let $x^2 = u$
+
+\textbf{Step 2}: Using this substitution it means $x^4 - 9x^2 + 14 = (u)^2 - 9(u) + 14$
+
+\textbf{Step 3}: Factorise $u^2 - 9u + 14$:
+
+$u^2 - 7u - 2u + 14$
+
+$u(u - 7) - 2(u - 7)$
+
+$(u - 2)(u - 7)$
+
+\textbf{Step 4}: Substitute $x^2$ back in for $u$:
+
+$(x^2 - 2)(x^2 - 7)$
+
+$x^2 - 2 = 0$ and $x^2 - 7 = 0$
+
+For $x^2 - 2 = 0$
+
+$x^2 = 2$
+
+$x = \pm\sqrt{2}$
+
+$x = -\sqrt{2}$ or $x = \sqrt{2}$
+
+$x + \sqrt{2}$ and $x - \sqrt{2}$ are factors
+
+For $x^2 - 7 = 0$
+
+$x^2 = 7$
+
+$x = \pm\sqrt{7}$
+
+$x = -\sqrt{7}$ or $x = \sqrt{7}$
+
+$x + \sqrt{7}$ and $x - \sqrt{7}$ are factors
+
+Hence the factors are $+\sqrt{2}$, $x - \sqrt{2}$, $x + \sqrt{7}$ and $x - \sqrt{7}$
+
+\begin{example}{Example 3.17}
+Given $f(x) = x^4 - 1$, find all the factors using the linear quadratic factor approach.
+
+\solution
+Let $u = x^2$
+
+$f(x) = (x^2)^2 - 1$
+
+$(u)^2 - 1$
+
+$u^2 - 1$
+
+Factorising:
+
+$(u - 1)(u + 1)$
+
+Substituting $x^2$ back in:
+
+$(x^2 - 1)(x^2 + 1)$
+
+$(x^2 - 1)(x^2 + 1) = 0$
+
+$x^2 - 1 = 0$ or $x^2 + 1 = 0$
+
+For $x^2 - 1 = 0$
+
+$x^2 = \pm 1$
+
+$x = 1$ or $x = -1$
+
+For $(x^2 + 1)$
+
+$x^2 + 1 = 0$
+
+$x^2 = -1$
+
+$x = \pm\sqrt{-1}$
+
+\textbf{NB:} $\sqrt{-1} = \boldsymbol{i}$
+
+$x = \pm i$
+
+$x = -i$ or $x = i$
+
+Hence the factors are $(x + 1)$, $(x - 1)$, $(x - i)(x + i)$
+\end{example}
+
+\begin{example}{Example 3.18}
+Given $f(x) = 2x^4 + x^2 - 10$, find all the factors using the linear quadratic factor
+approach
+
+\solution
+Let $u = x^2$
+
+$f(x) = 2(x^2)^2 + u - 10$
+
+$2(u)^2 + u - 10$
+
+$2u^2 + u - 10$
+
+Factorising:
+
+$2u^2 - 4u + 5u - 10$
+
+$2u(u - 2) + 5(u - 2)$
+
+$(2u + 5)(u - 2)$
+
+Substituting:
+
+$u = x^2$
+
+$(2x^2 + 5)(x^2 - 2)$
+
+$(2x^2 + 5)(x^2 - 2) = 0$
+
+$2x^2 + 5 = 0$ or $x^2 - 2 = 0$
+
+For $2x^2 + 5 = 0$
+
+$x^2 = -\frac{5}{2}$
+
+$x = \pm\sqrt{-\frac{5}{2}}$
+
+$x = \frac{5}{2}\,i$ or $x = -\frac{5}{2}\,i$
+\booknote[S3-15]{$\sqrt{-\frac{5}{2}} = \sqrt{\frac{5}{2}}\,i = \frac{\sqrt{10}}{2}\,i$,
+not $\frac{5}{2}\,i$; the two complex factors in the last line inherit the slip.}
+
+For $(x^2 - 2)$
+
+$x^2 - 2 = 0$
+
+$x^2 = 2$
+
+$x = \pm\sqrt{2}$
+
+$x = -\sqrt{2}$ or $x = \sqrt{2}$
+
+Hence the factors are $\left(x + \frac{5}{2}\,i\right)\left(x - \frac{5}{2}\,i\right)
+\left(x - \sqrt{2}\right)\left(x + \sqrt{2}\right)$
+\end{example}
+
+We can use what we have learned to help in determining the maximum or minimum
+profit or productivity in the real world.
+
+In small groups, or individually, discuss how the following problem can be solved.
+
+\begin{example}{Example 3.19}
+A water production company made sales of $x$ bags of water and the profit was
+given by $2x^2 + 7x - 15$ where $0 \le x \le 10$.
+
+Help the company determine their maximum profit and loss.
+
+\solution
+Since the range was given \textbf{(}$0 \le x \le 10$), we do our calculation within
+this range.
+
+Evaluating the function in the given interval, we obtain:
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+x & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+\hline
+$2x^2 + 7x - 15$ & -15 & -6 & 7 & 24 & 45 & 70 & 99 & 132 & 169 & 210 & 255 \\
+\hline
+\end{tabular}
+\end{center}
+The maximum profit occurs when x=10 with a profit of 255 while the loss will
+occur when there is no production, i.e., $x = 0$ at a loss of 15 ( -15).
+\end{example}
+
+\section*{Extended Reading}
+\begin{itemize}
+  \item Lial, M. L., Hornsby, E. J., \& McGinnis, T. (2012). Algebra for college
+  students. (7th Ed. Pearson Education, Inc). Pages 346 -- 375.
+\end{itemize}

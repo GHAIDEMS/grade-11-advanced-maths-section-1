@@ -4,7 +4,7 @@
 % Each sectionNN/ folder also compiles on its own (sectionNN/main.tex).
 \documentclass[11pt]{report}
 \input{preamble}
-\graphicspath{{section01/}{section02/}}
+\graphicspath{{section01/}{section02/}{section03/}}
 \renewcommand{\chaptername}{Section}
 
 \title{\textbf{Additional Mathematics}\\[0.5ex]\Large for Senior High Schools\\[2ex]\LARGE Year 2}
@@ -44,7 +44,18 @@
 \input{section02/sections/11-real-life-quadratic}
 \input{section02/sections/12-exercises}
 
-% Sections 3-14: not yet transcribed.
+\chapter{Polynomial Functions}
+\input{section03/sections/01-intro}
+\input{section03/sections/02-factors-and-zeros}
+\input{section03/sections/03-rational-zero-theorem}
+\input{section03/sections/04-sketching}
+\input{section03/sections/05-descartes}
+\input{section03/sections/06-fundamental-theorem}
+\input{section03/sections/07-complex-conjugates}
+\input{section03/sections/08-linear-quadratic-factors}
+\input{section03/sections/09-exercises}
+
+% Sections 4-14: not yet transcribed.
 
 \chapter*{Answers to Review Questions}
 \addcontentsline{toc}{chapter}{Answers to Review Questions}
@@ -55,5 +66,8 @@
 
 \section*{Review Questions for Section 2}
 \input{section02/answers}
+
+\section*{Review Questions for Section 3}
+\input{section03/answers}
 
 \end{document}

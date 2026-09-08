@@ -29,3 +29,29 @@ suggestions (no change made in the text).
 | S2-08 | 68 | Example 2.15 solution step 3 (`latex/section02/sections/07-max-min.tex:188`) | error | last three substitutions written m = …; point written (5.5, 2,5) | w = …; (5.5, 2.5) | verbatim + note | open | transcription |
 | S2-09 | 80 | Example 2.20 solution step 3 (`latex/section02/sections/10-systems-quadratic.tex:61`) | error | y ≥ 3 3/49; second substitution headed At x = 0 | y ≥ 3 9/49 (= 156/49); At x = −12/7 | verbatim + note | open | transcription |
 | S2-10 | 83 | Example 2.21 solution (`latex/section02/sections/11-real-life-quadratic.tex:69`) | error | Step 4 is followed by Step 6 | renumber or add the missing Step 5 | verbatim + note | open | transcription |
+
+## Section 3
+
+| Id | Book p. | Location | Kind | The book prints | Should be / proposal | Handling | Status | Found by |
+|---|---|---|---|---|---|---|---|---|
+| S3-01 | 96 | Example 3.3 long division (`latex/section03/sections/02-factors-and-zeros.tex:348`) | error | subtracted lines printed as (x² + 2x − 0) and (6x + 12) | −(−x² + 2x − 0) and −(−6x + 12); quotient x² − x − 6 is right | verbatim + note | open | transcription |
+| S3-02 | 98 | Example 3.4 statement vs solution (`latex/section03/sections/03-rational-zero-theorem.tex:62`) | error | question (b) x³ + x² − 2x − 5, (c) 3x³ + x² + x − 5; solution works (b) x³ + x² − 2x − 8, (c) 9x³ + x² + x − 10 | one polynomial per part throughout | verbatim + note | open | transcription |
+| S3-03 | 98 | Example 3.4 solution (a) From ±2 (`latex/section03/sections/03-rational-zero-theorem.tex:86`) | error | 2/2, −2/2, 2/3, −2/3, 2/6, −2/6 = ±1, ±2/3, ±1/6; no combined list | ±2 by 1, 2, 3, 6 gives ±2, ±1, ±2/3, ±1/3 | verbatim + note | open | transcription |
+| S3-04 | 99 | Example 3.4 solution (c) (`latex/section03/sections/03-rational-zero-theorem.tex:132`) | error | line headed From ±4 lists 5/1 … 5/9 | From ±5 | verbatim + note | open | transcription |
+| S3-05 | 102-103 | Sketching Step 1 (Figures 3.1 and 3.2) (`latex/section03/sections/04-sketching.tex:24`) | error | "If a < 0" printed above both figures; both show the a > 0 shape | first caption a > 0; second figure should be the reflected (a < 0) shape | verbatim + note | open | transcription |
+| S3-06 | 104/107/109 | Examples 3.6-3.8 Step 4 interval lists (`latex/section03/sections/04-sketching.tex:142`) | error | first interval printed as −2 < x (Ex 3.6) and −1 < x (Ex 3.7 and 3.8) | x < −2 and x < −1 | verbatim + note | open | transcription |
+| S3-07 | 106 | Example 3.7 long division (`latex/section03/sections/04-sketching.tex:208`) | error | (−7x² − 7x + 12) without minus sign | −(−7x² − 7x + 0) | verbatim + note | open | transcription |
+| S3-08 | 107 | Table 3.1 (Example 3.7) (`latex/section03/sections/04-sketching.tex:281`) | error | headings −2 > x, −2 < x < −1, −1 < x < 1.5, x > 1.5 copied from Example 3.6; last column 2(5)³ + 3(5)² − 5(5) − 6 = 294 | x < −1, −1 < x < 3, 3 < x < 4, x > 4; (5)³ − 6(5)² + 5(5) + 12 = 12 (still positive) | verbatim + note | open | transcription |
+| S3-09 | 109 | Example 3.8 long division (`latex/section03/sections/04-sketching.tex:322`) | error | −(2x² − 4x − 6) | −(2x² − 4x + 0); remainder 3x − 6 is right | verbatim + note | open | transcription |
+| S3-10 | 112 | Example 3.9 Step 1 item 2 (`latex/section03/sections/05-descartes.tex:26`) | error | f(x) = 3x³ − 2x² + 4x + 5 | 3x³ − 2x² + 4x − 5 as in the question | verbatim + note | open | transcription |
+| S3-11 | 114 | Example 3.10 (b) Step 1 (`latex/section03/sections/05-descartes.tex:182`) | error | 3 (negative) | 3 (positive); count of 2 changes is right | verbatim + note | open | transcription |
+| S3-12 | 116 | Example 3.10 (c) Step 4 (`latex/section03/sections/05-descartes.tex:300`) | error | From −2 to −6 no changes); changes numbered 2 then 3, total 2 | From −12 to −6; changes numbered 1 then 2 | verbatim + note | open | transcription |
+| S3-13 | 118 | Example 3.12 solution (`latex/section03/sections/06-fundamental-theorem.tex:78`) | error | 3x[x² − (−25)(x² − 25)] | no factor 3x (carried over from Example 3.11) | verbatim + note | open | transcription |
+| S3-14 | 124 | Example 3.16 solution (`latex/section03/sections/07-complex-conjugates.tex:111`) | error | NB: −i² = −1 | −i² = 1 (as in Example 3.15); next line is right | verbatim + note | open | transcription |
+| S3-15 | 127 | Example 3.18 solution (`latex/section03/sections/08-linear-quadratic-factors.tex:136`) | error | x = 5/2 i or x = −5/2 i; factors (x + 5/2 i)(x − 5/2 i) | ±√(5/2) i = ±(√10/2) i | verbatim + note | open | transcription |
+| S3-16 | 131 | Review Questions Q12 (`latex/section03/sections/09-exercises.tex:94`) | error | y⁴ + 3x² + 2 | y⁴ + 3y² + 2 (answer key treats it as one variable) | verbatim + note | open | transcription |
+| S3-17 | 455 | Answer key Section 3 Q4(c) (`latex/section03/answers.tex:29`) | error | (x − 2)(2x − )(2x) | (x − 2)(2x + 3)(2x − 1) | verbatim + note | open | transcription |
+| S3-18 | 455 | Answer key Section 3 Q6(b) (`latex/section03/answers.tex:46`) | error | …, −√5, √5 | −i√5, i√5 (2x⁴ + 17x² + 35 = (2x² + 7)(x² + 5)) | verbatim + note | open | transcription |
+| S3-19 | 455 | Answer key Section 3 Q8 (`latex/section03/answers.tex:59`) | error | a = 11, b = 6; (2x + 1)(x + 2)(x + 3) | answer does not fit Q(x) = 10x³ + ax² − 10x + b (leading coefficient 2, Q(−½) = 12.5, Q(−1) = 17); as printed the question has no integer solution | verbatim + note | open | transcription |
+| S3-20 | 455 | Answer key Section 3 Q9 (`latex/section03/answers.tex:64`) | error | x⁴ − 6x³ + 24x² − 38x + 29 | x⁴ − 6x³ + 24x² − 38x + 39 | verbatim + note | open | transcription |
+| S3-21 | 456 | Answer key Section 3 Q11(c) (`latex/section03/answers.tex:79`) | error | x⁴ − 8x² + 16 | x⁴ − 4x³ − 3x² + 16x − 4 (= (x² − 4)(x² − 4x + 1)) | verbatim + note | open | transcription |
