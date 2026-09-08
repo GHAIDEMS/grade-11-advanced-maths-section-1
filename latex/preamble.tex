@@ -64,8 +64,11 @@
 % Figure caption in the book's style ("Figure 2.1: ...") without a float
 \newcommand{\figcaption}[2]{\begin{center}\small\textbf{Figure #1:} #2\end{center}}
 
-% Transcriber's note on a defect carried over verbatim from the printed book
-\newcommand{\booknote}[1]{\par\smallskip\noindent\textit{(Note: #1)}\par}
+% Transcriber's note on a defect carried over verbatim from the printed book.
+% The optional argument is the errata id (a row of ../errata.csv), e.g.
+%   \booknote[S2-04]{the book prints ... ; it should read ...}
+% tools/errata.py checks that every id here has a row and vice versa.
+\NewDocumentCommand{\booknote}{o m}{\par\smallskip\noindent\textit{(Note\IfValueT{#1}{ #1}: #2)}\par}
 
 \newcommand{\Union}{\cup}
 \newcommand{\Inter}{\cap}

@@ -1,0 +1,43 @@
+name: Build LaTeX book
+
+on:
+  pull_request:
+    paths:
+      - "latex/**"
+      - "errata.csv"
+      - ".github/workflows/build-latex.yml"
+  push:
+    branches: [main]
+    paths:
+      - "latex/**"
+      - "errata.csv"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check errata ids against the LaTeX markers
+        run: python3 latex/tools/errata.py --check
+
+      - name: Compile book.tex
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: latex
+          root_file: book.tex
+          latexmk_use_lualatex: false
+          args: -pdf -interaction=nonstopmode -halt-on-error
+
+      - name: Fail on overfull boxes in new material
+        run: |
+          n=$(grep -c "Overfull" latex/book.log || true)
+          echo "overfull boxes: $n"
+          # Section 1 (upstream transcription) has one known overfull box.
+          if [ "$n" -gt 1 ]; then exit 1; fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: book-pdf
+          path: latex/book.pdf
