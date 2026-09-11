@@ -1,7 +1,7 @@
-<section xml:id="review-questions">
+<section xml:id="03-review-questions">
   <title>Review Questions</title>
 
-  <exercise xml:id="review-questions-1">
+  <exercise xml:id="03-review-questions-1">
     <statement>
       <p>
         Use the Rational Zero Theorem to find the rational zeros
@@ -41,7 +41,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-2">
+  <exercise xml:id="03-review-questions-2">
     <statement>
       <p>
         Carefully, study the graph above which represents a polynomial
@@ -88,7 +88,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-3">
+  <exercise xml:id="03-review-questions-3">
     <statement>
       <p>Sketch the following curves.</p>
 
@@ -168,7 +168,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-4">
+  <exercise xml:id="03-review-questions-4">
     <statement>
       <p>Factorise:</p>
 
@@ -215,7 +215,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-5">
+  <exercise xml:id="03-review-questions-5">
     <statement>
       <p>Find the zeros of the following:</p>
 
@@ -268,7 +268,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-6">
+  <exercise xml:id="03-review-questions-6">
     <statement>
       <p>Find the roots of:</p>
 
@@ -329,7 +329,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-7">
+  <exercise xml:id="03-review-questions-7">
     <statement>
       <p>
         Find the polynomial function f(x) as represented by the curve above.
@@ -340,7 +340,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-8">
+  <exercise xml:id="03-review-questions-8">
     <statement>
       <p>
         <m>Q(x) = 10x^3 + ax^2 - 10x + b</m>, where <m>a</m> and <m>b</m>
@@ -376,7 +376,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-9">
+  <exercise xml:id="03-review-questions-9">
     <statement>
       <p>
         Given that <m>x_1 = 1 + \sqrt{2}\,i</m> and <m>x_2 = 2 + 3i</m> are
@@ -389,7 +389,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-10">
+  <exercise xml:id="03-review-questions-10">
     <statement>
       <p>
         Applying Descartes' Rule of Signs, identify the potential number of
@@ -454,7 +454,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-11">
+  <exercise xml:id="03-review-questions-11">
     <statement>
       <p>Write down the equation having only the following roots.</p>
 
@@ -495,7 +495,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-12">
+  <exercise xml:id="03-review-questions-12">
     <statement>
       <p>Find the four roots of <m>x^4 + 3x^2 + 2</m></p>
     </statement>
@@ -504,7 +504,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-13">
+  <exercise xml:id="03-review-questions-13">
     <statement>
       <p>
         Study the graph below and use it to answer the following questions:
@@ -560,7 +560,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-14">
+  <exercise xml:id="03-review-questions-14">
     <statement>
       <p>
         A new bakery in Accra specialises in creating various types of
