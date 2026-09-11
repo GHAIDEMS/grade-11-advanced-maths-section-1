@@ -1,0 +1,237 @@
+<chapter>
+  <section xml:id="geometric-reasoning-and-measurement">
+    <title>Geometric Reasoning and Measurement</title>
+
+    <subsection xml:id="spatial-sense">
+      <title>Spatial Sense</title>
+
+      <!-- empty division -->
+
+      <p/>
+    </subsection>
+  </section>
+
+  <section xml:id="introduction">
+    <title>Introduction</title>
+
+    <p>
+      In this section, you will learn how to derive the circle equation. You
+      will also learn how to manipulate this equation under given conditions
+      and apply it to solve real-life problems. The content of this section is
+      imperative as it forms the foundation on which other advanced topics in
+      mathematics are built. Its real-life applications are vast so why not
+      delve further through your own research.
+    </p>
+
+    <!-- div keyideas -->
+
+    <p>
+      <ul>
+        <li>
+          <p>
+            A circle is a path traced by all points in a plane which are
+            equidistant from a fixed point in the plane. The fixed point is
+            called the centre.
+          </p>
+        </li>
+        <li>
+          <p>
+            The standard equation of a circle with centre <m>(h, k)</m> and
+            radius <m>r</m> is given as:
+          </p>
+        </li>
+        <li>
+          <p><m>(x - h)^2 + (y - k)^2 = r^2</m></p>
+        </li>
+        <li>
+          <p>
+            The general equation of a circle with centre <m>(-g, -f)</m> and
+            radius <m>r</m> is given as:
+          </p>
+        </li>
+        <li>
+          <p><m>x^2 + y^2 + 2gx + 2fy + c = 0</m></p>
+        </li>
+      </ul>
+    </p>
+
+    <!-- end div keyideas -->
+  </section>
+
+  <section xml:id="exploring-the-properties-of-a-circle-and-its-parts">
+    <title>Exploring the Properties of a Circle and its Parts</title>
+
+    <subsection xml:id="a-circle">
+      <title>A Circle</title>
+
+      <p>
+        The circle is the path traced by all points in a plane which are
+        equidistant from a fixed point in the plane. The fixed point is called
+        the centre.
+      </p>
+
+      <p>
+        Let us use the activity below to revise the parts of the circle. You
+        will need a graph sheet and a set of mathematical instruments to do
+        this activity.
+      </p>
+
+      <activity>
+        <p>
+          Activity 4.1- Parts of a circle <term>Step 1:</term> Make a copy of
+          the graph below.
+        </p>
+
+        <!-- div center -->
+
+        <image source="figures/fig4-1.jpg" width="60%">
+          <shortdescription>image</shortdescription>
+        </image>
+
+        <!-- end div center -->
+
+        <p>
+          <term>Step 2:</term> Calculate <m>|</m>OA<m>|</m>,
+          <m>|</m>OB<m>|</m> and <m>|</m>OC<m>|</m>
+        </p>
+
+        <p>
+          <term>Step 3:</term> Comment on any observation from your result in
+          Step 2
+        </p>
+
+        <p>
+          <term>Step 4:</term> Aside from points A, B and C, list the
+          coordinates of any two points on the circle's circumference. Find
+          the distance between these points and point O. Comment on your
+          observations.
+        </p>
+
+        <p><term>Step 5:</term> Join points O and C with a straight line.</p>
+
+        <p>Measure the angle between OC and the <m>x</m>-axis.</p>
+      </activity>
+
+      <p>
+        <term>Let us use our diagram to revise the parts of the circle.</term>
+      </p>
+
+      <p>
+        Lines OA, OB and OC are the radii of the circle. From the activity,
+        <m>|</m>OA<m>|=|</m>OB<m>|=|</m>OC<m>|</m>.
+      </p>
+
+      <p>
+        Line AB is an example of a chord. Any straight line that connects any
+        two points on the circumference of the circle is a chord.
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/fig4-2.jpg" width="60%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        The diameter is an example of a chord. It is the longest chord. The
+        diameter is a straight line from a point on the circumference through
+        the centre to another point on the circumference of the circle. In the
+        above diagram, line COD is a diameter.
+      </p>
+
+      <p>
+        The <m>x</m>-axis is tangent to the circle at point C(1, 0). The
+        tangent touches the circle at one point. The angle between the tangent
+        and the radius or the diameter at the point of tangency is
+        <m>90^\circ</m>. In the diagram OCX <m>= 90^\circ</m>
+      </p>
+
+      <p>
+        The area, shaded red, between the arc AB and the line AB is called a
+        segment.
+      </p>
+
+      <!-- div center -->
+
+      <!-- end div center -->
+
+      <p>
+        The area bounded by the arc AB and the lines OA and OB is called a
+        sector.
+      </p>
+
+      <!-- div center -->
+
+      <!-- end div center -->
+
+      <example>
+        <p>
+          Example 4.1 The diagram below shows the graph of a circle. Use it to
+          answer the questions.
+        </p>
+
+        <!-- div center -->
+
+        <image source="figures/fig4-5.jpg" width="55%">
+          <shortdescription>image</shortdescription>
+        </image>
+
+        <!-- end div center -->
+
+        <p>
+          <ol>
+            <li>
+              <p>State the coordinates of the centre.</p>
+            </li>
+            <li>
+              <p>Find the radius of the circle</p>
+            </li>
+            <li>
+              <p>Find the length of chord AB</p>
+            </li>
+          </ol>
+        </p>
+
+        <p>
+          <ol>
+            <li>
+              <p>Coordinate of the centre is (10, -5)</p>
+            </li>
+            <li>
+              <p>The radius of the circle is 10 units</p>
+            </li>
+            <li>
+              <p>
+                The coordinate of point A is (10, -15) and that of B is (20,
+                -5)
+              </p>
+            </li>
+            <li>
+              <p><m>|AB| = \sqrt{(20 - 10)^2 + (-5 \text{---} 15)^2}</m></p>
+            </li>
+            <li>
+              <p><m>|AB| = \sqrt{10^2 + 10^2}</m></p>
+            </li>
+            <li>
+              <p><m>= \sqrt{100 + 100}</m></p>
+            </li>
+            <li>
+              <p><m>= \sqrt{200}</m></p>
+            </li>
+            <li>
+              <p><m>= \sqrt{100 \times 2}</m></p>
+            </li>
+            <li>
+              <p><m>= \sqrt{100} \times \sqrt{2}</m></p>
+            </li>
+            <li>
+              <p><m>= 10\sqrt{2}</m> units.</p>
+            </li>
+          </ol>
+        </p>
+      </example>
+    </subsection>
+  </section>
+</chapter>

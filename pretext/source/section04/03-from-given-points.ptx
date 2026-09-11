@@ -1,0 +1,550 @@
+<section xml:id="deriving-the-equations-of-a-circle-from-given-points">
+  <title>Deriving the Equations of a Circle from Given Points</title>
+
+  <subsection xml:id="how-to-find-the-equation-of-the-circle-given-the-endpoints-of-the-diameter">
+    <title>
+      How to Find the Equation of the Circle Given the Endpoints of the
+      Diameter
+    </title>
+
+    <p><em>Method 1:</em></p>
+
+    <p>
+      <term>Step 1:</term> Find the centre of the circle by finding the
+      mid-point of the diameter.
+    </p>
+
+    <p>
+      <term>Step 2:</term> Calculate the length of the radius. This is half
+      the diameter and is the same as the distance between the centre and any
+      of the endpoints of the diameter.
+    </p>
+
+    <p>
+      <term>Step 3:</term> Substitute the centre and the radius into the
+      standard equation of the circle.
+    </p>
+
+    <p>
+      <term>Step 4:</term> Simplify the resulting equation to achieve the
+      desired result.
+    </p>
+
+    <p><em>Method 2:</em></p>
+
+    <p>
+      An alternative method involves using the relationship between gradients
+      of two perpendicular lines.
+    </p>
+
+    <p>
+      Recall that if <m>m_1</m> and <m>m_2</m> are gradients of any two lines
+      which intersect at right angles, then <m>m_1 imes m_2 = -1</m>
+    </p>
+
+    <p>
+      Also, if one side of a triangle inscribed in a circle is a diameter,
+      then the triangle is right-angled. The angle opposite the diameter is
+      the right angle. This property of circles is illustrated in the diagram
+      below.
+    </p>
+
+    <!-- div center -->
+
+    <image source="figures/fig4-15.png" width="42%">
+      <shortdescription>image</shortdescription>
+    </image>
+
+    <!-- end div center -->
+
+    <p>
+      From the figure, <m>A(x_1, y_1)</m> and <m>B(x_2, y_2)</m> are the
+      endpoints of the diameter and <m>P(x, y)</m> is any point on the
+      circumference of the circle. The angle opposite the diameter is AOB<m>=
+      90^\circ</m>. This means that the product to the gradients of lines AP
+      and BP is equal to <m>-1</m>. Using this relation will generate the
+      equation of the circle.
+
+      <md>
+        <mrow>
+          \text{Gradient } (m_1) \text{ of } |\text{AP}| &amp;= \frac{y -
+          y_1}{x - x_1}
+        </mrow>
+
+        <mrow>
+          \text{Gradient } (m_2) \text{ of } |\text{BP}| &amp;= \frac{y -
+          y_2}{x - x_2}
+        </mrow>
+      </md>
+
+      Using <m>m_1 \times m_2 = -1</m>, we have
+
+      <md>\frac{y - y_1}{x - x_1} \times \frac{y - y_2}{x - x_2} = -1</md>
+    </p>
+
+    <example>
+      <p>
+        Example 4.7 The endpoints of the diameter of a circle are (-2, 2) and
+        (4, -6).
+      </p>
+
+      <p>Find the;</p>
+
+      <p>
+        <ol>
+          <li>
+            <p>radius and centre of the circle</p>
+          </li>
+          <li>
+            <p>general equation of the circle.</p>
+          </li>
+        </ol>
+      </p>
+
+      <p>The graph below shows a sketch of the circle.</p>
+
+      <!-- div center -->
+
+      <image source="figures/fig4-16.png" width="42%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p><em>Method 1:</em></p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              The centre is equal to the mid-point of the endpoints of the
+              diameter
+            </p>
+          </li>
+          <li>
+            <p>Midpoint <m>= \frac{1}{2}(-2 + 4, 2 + (-6))</m></p>
+          </li>
+          <li>
+            <p><m>= \frac{1}{2}(2, -4)</m></p>
+          </li>
+          <li>
+            <p>
+              <m>= \left(\frac{2}{2}, -\frac{4}{2}\right) = \left(1,
+              -2\right)</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        Radius is the distance between the centre and any of the
+        endpoint/point on the circumference.
+
+        <md>
+          <mrow>r &amp;= \sqrt{(-6 - (-2))^2 + (4 - 1)^2}</mrow>
+
+          <mrow>r &amp;= \sqrt{(-4)^2 + 3^2}</mrow>
+
+          <mrow>r &amp;= \sqrt{16 + 9}</mrow>
+
+          <mrow>&amp;= \sqrt{25} = 5</mrow>
+        </md>
+
+        Using <m>(x - h)^2 + (y - k)^2 = r^2</m>, we have:
+
+        <md>
+          <mrow>(x - 1)^2 + (y - (-2))^2 &amp;= 5^2</mrow>
+
+          <mrow>(x - 1)^2 + (y + 2)^2 &amp;= 25</mrow>
+
+          <mrow>x^2 - 2x + 1 + y^2 + 4y + 4 &amp;= 25</mrow>
+
+          <mrow>x^2 + y^2 - 2x + 4y + 5 &amp;= 25</mrow>
+
+          <mrow>x^2 + y^2 - 2x + 4y + 5 - 25 &amp;= 0</mrow>
+
+          <mrow>
+            \boldsymbol{x^2 + y^2 - 2x + 4y - 20} &amp;= \boldsymbol{0}
+          </mrow>
+        </md>
+      </p>
+
+      <p><em>Method 2:</em></p>
+
+      <p>
+        Alternatively, let any point on the circumference of the circle be
+        P(x, y) as shown in the figure below.
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/fig4-17.png" width="40%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        The gradient of the line connecting (-2, 2) and <m>(x, y) = \dfrac{y -
+        2}{x + 2}</m>
+      </p>
+
+      <p>
+        The gradient of the line connecting (4, -6) and <m>(x, y) = \dfrac{y -
+        (-6)}{x - 4} = \dfrac{y + 6}{x - 4}</m>
+      </p>
+
+      <p>
+        Since the two lines intersect at <m>90^\circ</m>,
+
+        <md>
+          <mrow>
+            \left(\frac{y - 2}{x + 2}\right) \times \left(\frac{y + 6}{x -
+            4}\right) &amp;= -1
+          </mrow>
+
+          <mrow>\frac{(y - 2)(y + 6)}{(x + 2)(x - 4)} &amp;= -1</mrow>
+
+          <mrow>\frac{y^2 + 6y - 2y - 12}{x^2 - 4x + 2x - 8} &amp;= -1</mrow>
+
+          <mrow>\frac{y^2 + 4y - 12}{x^2 - 2x - 8} &amp;= -\frac{1}{1}</mrow>
+        </md>
+
+        Cross multiply:
+
+        <md>
+          <mrow>y^2 + 4y - 12 &amp;= -1(x^2 - 2x - 8)</mrow>
+
+          <mrow>y^2 + 4y - 12 &amp;= -x^2 + 2x + 8</mrow>
+        </md>
+
+        Regroup the terms:
+
+        <md>
+          <mrow>y^2 + x^2 - 2x + 4y - 12 - 8 &amp;= 0</mrow>
+
+          <mrow>
+            \boldsymbol{y^2 + x^2 - 2x + 4y - 20} &amp;= \boldsymbol{0}
+          </mrow>
+        </md>
+      </p>
+    </example>
+  </subsection>
+
+  <subsection xml:id="equation-of-a-circle-given-three-points-on-the-circumference-of-the-circle">
+    <title>
+      Equation of a Circle Given Three Points on the Circumference of the
+      Circle
+    </title>
+
+    <p><em>Method 1:</em></p>
+
+    <p>
+      Substitute each of the points into the general equation of the circle
+      <m>(x^2 + y^2 + 2gx + 2fy + c = 0)</m>.
+    </p>
+
+    <p>
+      This results in 3 simultaneous equations with 3 unknowns to be solved
+      for <m>g</m>, <m>f</m> and <m>c</m>.
+    </p>
+
+    <p><em>Method 2</em>:</p>
+
+    <p>Alternatively, follow the following steps.</p>
+
+    <p>
+      <term>Step 1:</term> Find the equation of the perpendicular bisectors of
+      any two of the chords.
+    </p>
+
+    <p>
+      In the Figure 4.18 A, B and C are points on the circumference of the
+      circle.
+    </p>
+
+    <!-- div center -->
+
+    <image source="figures/fig4-18.png" width="38%">
+      <shortdescription>image</shortdescription>
+    </image>
+
+    <!-- end div center -->
+
+    <p>
+      <term>Step 2:</term> Solve the equations obtained in step 1
+      simultaneously. This will give the coordinates of the centre of the
+      circle.
+    </p>
+
+    <p>
+      <term>Step 3:</term> Using the centre and any point on the
+      circumference, calculate the radius.
+    </p>
+
+    <p>
+      <term>Step 4:</term> Use the radius and the centre to calculate the
+      equation of the circle.
+    </p>
+
+    <example>
+      <p>
+        Example 4.8 Find the equation of the circle which satisfies the points
+        (2, -4), (-6, 4) and (2, 12).
+      </p>
+
+      <p><em>Method 1</em>:</p>
+
+      <p>
+        In the diagram below, A, B and C are points on the circumference of
+        the circle. The perpendicular bisectors of chords AB and BC intersect
+        at point V. Point V is the centre of the circle.
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/fig4-19.png" width="42%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>Substitute the points into the general equation of the circle.</p>
+
+      <p>
+        Substituting (-6, 4) into <m>x^2 + y^2 + 2gx + 2fy + c = 0</m> gives:
+
+        <md>
+          <mrow>(-6)^2 + 4^2 + 2g(-6) + 2f(4) + c &amp;= 0</mrow>
+
+          <mrow>36 + 16 - 12g + 8f + c &amp;= 0</mrow>
+
+          <mrow>
+            -12g + 8f + c &amp;= -52
+            \ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots..(1)
+          </mrow>
+        </md>
+
+        Substituting (2, 12) into the same equation:
+
+        <md>
+          <mrow>(2)^2 + (12)^2 + 2g(2) + 2f(12) + c &amp;= 0</mrow>
+
+          <mrow>4 + 144 + 4g + 24f + c &amp;= 0</mrow>
+
+          <mrow>
+            4g + 24f + c &amp;= -148
+            \ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots...(2)
+          </mrow>
+        </md>
+
+        Substituting (2, -4) into the same equation:
+
+        <md>
+          <mrow>(2)^2 + (-4)^2 + 2g(2) + 2f(-4) + c &amp;= 0</mrow>
+
+          <mrow>4 + 16 + 4g - 8f + c &amp;= 0</mrow>
+
+          <mrow>
+            4g - 8f + c &amp;= -20
+            \ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots.
+            (3)
+          </mrow>
+        </md>
+
+        Subtract (2) from (3). That is <m>-</m> (2)
+
+        <md>
+          <mrow>(4g - 8f + c) - (4g + 24f + c) &amp;= -20 - (-148)</mrow>
+
+          <mrow>4g - 8f + c - 4g - 24f - c &amp;= -20 + 148</mrow>
+
+          <mrow>-32f &amp;= 128</mrow>
+
+          <mrow>f &amp;= -\frac{128}{32} = -4</mrow>
+        </md>
+
+        Subtract (1) from (2):
+
+        <md>
+          <mrow>(4g + 24f + c) - (-12g + 8f + c) &amp;= -148 - (-52)</mrow>
+
+          <mrow>4g + 24f + c + 12g - 8f - c &amp;= -148 + 52</mrow>
+
+          <mrow>16g + 16f &amp;= -96</mrow>
+
+          <mrow>16g + 16(-4) &amp;= -96</mrow>
+
+          <mrow>16g - 64 &amp;= -96</mrow>
+
+          <mrow>16g &amp;= -96 + 64</mrow>
+
+          <mrow>\frac{16g}{16} &amp;= -\frac{32}{16}</mrow>
+
+          <mrow>g &amp;= -2</mrow>
+        </md>
+
+        Substitute <m>g = -2</m> and <m>f = -4</m> into (3):
+
+        <md>
+          <mrow>4(-2) - 8(-4) + c &amp;= -20</mrow>
+
+          <mrow>-8 + 32 + c &amp;= -20</mrow>
+
+          <mrow>c &amp;= -20 + 8 - 32</mrow>
+
+          <mrow>c &amp;= -44</mrow>
+        </md>
+
+        Finally, substitute <m>g</m>, f and c into the general equation.
+      </p>
+
+      <p><m>x^2 + y^2 + 2(-2)x + 2(-4)y - 44 = 0</m></p>
+
+      <p>
+        <m>\boldsymbol{x^2 + y^2 - 4x - 8y - 44 = 0}</m> gives the equation of
+        the circle which satisfies <m>(2, -4)</m>, <m>(-6, 4)</m> and <m>(2,
+        12)</m>.
+      </p>
+
+      <p><em>Method 2</em>:</p>
+
+      <p>
+        First plot the points on the x-y plane and connect the points with
+        chords.
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/fig4-20.png" width="42%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        Mid-point of <m>(-6, 4)</m> and <m>(2, 12)</m> is <m>\left(\dfrac{-6 +
+        2}{2}, \dfrac{4 + 12}{2}\right) = \left(-2, 8\right)</m>
+      </p>
+
+      <p>
+        The gradient of the line connecting the points <m>(-6, 4)</m> and
+        <m>(2, 12)</m> is
+
+        <md>\frac{12 - 4}{2 - (-6)} = \frac{8}{8} = 1</md>
+
+        The gradient of the perpendicular bisector is <m>-1</m>
+      </p>
+
+      <p>
+        The equation of the perpendicular bisector is <m>y - 8 = -1(x -
+        (-2))</m>
+
+        <md>
+          <mrow>y &amp;= -1(x + 2) + 8</mrow>
+
+          <mrow>y &amp;= -x - 2 + 8</mrow>
+
+          <mrow>
+            y &amp;= -x + 6
+            \ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots.(1)
+          </mrow>
+        </md>
+
+        Mid-point of <m>(-6, 4)</m> and <m>(2, -4)</m> is <m>\left(\dfrac{-6 +
+        2}{2}, \dfrac{4 - 4}{2}\right) = \left(-2, 0\right)</m>
+      </p>
+
+      <p>
+        The gradient of the line connecting the points <m>(-6, 4)</m> and
+        <m>(2, -4)</m> is
+
+        <md>\frac{-4 - 4}{2 - (-6)} = \frac{-8}{8} = -1</md>
+
+        The gradient of the perpendicular bisector is 1
+      </p>
+
+      <p>
+        The equation of the perpendicular bisector is <m>y - 0 = 1(x -
+        (-2))</m>
+
+        <md>
+          <mrow>y &amp;= (x + 2)</mrow>
+
+          <mrow>y &amp;= x + 2</mrow>
+
+          <mrow>
+            y &amp;= x + 2
+            \ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots.(2)
+          </mrow>
+        </md>
+
+        Add equation 1 to equation 2:
+
+        <md>
+          <mrow>y + y &amp;= -x + x + 6 + 2</mrow>
+
+          <mrow>2y &amp;= 8</mrow>
+
+          <mrow>y &amp;= 4</mrow>
+        </md>
+
+        Substitute <m>y = 4</m> into equation 2 and solve for <m>x</m>:
+
+        <md>
+          <mrow>4 &amp;= x + 2</mrow>
+
+          <mrow>x &amp;= 4 - 2</mrow>
+
+          <mrow>x &amp;= 2</mrow>
+        </md>
+
+        This means the coordinates of the centre of the circle is <m>(2,
+        4)</m>.
+      </p>
+
+      <p>
+        The distance between the centre and any point on the circle's
+        circumference gives the radius.
+
+        <md>
+          <mrow>
+            \text{Distance between (2, 4) and (2, 12)} = r &amp;= \sqrt{(2 -
+            2)^2 + (12 - 4)^2}
+          </mrow>
+
+          <mrow>&amp;= \sqrt{0^2 + 8^2}</mrow>
+
+          <mrow>&amp;= \sqrt{64}</mrow>
+
+          <mrow>&amp;= 8</mrow>
+        </md>
+
+        Finally, substitute the centre, (2, 4), and the radius, 8, into the
+        standard equation of the circle.
+
+        <md>
+          <mrow>(x - 2)^2 + (y - 4)^2 &amp;= 8^2</mrow>
+
+          <mrow>x^2 - 4x + 4 + y^2 - 8y + 16 &amp;= 64</mrow>
+
+          <mrow>x^2 + y^2 - 4x - 8y + 20 - 64 &amp;= 0</mrow>
+
+          <mrow>
+            \boldsymbol{x^2 + y^2 - 4x - 8y - 44} &amp;= \boldsymbol{0}
+          </mrow>
+        </md>
+
+        A construction of the circle is shown below
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/fig4-21.jpg" width="55%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+    </example>
+  </subsection>
+</section>

@@ -109,6 +109,29 @@
 
     </chapter>
 
+    <chapter xml:id="section-4">
+        <title>Section 4</title>
+
+        <!-- Introduction -->
+        <xi:include href="section04/01-intro.ptx"/>
+
+        <!-- Deriving the Equation of a Circle -->
+        <xi:include href="section04/02-deriving-equation.ptx"/>
+
+        <!-- Deriving the Equations of a Circle from Given Points -->
+        <xi:include href="section04/03-from-given-points.ptx"/>
+
+        <!-- Tangents and Normals -->
+        <xi:include href="section04/04-tangents-normals.ptx"/>
+
+        <!-- Deducing the Relation of Various Loci Under Given Condition -->
+        <xi:include href="section04/05-loci.ptx"/>
+
+        <!-- Review Questions -->
+        <xi:include href="section04/06-exercises.ptx"/>
+
+    </chapter>
+
   </book>
 
 </pretext>
