@@ -1,0 +1,64 @@
+<section xml:id="03-modelling-with-algebra">
+  <title>Modelling with Algebra</title>
+
+  <subsection xml:id="03-application-of-algebra">
+    <title>Application of Algebra</title>
+
+    <subsubsection xml:id="03-introduction">
+      <title>Introduction</title>
+
+      <p>
+        This lesson is continuation of what we learnt in year one functions.
+        We will explore the properties, graphing techniques and basic theorems
+        of polynomial functions. Polynomial functions are crucial in
+        mathematics and have applications in science, engineering and
+        economics. It covers factorising, finding zeros, graphing, Descartes'
+        Rule of Signs, Fundamental Theorem of Algebra and Linear and Quadratic
+        Factor Theorems. By the end of the section, you will have a deeper
+        understanding of polynomial functions and be prepared to solve a
+        variety of mathematical problems.
+      </p>
+
+      <!-- div keyideas -->
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              <term>Factorising polynomials</term> involves linear and
+              irreducible quadratic factors.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Factors</term> and <term>zeros</term> are variables that
+              make a <term>polynomial function</term> equal to
+              <term>zero</term>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Graphing polynomials with higher degrees reveal complex shapes,
+              key features, and roots.
+            </p>
+          </li>
+          <li>
+            <p>
+              The <term>degree</term> of a polynomial function determines the
+              maximum number of solutions a function could have and the number
+              of times a function will cross the x-axis when graphed.
+            </p>
+          </li>
+          <li>
+            <p>
+              The <term>degree</term> of a polynomial function is the total
+              number of <term>factors</term>.
+            </p>
+          </li>
+        </ul>
+      </p>
+
+      <!-- end div keyideas -->
+    </subsubsection>
+  </subsection>
+</section>

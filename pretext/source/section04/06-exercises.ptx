@@ -1,0 +1,704 @@
+<section xml:id="04-review-questions">
+  <title>Review Questions</title>
+
+  <exercise xml:id="04-review-questions-1">
+    <statement>
+      <p>The diagram below shows the graph of three circles, P, Q and R.</p>
+
+      <p>Use it to answer the questions<term>.</term></p>
+
+      <!-- div center -->
+
+      <image source="figures/rq4-1.jpg" width="60%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        <ol>
+          <li>
+            <p>State the coordinates of the centre of P, Q and R.</p>
+          </li>
+          <li>
+            <p>Find the radii of circles P, Q and R</p>
+          </li>
+          <li>
+            <p>Write the equation of circle R in general form</p>
+          </li>
+          <li>
+            <p>Write the equation of circle P in the standard form</p>
+          </li>
+          <li>
+            <p>Write the equation of circle Q in the standard form</p>
+          </li>
+          <li>
+            <p>
+              Find the perimeter of the triangle formed by the centres of
+              the three circles, correct to three significant figures.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p><m>P(-2, 0), Q(1, 2), R(2.5, -2.5)</m></p>
+          </li>
+          <li>
+            <p>P <m>= 3</m> units, Q <m>= 2</m>units, R <m>= 2.5</m> units</p>
+          </li>
+          <li>
+            <p><m>4x^2 + 4y^2 - 20x + 20y + 25 = 0</m></p>
+          </li>
+          <li>
+            <p><m>(x + 2)^2 + y^2 = 3^2</m></p>
+          </li>
+          <li>
+            <p><m>(x - 1)^2 + (y - 2)^2 = 2^2</m></p>
+          </li>
+          <li>
+            <p><m>13.5</m> units.</p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-2">
+    <statement>
+      <p>
+        Write the general form of the circle equation with the following
+        properties.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>Centre <m>(1, -1)</m> and radius 7</p>
+          </li>
+          <li>
+            <p>Centre <m>(-2, 1)</m> and radius 5</p>
+          </li>
+          <li>
+            <p>Centre <m>(0, -3)</m> and radius 2</p>
+          </li>
+          <li>
+            <p>Centre <m>(-3, -4)</m> and radius 8</p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p><m>x^2 + y^2 - 2x + 2y - 47 = 0</m></p>
+          </li>
+          <li>
+            <p><m>x^2 + y^2 + 4x - 2y - 20 = 0</m></p>
+          </li>
+          <li>
+            <p><m>x^2 + y^2 + 6y + 5 = 0</m></p>
+          </li>
+          <li>
+            <p><m>x^2 + y^2 + 6x + 8y - 39 = 0</m></p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-3">
+    <statement>
+      <p>The diagram shows the graph of circles A, B and C.</p>
+
+      <p>Use them to answer the following questions.</p>
+
+      <!-- div center -->
+
+      <image source="figures/rq4-4.jpg" width="50%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        <ol>
+          <li>
+            <p>Write the equation of each circle in the general form</p>
+          </li>
+          <li>
+            <p>
+              Find the perimeter of the triangle formed by the centres of
+              the circle. Leave your answer in surd form.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p>Circle A: <m>x^2 + y^2 + 4x - 4y + 4 = 0</m></p>
+          </li>
+          <li>
+            <p>Circle B: <m>x^2 + y^2 - 4x - 5 = 0</m></p>
+          </li>
+          <li>
+            <p>Circle C: <m>x^2 + y^2 + 4x - 4y + 4 = 0</m></p>
+          </li>
+          <li>
+            <p><m>10 + 4\sqrt{5}</m></p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-4">
+    <statement>
+      <p>
+        A TV remote has a range of <m>8</m>m in all directions. If the TV is
+        <m>5</m>m East and <m>3</m>m South, write an equation to represent
+        the area within which the TV receives signals from the remote. Can
+        the TV receive signals from the remote if the remote is located
+        <m>2</m>m West? Justify your response.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p><m>x^2 + y^2 - 10x + 6y - 30 = 0</m></p>
+          </li>
+          <li>
+            <p>
+              Yes, since the distance between the position of the remote,
+              <m>(-2, 0)</m>, and the position of the TV is less than the
+              range of the remote.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-5">
+    <statement>
+      <p>
+        An Uber driver operates within <m>30</m>km of a post office at all
+        angles. His house is <m>5</m>km West and <m>12</m>km south of a post
+        office.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              Write an equation to represent the driver's travel boundary
+              from the post office using the driver's house as the origin.
+              Leave your equation in standard form.
+            </p>
+          </li>
+          <li>
+            <p>
+              Find the furthest distance between the driver's house and his
+              travel boundary.
+            </p>
+          </li>
+          <li>
+            <p>
+              Find the shortest distance between the driver's house and the
+              driver's travel boundary.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p><m>(x + 5)^2 + (y + 12)^2 = 30^2</m></p>
+          </li>
+          <li>
+            <p><m>43</m> km</p>
+          </li>
+          <li>
+            <p><m>17</m> km</p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-6">
+    <statement>
+      <p>Write the general equation of a circle with:</p>
+
+      <p>
+        <ol>
+          <li>
+            <p>Centre <m>(4, -1)</m> and radius <m>\sqrt{11}</m>.</p>
+          </li>
+          <li>
+            <p>Centre <m>(-2, -3)</m> and radius <m>2\frac{1}{2}</m></p>
+          </li>
+          <li>
+            <p>Centre <m>(0, -3)</m> and radius <m>\frac{1}{3}</m></p>
+          </li>
+          <li>
+            <p>
+              Centre <m>\left(\frac{1}{2}, -1\right)</m> and radius
+              <m>1\frac{1}{2}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p><m>x^2 + y^2 - 8x + 2y + 6 = 0</m></p>
+          </li>
+          <li>
+            <p><m>4x^2 + 4y^2 + 16x + 24y + 27 = 0</m></p>
+          </li>
+          <li>
+            <p><m>9x^2 + 9y^2 + 54y + 80 = 0</m></p>
+          </li>
+          <li>
+            <p><m>x^2 + y^2 - x + 2y - 1 = 0</m></p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-7">
+    <statement>
+      <p>
+        Write each of the following circles in the standard form. Also,
+        state the centre and radius of each circle.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p><m>x^2 + y^2 - 2x + 2y - 47 = 0</m></p>
+          </li>
+          <li>
+            <p><m>x^2 + y^2 + 6y = 0</m></p>
+          </li>
+          <li>
+            <p><m>x^2 + y^2 - 12x - 64 = 0</m></p>
+          </li>
+          <li>
+            <p><m>x^2 + y^2 + 4x - 8y + 4 = 0</m></p>
+          </li>
+          <li>
+            <p><m>2x^2 + 2y^2 - 2x - 2y - 7 = 0</m></p>
+          </li>
+          <li>
+            <p><m>3x^2 + 3y^2 + 12x - 2y + 4 = 0</m></p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p>
+              <m>(x - 1)^2 + (y + 1)^2 = 7^2</m>, Centre <m>= (1, -1)</m>and
+              radius <m>= 7</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>x^2 + (y + 3)^2 = 3^2</m>, Centre <m>= (0, -3)</m> and radius
+              <m>= 3</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(x - 6)^2 + y^2 = 10^2</m>, Centre <m>= (6, 0)</m> and radius
+              <m>= 10</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(x + 2)^2 + (y - 4)^2 = 4^2</m>, Centre <m>= (-2, 4)</m> and
+              radius <m>= 4</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\left(x - \frac{1}{2}\right)^2 + \left(y -
+              \frac{1}{2}\right)^2 = 2^2</m>, Centre <m>= \left(\frac{1}{2},
+              \frac{1}{2}\right)</m> and radius <m>= 2</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\left(x + 2\right)^2 + \left(y - \frac{1}{3}\right)^2 =
+              \left(\frac{5}{3}\right)^2</m>, Centre <m>= \left(-2,
+              \frac{1}{3}\right)</m> and radius <m>= \frac{5}{3} =
+              1\frac{2}{3}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-8">
+    <statement>
+      <p>
+        The endpoints of the diameter of a circle are <m>(0, 5)</m> and
+        <m>(0, -7)</m>.
+      </p>
+
+      <p>Find the</p>
+
+      <p>
+        <ol>
+          <li>
+            <p>radius and centre of the circle</p>
+          </li>
+          <li>
+            <p>general equation of the circle.</p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p>Radius <m>= 6</m> units, Centre <m>= (0, -1)</m></p>
+          </li>
+          <li>
+            <p><m>x^2 + y^2 + 2y - 35 = 0</m></p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-9">
+    <statement>
+      <p>
+        The endpoints of the diameter of a circle are <m>(6, 0)</m> and
+        <m>(-2, 0)</m>.
+      </p>
+
+      <p>Find the</p>
+
+      <p>
+        <ol>
+          <li>
+            <p>radius and centre of the circle</p>
+          </li>
+          <li>
+            <p>general equation of the circle.</p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p>Radius <m>= 4</m> units, Centre <m>= (2, 0)</m></p>
+          </li>
+          <li>
+            <p><m>x^2 + y^2 + 4x - 12 = 0</m></p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-10">
+    <statement>
+      <p>
+        The endpoints of the diameter of a circle are <m>(-4, 3)</m> and
+        <m>(4, -3)</m>.
+      </p>
+
+      <p>Find the</p>
+
+      <p>
+        <ol>
+          <li>
+            <p>radius and centre of the circle</p>
+          </li>
+          <li>
+            <p>general equation of the circle.</p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p>Radius <m>= 5</m> units, Centre <m>= (0, 0)</m></p>
+          </li>
+          <li>
+            <p><m>x^2 + y^2 - 25 = 0</m></p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-11">
+    <statement>
+      <p>
+        In each of the following questions, coordinates of three points are
+        provided. Write the general equation of the circle that satisfies
+        all three points. State the centre and radius of the resulting
+        circle.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p><m>(-5, 0)</m>, <m>(-1, -4)</m> and <m>(-1, 4)</m></p>
+          </li>
+          <li>
+            <p><m>(6, -1)</m>, <m>(3, -4)</m> and <m>(0, -1)</m></p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p>
+              <m>x^2 + y^2 + 2x - 15 = 0</m>, Centre <m>(-1, 0)</m>, Radius
+              <m>= 4</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>x^2 + y^2 - 6x + 2y + 1 = 0</m>, Centre <m>= (3, -1)</m>,
+              Radius <m>= 3</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-12">
+    <statement>
+      <p>
+        Find the equations of the line tangent and normal to the circle.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p><m>x^2 + y^2 = 100</m> at point <m>(-8, -6)</m></p>
+          </li>
+          <li>
+            <p><m>x^2 + y^2 = 49</m> at point <m>(7, 0)</m></p>
+          </li>
+          <li>
+            <p><m>x^2 + y^2 - 2x - 24 = 0</m> at <m>(1, -5)</m></p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p>
+              Tangent equation is <m>3y + 4x + 50 = 0</m>; Normal equation is
+              <m>4y - 3x = 0</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Tangent equation is <m>x - 7 = 0</m>; Normal equation is <m>y =
+              0</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Tangent equation is <m>y + 5 = 0</m>; Normal equation is <m>x -
+              1 = 0</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-13">
+    <statement>
+      <p>Find the length of the tangent from the point:</p>
+
+      <p>
+        <ol>
+          <li>
+            <p>
+              <m>(-8, 6)</m> to the circle <m>x^2 + y^2 - 25 = 0</m>, leave
+              your answer in surd form
+            </p>
+          </li>
+          <li>
+            <p><m>(3, 6)</m> to the circle <m>x^2 + y^2 - 4y - 5 = 0</m></p>
+          </li>
+          <li>
+            <p>
+              <m>(7, -3)</m> to the circle <m>x^2 + y^2 + 10x - 4y + 13 =
+              0</m>, leave your answer in surd form
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\left(5, -\frac{1}{2}\right)</m> to the circle <m>4x^2 +
+              4y^2 + 12x + 4y - 15 = 0</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p><m>5\sqrt{3}</m></p>
+          </li>
+          <li>
+            <p><m>4</m></p>
+          </li>
+          <li>
+            <p><m>3\sqrt{17}</m></p>
+          </li>
+          <li>
+            <p><m>6</m></p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-14">
+    <statement>
+      <p>
+        The diagram below shows a graph of a circle. Line BA is a tangent to
+        the circle at B.
+      </p>
+
+      <!-- div center -->
+
+      <image source="figures/rq4-19.jpg" width="60%">
+        <shortdescription>image</shortdescription>
+      </image>
+
+      <!-- end div center -->
+
+      <p>
+        <ol>
+          <li>
+            <p>Find the equation of the circle.</p>
+          </li>
+          <li>
+            <p>Find <m>|</m>AB<m>|</m>, leave your answer in surds</p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol>
+          <li>
+            <p>
+              <m>\left(x + 5\right)^2 + \left(y + \frac{1}{2}\right)^2 =
+              \left(\frac{5}{2}\right)^2</m>
+            </p>
+          </li>
+          <li>
+            <p><m>4\sqrt{2}</m></p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-15">
+    <statement>
+      <p>
+        Calculate the equation of all points equidistant from <m>A(-4,
+        0)</m> and <m>B(2, 8)</m>
+      </p>
+    </statement>
+    <answer>
+      <p><m>4y + 3x - 13 = 0</m></p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-16">
+    <statement>
+      <p>
+        Find the equation of the locus of points which moves so that its
+        distance from the lines <m>3y - x = 0</m> and <m>3x - y = 0</m> is
+        the same.
+      </p>
+    </statement>
+    <answer>
+      <p><m>y - x = 0</m></p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-17">
+    <statement>
+      <p>
+        Find the locus of point <m>R(x, y)</m> that is always 2 units from
+        the line <m>x + 5 = 0</m>
+      </p>
+    </statement>
+    <answer>
+      <p><m>x + 7 = 0</m> or <m>x + 3 = 0</m></p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-18">
+    <statement>
+      <p>
+        If P(-2, 1) and Q(4, -1) are two fixed points and A(<m>x</m>,
+        <m>y</m>) moves such that <m>|</m>AP<m>|</m>:<m>|</m>AQ<m>| =
+        2</m>:1. Find the equation of the locus<term>.</term>
+      </p>
+    </statement>
+    <answer>
+      <p><m>3x^2 + 3y^2 - 36x + 10y + 63 = 0</m></p>
+    </answer>
+  </exercise>
+
+  <exercise xml:id="04-review-questions-19">
+    <statement>
+      <p>
+        A point A(<m>x</m>, <m>y</m>) moves so that AC and AD are
+        perpendicular. <m>C(-2, 0)</m> and <m>D(6, 4)</m>.
+      </p>
+
+      <p>Find the equation of the locus A.</p>
+    </statement>
+    <answer>
+      <p><m>x^2 + y^2 - 4x - 4y - 12 = 0</m></p>
+    </answer>
+  </exercise>
+</section>

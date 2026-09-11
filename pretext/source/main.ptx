@@ -77,6 +77,61 @@
 
     </chapter>
 
+    <chapter xml:id="section-3">
+        <title>Section 3</title>
+
+        <!-- Introduction -->
+        <xi:include href="section03/01-intro.ptx"/>
+
+        <!-- Finding Factors and Zeros of Polynomial Functions -->
+        <xi:include href="section03/02-factors-and-zeros.ptx"/>
+
+        <!-- The Rational Zero Theorem -->
+        <xi:include href="section03/03-rational-zero-theorem.ptx"/>
+
+        <!-- Sketching Polynomial Functions with Degrees Higher Than 2 -->
+        <xi:include href="section03/04-sketching.ptx"/>
+
+        <!-- Applying Descartes' Rule of Signs Theorem -->
+        <xi:include href="section03/05-descartes.ptx"/>
+
+        <!-- Applying the Fundamental Theorem of Algebra -->
+        <xi:include href="section03/06-fundamental-theorem.ptx"/>
+
+        <!-- Complex Conjugates Theorem -->
+        <xi:include href="section03/07-complex-conjugates.ptx"/>
+
+        <!-- Linear and Quadratic Factor Theorems -->
+        <xi:include href="section03/08-linear-quadratic-factors.ptx"/>
+
+        <!-- Review Questions -->
+        <xi:include href="section03/09-exercises.ptx"/>
+
+    </chapter>
+
+    <chapter xml:id="section-4">
+        <title>Section 4</title>
+
+        <!-- Introduction -->
+        <xi:include href="section04/01-intro.ptx"/>
+
+        <!-- Deriving the Equation of a Circle -->
+        <xi:include href="section04/02-deriving-equation.ptx"/>
+
+        <!-- Deriving the Equations of a Circle from Given Points -->
+        <xi:include href="section04/03-from-given-points.ptx"/>
+
+        <!-- Tangents and Normals -->
+        <xi:include href="section04/04-tangents-normals.ptx"/>
+
+        <!-- Deducing the Relation of Various Loci Under Given Condition -->
+        <xi:include href="section04/05-loci.ptx"/>
+
+        <!-- Review Questions -->
+        <xi:include href="section04/06-exercises.ptx"/>
+
+    </chapter>
+
   </book>
 
 </pretext>

@@ -1,0 +1,171 @@
+<section xml:id="complex-conjugates-theorem">
+  <title>Complex Conjugates Theorem</title>
+
+  <p>
+    <term>Complex Numbers</term>: A complex number is expressed in the form
+    <m>a + bi</m>, where a and b are real numbers, and <m>i</m> is the
+    imaginary unit defined as <m>i^2 = -1</m>, or <m>i = \sqrt{-1}</m>
+  </p>
+
+  <p>
+    <term>Roots of Polynomials</term>: When dealing with polynomial equations,
+    the Fundamental Theorem of Algebra states that every non-constant
+    polynomial has at least one complex root. This means that if a polynomial
+    has real coefficients, any non-real roots must occur in conjugate pairs.
+  </p>
+
+  <p>
+    If <m>a + bi</m> (where b <m>\ne</m> 0) is a root of a polynomial, then
+    its conjugate <m>a - bi</m> is also a root.
+  </p>
+
+  <p><term>Example</term>: For a polynomial like <m>x^2 + 4</m>:</p>
+
+  <p>The roots can be found by rearranging to <m>x^2 = -4</m>.</p>
+
+  <p>Taking the square root gives <m>x = \pm 2i</m></p>
+
+  <p>
+    Here, <m>2i</m> and <m>-2i</m> are complex roots that come in conjugate
+    pairs.
+  </p>
+
+  <p><term>Note that:</term></p>
+
+  <p>
+    <term>Complex roots</term> always come in <term>conjugate pairs</term>.
+  </p>
+
+  <p>
+    If <m>a + bi</m> is a root of a polynomial, then <m>a - bi</m> is also a
+    root.
+  </p>
+
+  <p>
+    This property helps us find all the roots of polynomials, ensuring we
+    account for both real and complex solutions.
+  </p>
+
+  <p>
+    The <term>Complex Conjugate Theorem</term> states that if a polynomial has
+    a complex root, its conjugate must also be a root. This is an important
+    concept in algebra that helps us understand the nature of polynomial
+    equations and their solutions.
+  </p>
+
+  <p>
+    Let us go through the following examples to explore how to use the
+    <term>Complex conjugate theorem.</term>
+  </p>
+
+  <p>
+    For example, if we are given one complex factor of a polynomial, we know
+    another factor must be the complex conjugate. This gives us two factors.
+    We can then form a quadratic equation and use algebraic division to find
+    another factor. Or we may be given two real factors, for example, <m>x =
+    2</m> and <m>x = -3</m>. This means that <m>x - 2 = 0</m> or <m>x + 3 =
+    0</m>
+  </p>
+
+  <p><m>\therefore (x - 2)(x + 3) = 0</m></p>
+
+  <p><m>x^2 + 3x - 2x - 6 = 0</m></p>
+
+  <p><m>x^2 + x - 6 = 0</m></p>
+
+  <example>
+    <p>
+      Example 3.15 Find all the roots of <m>f(x) = x^3 + 8x^2 + 21x + 20</m>
+      if one root is <m>-2 - i</m>.
+    </p>
+
+    <p><m>f(x) = x^3 + 8x^2 + 21x + 20</m></p>
+
+    <p>
+      Since the factor given <m>(-2 - i)</m> is complex in nature, we need the
+      conjugate as well: <m>-2 + i</m>
+    </p>
+
+    <p><m>[x - (-2 - i)][x - (-2 + i)]</m></p>
+
+    <p><m>[x + 2 + i][x + 2 - i]</m></p>
+
+    <p><m>(x + 2)^2 - (i)^2</m></p>
+
+    <p><m>x^2 + 4x + 4 - i^2</m></p>
+
+    <p>NB: <m>-i^2 = 1</m></p>
+
+    <p><m>x^2 + 4x + 4 - (-1)</m></p>
+
+    <p><m>x^2 + 4x + 5</m></p>
+
+    <p>
+      We can use long division to find the other factors:
+
+      <md>
+        \begin{array}{r@{\;}r} &amp; x + 4 \\ \cline{2-2} x^2 + 4x + 5\,\big)
+        &amp; x^3 + 8x^2 + 21x + 20 \\ &amp; \underline{-(x^3 + 4x^2 + 5x +
+        20)} \\ &amp; 4x^2 + 16x + 20 \\ &amp; \underline{-(4x^2 + 16x + 20)}
+        \\ &amp; 0 \end{array}
+      </md>
+
+      <m>x + 4 = 0</m>
+    </p>
+
+    <p><m>x = -4</m></p>
+
+    <p>
+      Therefore, the roots of <m>(x)</m> are <m>-4</m>, <m>-2 + i</m> and
+      <m>-2 - i</m>
+    </p>
+  </example>
+
+  <example>
+    <p>
+      Example 3.16 Find all the roots of <m>f(x) = 2x^3 - 13x^2 + 26x - 10</m>
+      if one root is <m>3 + i</m>.
+    </p>
+
+    <p><m>f(x) = 2x^3 - 13x^2 + 26x - 10</m></p>
+
+    <p>
+      Since the factor given <m>3 + i</m> is complex in nature, we need the
+      conjugate as well: <m>3 - i</m>
+    </p>
+
+    <p><m>[x - (3 + i)][x - (3 - i)]</m></p>
+
+    <p><m>[x - 3 - i][x - 3 + i]</m></p>
+
+    <p><m>(x - 3)^2 - (i)^2</m></p>
+
+    <p><m>x^2 - 6x + 9 - i^2</m></p>
+
+    <p>NB: <m>-i^2 = -1</m></p>
+
+    <p><m>x^2 - 6x + 9 - (-1)</m></p>
+
+    <p><m>x^2 - 6x + 10</m></p>
+
+    <p>
+      We can use long division to find the other factor.
+
+      <md>
+        \begin{array}{r@{\;}r} &amp; 2x - 1 \\ \cline{2-2} x^2 - 6x +
+        10\,\big) &amp; 2x^3 - 13x^2 + 26x - 10 \\ &amp; \underline{-(2x^3 -
+        12x^2 + 20x + 0)} \\ &amp; -x^2 + 6x - 10 \\ &amp; \underline{-(-x^2 +
+        6x - 10)} \\ &amp; 0 \end{array}
+      </md>
+
+      <m>2x - 1 = 0</m>
+    </p>
+
+    <p><m>x = 1/2</m></p>
+
+    <p>
+      Therefore, the roots of <m>(x)</m> are <m>x = 1/2</m>, <m>3 + i</m> and
+      <m>3 - i</m>
+    </p>
+  </example>
+</section>
