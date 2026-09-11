@@ -1,7 +1,7 @@
-<section xml:id="review-questions">
+<section xml:id="04-review-questions">
   <title>Review Questions</title>
 
-  <exercise xml:id="review-questions-1">
+  <exercise xml:id="04-review-questions-1">
     <statement>
       <p>The diagram below shows the graph of three circles, P, Q and R.</p>
 
@@ -67,7 +67,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-2">
+  <exercise xml:id="04-review-questions-2">
     <statement>
       <p>
         Write the general form of the circle equation with the following
@@ -111,7 +111,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-3">
+  <exercise xml:id="04-review-questions-3">
     <statement>
       <p>The diagram shows the graph of circles A, B and C.</p>
 
@@ -159,7 +159,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-4">
+  <exercise xml:id="04-review-questions-4">
     <statement>
       <p>
         A TV remote has a range of <m>8</m>m in all directions. If the TV is
@@ -187,7 +187,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-5">
+  <exercise xml:id="04-review-questions-5">
     <statement>
       <p>
         An Uber driver operates within <m>30</m>km of a post office at all
@@ -236,7 +236,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-6">
+  <exercise xml:id="04-review-questions-6">
     <statement>
       <p>Write the general equation of a circle with:</p>
 
@@ -280,7 +280,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-7">
+  <exercise xml:id="04-review-questions-7">
     <statement>
       <p>
         Write each of the following circles in the standard form. Also,
@@ -357,7 +357,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-8">
+  <exercise xml:id="04-review-questions-8">
     <statement>
       <p>
         The endpoints of the diameter of a circle are <m>(0, 5)</m> and
@@ -391,7 +391,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-9">
+  <exercise xml:id="04-review-questions-9">
     <statement>
       <p>
         The endpoints of the diameter of a circle are <m>(6, 0)</m> and
@@ -425,7 +425,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-10">
+  <exercise xml:id="04-review-questions-10">
     <statement>
       <p>
         The endpoints of the diameter of a circle are <m>(-4, 3)</m> and
@@ -459,7 +459,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-11">
+  <exercise xml:id="04-review-questions-11">
     <statement>
       <p>
         In each of the following questions, coordinates of three points are
@@ -499,7 +499,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-12">
+  <exercise xml:id="04-review-questions-12">
     <statement>
       <p>
         Find the equations of the line tangent and normal to the circle.
@@ -545,7 +545,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-13">
+  <exercise xml:id="04-review-questions-13">
     <statement>
       <p>Find the length of the tangent from the point:</p>
 
@@ -595,7 +595,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-14">
+  <exercise xml:id="04-review-questions-14">
     <statement>
       <p>
         The diagram below shows a graph of a circle. Line BA is a tangent to
@@ -638,7 +638,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-15">
+  <exercise xml:id="04-review-questions-15">
     <statement>
       <p>
         Calculate the equation of all points equidistant from <m>A(-4,
@@ -650,7 +650,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-16">
+  <exercise xml:id="04-review-questions-16">
     <statement>
       <p>
         Find the equation of the locus of points which moves so that its
@@ -663,7 +663,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-17">
+  <exercise xml:id="04-review-questions-17">
     <statement>
       <p>
         Find the locus of point <m>R(x, y)</m> that is always 2 units from
@@ -675,7 +675,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-18">
+  <exercise xml:id="04-review-questions-18">
     <statement>
       <p>
         If P(-2, 1) and Q(4, -1) are two fixed points and A(<m>x</m>,
@@ -688,7 +688,7 @@
     </answer>
   </exercise>
 
-  <exercise xml:id="review-questions-19">
+  <exercise xml:id="04-review-questions-19">
     <statement>
       <p>
         A point A(<m>x</m>, <m>y</m>) moves so that AC and AD are
