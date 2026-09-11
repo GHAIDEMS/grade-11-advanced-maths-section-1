@@ -1,0 +1,134 @@
+% Book pp. 122-125 (PDF pp. 123-126)
+\subsection{Complex Conjugates Theorem}
+
+\textbf{Complex Numbers}: A complex number is expressed in the form $a + bi$, where a
+and b are real numbers, and $i$ is the imaginary unit defined as $i^2 = -1$, or
+$i = \sqrt{-1}$
+
+\textbf{Roots of Polynomials}: When dealing with polynomial equations, the Fundamental
+Theorem of Algebra states that every non-constant polynomial has at least one
+complex root. This means that if a polynomial has real coefficients, any non-real
+roots must occur in conjugate pairs.
+
+If $a + bi$ (where b $\ne$ 0) is a root of a polynomial, then its conjugate $a - bi$ is
+also a root.
+
+\textbf{Example}: For a polynomial like $x^2 + 4$:
+
+The roots can be found by rearranging to $x^2 = -4$.
+
+Taking the square root gives $x = \pm 2i$
+
+Here, $2i$ and $-2i$ are complex roots that come in conjugate pairs.
+
+\textbf{Note that:}
+
+\textbf{Complex roots} always come in \textbf{conjugate pairs}.
+
+If $a + bi$ is a root of a polynomial, then $a - bi$ is also a root.
+
+This property helps us find all the roots of polynomials, ensuring we account for
+both real and complex solutions.
+
+The \textbf{Complex Conjugate Theorem} states that if a polynomial has a complex
+root, its conjugate must also be a root. This is an important concept in algebra that
+helps us understand the nature of polynomial equations and their solutions.
+
+Let us go through the following examples to explore how to use the \textbf{Complex
+conjugate theorem.}
+
+For example, if we are given one complex factor of a polynomial, we know
+another factor must be the complex conjugate. This gives us two factors. We can
+then form a quadratic equation and use algebraic division to find another factor.
+Or we may be given two real factors, for example, $x = 2$ and $x = -3$. This means
+that $x - 2 = 0$ or $x + 3 = 0$
+
+$\therefore (x - 2)(x + 3) = 0$
+
+$x^2 + 3x - 2x - 6 = 0$
+
+$x^2 + x - 6 = 0$
+
+\begin{example}{Example 3.15}
+Find all the roots of $f(x) = x^3 + 8x^2 + 21x + 20$ if one root is -2 $-$ $i$.
+
+\solution
+$f(x) = x^3 + 8x^2 + 21x + 20$
+
+Since the factor given $(-2 - i)$ is complex in nature, we need the conjugate as
+well: $-2 + i$
+
+$[x - (-2 - i)][(x - (-2 + i)]$
+
+$[x + 2 + i][x + 2 - i]$
+
+$(x + 2)^2 - (i)^2$
+
+$x^2 + 4x + 4 - i^2$
+
+NB: $-i^2 = 1$
+
+$x^2 + 4x + 4 - (-1)$
+
+$x^2 + 4x + 5$
+
+We can use long division to find the other factors:
+\[
+\begin{array}{r@{\;}r}
+ & x + 4 \\ \cline{2-2}
+x^2 + 4x + 5\,\big) & x^3 + 8x^2 + 21x + 20 \\
+ & \underline{-(x^3 + 4x^2 + 5x + 20)} \\
+ & 4x^2 + 16x + 20 \\
+ & \underline{-(4x^2 + 16x + 20)} \\
+ & 0
+\end{array}
+\]
+$x + 4 = 0$
+
+$x = -4$
+
+Therefore, the roots of $(x)$ are $-4$, $-2 + i$ and $-2$ -- $i$
+\end{example}
+
+\begin{example}{Example 3.16}
+Find all the roots of $f(x) = 2x^3 - 13x^2 + 26x - 10$ if one root is $3 + i$.
+
+\solution
+$f(x) = 2x^3 - 13x^2 + 26x - 10$
+
+Since the factor given $3 + i$. is complex in nature, we need the conjugate as well:
+$3 - i$
+
+$[x - (3 + i)][(x - (3 - i)]$
+
+$[x - 3 - i][x - 3 + i]$
+
+$(x - 3)^2 - (i)^2$
+
+$x^2 - 6x + 9 - i^2$
+
+NB: $-i^2 = -1$
+\booknote[S3-14]{$-i^2 = 1$, as Example 3.15 states; the next line correctly
+subtracts $(-1)$.}
+
+$x^2 - 6x + 9 - (-1)$
+
+$x^2 - 6x + 10$
+
+We can use long division to find the other factor.
+\[
+\begin{array}{r@{\;}r}
+ & 2x - 1 \\ \cline{2-2}
+x^2 - 6x + 10\,\big) & 2x^3 - 13x^2 + 26x - 10 \\
+ & \underline{-(2x^3 - 12x^2 + 20x + 0)} \\
+ & -x^2 + 6x - 10 \\
+ & \underline{-(-x^2 + 6x - 10)} \\
+ & 0
+\end{array}
+\]
+$2x - 1 = 0$
+
+$x = \frac{1}{2}$
+
+Therefore, the roots of $(x)$ are $= \frac{1}{2}$, $3 + i$ and $3$ -- $i$
+\end{example}
