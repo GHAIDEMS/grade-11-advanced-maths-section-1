@@ -1,0 +1,252 @@
+<chapter>
+  <section xml:id="linear-and-quadratic-factor-theorems">
+    <title>Linear and Quadratic Factor Theorems</title>
+
+    <p>
+      The linear quadratic factor theorem is another method which can be used
+      to solve polynomial functions. This is when we break polynomial
+      functions into linear and quadratic factors to make solving it simpler.
+    </p>
+
+    <p>
+      For example, to use the linear and quadratic factor approach to find the
+      factors of <m>x^4 - 9x^2 + 14</m>, we:
+    </p>
+
+    <p><term>Step 1</term>: Let <m>x^2 = u</m></p>
+
+    <p>
+      <term>Step 2</term>: Using this substitution it means <m>x^4 - 9x^2 + 14
+      = (u)^2 - 9(u) + 14</m>
+    </p>
+
+    <p><term>Step 3</term>: Factorise <m>u^2 - 9u + 14</m>:</p>
+
+    <p><m>u^2 - 7u - 2u + 14</m></p>
+
+    <p><m>u(u - 7) - 2(u - 7)</m></p>
+
+    <p><m>(u - 2)(u - 7)</m></p>
+
+    <p><term>Step 4</term>: Substitute <m>x^2</m> back in for <m>u</m>:</p>
+
+    <p><m>(x^2 - 2)(x^2 - 7)</m></p>
+
+    <p><m>x^2 - 2 = 0</m> and <m>x^2 - 7 = 0</m></p>
+
+    <p>For <m>x^2 - 2 = 0</m></p>
+
+    <p><m>x^2 = 2</m></p>
+
+    <p><m>x = \pm\sqrt{2}</m></p>
+
+    <p><m>x = -\sqrt{2}</m> or <m>x = \sqrt{2}</m></p>
+
+    <p><m>x + \sqrt{2}</m> and <m>x - \sqrt{2}</m> are factors</p>
+
+    <p>For <m>x^2 - 7 = 0</m></p>
+
+    <p><m>x^2 = 7</m></p>
+
+    <p><m>x = \pm\sqrt{7}</m></p>
+
+    <p><m>x = -\sqrt{7}</m> or <m>x = \sqrt{7}</m></p>
+
+    <p><m>x + \sqrt{7}</m> and <m>x - \sqrt{7}</m> are factors</p>
+
+    <p>
+      Hence the factors are <m>x + \sqrt{2}</m>, <m>x - \sqrt{2}</m>, <m>x +
+      \sqrt{7}</m> and <m>x - \sqrt{7}</m>
+    </p>
+
+    <example>
+      <p>
+        Example 3.17 Given <m>f(x) = x^4 - 1</m>, find all the factors using
+        the linear quadratic factor approach.
+      </p>
+
+      <p>Let <m>u = x^2</m></p>
+
+      <p><m>f(x) = (x^2)^2 - 1</m></p>
+
+      <p><m>(u)^2 - 1</m></p>
+
+      <p><m>u^2 - 1</m></p>
+
+      <p>Factorising:</p>
+
+      <p><m>(u - 1)(u + 1)</m></p>
+
+      <p>Substituting <m>x^2</m> back in:</p>
+
+      <p><m>(x^2 - 1)(x^2 + 1)</m></p>
+
+      <p><m>(x^2 - 1)(x^2 + 1) = 0</m></p>
+
+      <p><m>x^2 - 1 = 0</m> or <m>x^2 + 1 = 0</m></p>
+
+      <p>For <m>x^2 - 1 = 0</m></p>
+
+      <p><m>x^2 = \pm 1</m></p>
+
+      <p><m>x = 1</m> or <m>x = -1</m></p>
+
+      <p>For <m>(x^2 + 1)</m></p>
+
+      <p><m>x^2 + 1 = 0</m></p>
+
+      <p><m>x^2 = -1</m></p>
+
+      <p><m>x = \pm\sqrt{-1}</m></p>
+
+      <p><term>NB:</term> <m>\sqrt{-1} = \boldsymbol{i}</m></p>
+
+      <p><m>x = \pm i</m></p>
+
+      <p><m>x = -i</m> or <m>x = i</m></p>
+
+      <p>
+        Hence the factors are <m>(x + 1)</m>, <m>(x - 1)</m>, <m>(x - i)(x +
+        i)</m>
+      </p>
+    </example>
+
+    <example>
+      <p>
+        Example 3.18 Given <m>f(x) = 2x^4 + x^2 - 10</m>, find all the factors
+        using the linear quadratic factor approach
+      </p>
+
+      <p>Let <m>u = x^2</m></p>
+
+      <p><m>f(x) = 2(x^2)^2 + u - 10</m></p>
+
+      <p><m>2(u)^2 + u - 10</m></p>
+
+      <p><m>2u^2 + u - 10</m></p>
+
+      <p>Factorising:</p>
+
+      <p><m>2u^2 - 4u + 5u - 10</m></p>
+
+      <p><m>2u(u - 2) + 5(u - 2)</m></p>
+
+      <p><m>(2u + 5)(u - 2)</m></p>
+
+      <p>Substituting:</p>
+
+      <p><m>u = x^2</m></p>
+
+      <p><m>(2x^2 + 5)(x^2 - 2)</m></p>
+
+      <p><m>(2x^2 + 5)(x^2 - 2) = 0</m></p>
+
+      <p><m>2x^2 + 5 = 0</m> or <m>x^2 - 2 = 0</m></p>
+
+      <p>For <m>2x^2 + 5 = 0</m></p>
+
+      <p><m>x^2 = -\frac{5}{2}</m></p>
+
+      <p><m>x = \pm\sqrt{-\frac{5}{2}}</m></p>
+
+      <p><m>x = i\sqrt{\frac{5}{2}}</m> or <m>x = -i\sqrt{\frac{5}{2}}</m></p>
+
+      <p>For <m>(x^2 - 2)</m></p>
+
+      <p><m>x^2 - 2 = 0</m></p>
+
+      <p><m>x^2 = 2</m></p>
+
+      <p><m>x = \pm\sqrt{2}</m></p>
+
+      <p><m>x = -\sqrt{2}</m> or <m>x = \sqrt{2}</m></p>
+
+      <p>
+        Hence the factors are <m>\left(x + i\sqrt{\frac{5}{2}}\right)\left(x -
+        i\sqrt{\frac{5}{2}}\right)\left(x - \sqrt{2}\right)\left(x +
+        \sqrt{2}\right)</m>
+      </p>
+    </example>
+
+    <p>
+      We can use what we have learned to help in determining the maximum or
+      minimum profit or productivity in the real world.
+    </p>
+
+    <p>
+      In small groups, or individually, discuss how the following problem can
+      be solved.
+    </p>
+
+    <example>
+      <p>
+        Example 3.19 A water production company made sales of <m>x</m> bags of
+        water and the profit was given by <m>2x^2 + 7x - 15</m> where <m>0 \le
+        x \le 10</m>.
+      </p>
+
+      <p>Help the company determine their maximum profit and loss.</p>
+
+      <p>
+        Since the range was given <term>(</term><m>0 \le x \le 10</m>), we do
+        our calculation within this range.
+      </p>
+
+      <p>Evaluating the function in the given interval, we obtain:</p>
+
+      <tabular>
+        <col halign="left"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/><col halign="center"/>
+        <row header="yes">
+          <cell>x</cell>
+          <cell>0</cell>
+          <cell>1</cell>
+          <cell>2</cell>
+          <cell>3</cell>
+          <cell>4</cell>
+          <cell>5</cell>
+          <cell>6</cell>
+          <cell>7</cell>
+          <cell>8</cell>
+          <cell>9</cell>
+          <cell>10</cell>
+        </row>
+        <row>
+          <cell><m>2x^2 + 7x - 15</m></cell>
+          <cell>-15</cell>
+          <cell>-6</cell>
+          <cell>7</cell>
+          <cell>24</cell>
+          <cell>45</cell>
+          <cell>70</cell>
+          <cell>99</cell>
+          <cell>132</cell>
+          <cell>169</cell>
+          <cell>210</cell>
+          <cell>255</cell>
+        </row>
+      </tabular>
+
+      <p>
+        The maximum profit occurs when <m>x = 10</m> with a profit of 255
+        while the loss will occur when there is no production, i.e., <m>x =
+        0</m> at a loss of 15 ( -15).
+      </p>
+    </example>
+  </section>
+
+  <section xml:id="extended-reading">
+    <title>Extended Reading</title>
+
+    <p>
+      <ul>
+        <li>
+          <p>
+            Lial, M. L., Hornsby, E. J., &amp; McGinnis, T. (2012). Algebra
+            for college students. (7th Ed. Pearson Education, Inc). Pages 346
+            &lt;ndash/&gt; 375.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </section>
+</chapter>

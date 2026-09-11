@@ -1,0 +1,588 @@
+<section xml:id="finding-factors-and-zeros-of-polynomial-functions">
+  <title>Finding Factors and Zeros of Polynomial Functions</title>
+
+  <introduction>
+    <activity>
+      <p>
+        Activity 3.1: Revision of finding quadratic factors In pairs or small
+        groups or individually, perform these activities.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>Factorise the following quadratic expressions:</p>
+
+            <p>
+              <ol>
+                <li>
+                  <p><m>y^2 + 3y + 2</m></p>
+                </li>
+                <li>
+                  <p><m>3y^2 + 11y + 10</m></p>
+                </li>
+                <li>
+                  <p><m>6x^2 + 5x + 1</m></p>
+                </li>
+                <li>
+                  <p><m>x^2 - 9</m></p>
+                </li>
+              </ol>
+            </p>
+          </li>
+          <li>
+            <p>
+              Write down the factorising process clearly, showing each step
+              taken to arrive at the factors.
+            </p>
+          </li>
+          <li>
+            <p>
+              Exchange your work with other groups or peers to compare
+              answers.
+            </p>
+          </li>
+          <li>
+            <p>
+              Discuss any differences in methods used and validate the
+              correctness of each group's results.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </activity>
+
+    <p>
+      An expression <m>(\boldsymbol{x + y})</m> is a factor if you can
+      multiply it by another expression <m>\boldsymbol{(e + f)}</m> to get the
+      original expression <m>(\boldsymbol{ex + fx + ey + fy})</m>. In simple
+      terms, if you can find two or more expressions that multiply together to
+      make a certain expression, then those are its factors.
+    </p>
+
+    <p>
+      For example, <m>(x + 2)(x - 3)</m> are factors of <m>x^2 - x - 6</m>
+      because expanding <m>(x + 2)(x - 3)</m>:
+    </p>
+
+    <p><m>x(x - 3) + 2(x - 3)</m></p>
+
+    <p><m>x^2 - 3x + 2x - 6</m></p>
+
+    <p><m>x^2 - x - 6</m></p>
+
+    <p>
+      Therefore, we see that <m>(x + 2)(x - 3)</m> is indeed equal to <m>x^2 -
+      x - 6</m> confirming that they are factors of the expression. If you
+      found activity 3.1 challenging, use the task below to help you.
+    </p>
+
+    <p>
+      To <term>factorise quadratics</term> of the form <m>ax^2 + bx + c</m>:
+    </p>
+
+    <p><term>Example</term></p>
+
+    <!-- div center -->
+
+    <tabular>
+      <col halign="left" width="60%"/> <col halign="left" width="32%"/>
+      <row header="yes">
+        <cell><term>Task</term></cell>
+        <cell><m>\boldsymbol{2x^2 + 7x + 6}</m></cell>
+      </row>
+      <row>
+        <cell>
+          <term>Task 1</term>
+
+          <!-- linebreak -->
+
+          Find two numbers that multiply to give ac (the product of a and c)
+          and add to give b.
+        </cell>
+        <cell>
+          <m>a = 2</m>, <m>b = 7</m> and <m>c = 6</m>
+
+          <!-- linebreak -->
+
+          <m>ac = 2 \times 6 = 12</m>
+
+          <!-- linebreak -->
+
+          <m>4 + 3 = 7</m> and <m>4 \times 3 = 12</m>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <term>Task 2</term>
+
+          <!-- linebreak -->
+
+          Rewrite the middle term using these two numbers as coefficients of
+          x.
+        </cell>
+        <cell><m>2x^2 + 4x + 3x + 6</m></cell>
+      </row>
+      <row>
+        <cell>
+          <term>Task 3</term>
+
+          <!-- linebreak -->
+
+          If the polynomial has four terms, group the terms in pairs.
+        </cell>
+        <cell><m>(2x^2 + 4x) + (3x + 6)</m></cell>
+      </row>
+      <row>
+        <cell>
+          <term>Task 4</term>
+
+          <!-- linebreak -->
+
+          Factorise out the common factor from each group.
+        </cell>
+        <cell><m>2x(x + 2) + 3(x + 2)</m></cell>
+      </row>
+      <row>
+        <cell>
+          <term>Task 5</term>
+
+          <!-- linebreak -->
+
+          Look for a common binomial factor and factorise it out and you have
+          the factorised solution.
+        </cell>
+        <cell><m>(2x + 3)(x + 2)</m></cell>
+      </row>
+    </tabular>
+
+    <!-- end div center -->
+  </introduction>
+
+  <subsection xml:id="factor-theorem-and-remainder-theorem">
+    <title>Factor Theorem and Remainder Theorem</title>
+
+    <p>
+      In addition to quadratic functions, there are several other types of
+      polynomial functions that can be factorised using the Factor Theorem and
+      the Remainder Theorem. Remember that if <m>(x \pm h)</m> is a factor of
+      a polynomial, then the remainder will be zero. Conversely, if the
+      remainder is zero, then <m>(x \pm h)</m> is a factor.
+    </p>
+
+    <p>Here are some common types of polynomials:</p>
+  </subsection>
+
+  <subsection xml:id="types-of-polynomials">
+    <title>Types of Polynomials</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            <term>Cubic Polynomials:</term> Polynomials of <em>degree</em>
+            three, in the form: <m>f(x) = ax^3 + bx^2 + cx + d</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Quartic Polynomials:</term> Polynomials of degree four, in
+            the form:
+
+            <!-- linebreak -->
+
+            <m>f(x) = ax^4 + bx^3 + cx^2 + dx + e</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Quintic Polynomials:</term> Polynomials of degree five, in
+            the form:
+
+            <!-- linebreak -->
+
+            <m>f(x) = ax^5 + bx^4 + cx^3 + dx^2 + ex + f</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <activity>
+      <p>
+        Activity 3.2: Revision on factorisation In groups or individually, use
+        the idea of the factor and remainder theorems to find the factors or
+        the remainders of the following polynomials.
+      </p>
+
+      <p>
+        <ol>
+          <li>
+            <p>Find the remainder when:</p>
+
+            <p>
+              <ol>
+                <li>
+                  <p>
+                    <m>f(x) = 3x^3 - 4x^2 + 2x + 3</m> is divided by <m>(x +
+                    1)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>f(x) = 8x^3 - 3x^2 + 6x + 4</m> is divided by <m>(x -
+                    2)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>f(x) = 7x^3 + 3x^2 - x + 6</m> is divided by <m>(x +
+                    3)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>f(x) = x^3 - x^2 + x + 1</m> is divided by <m>(x -
+                    1)</m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </li>
+          <li>
+            <p>
+              <ol>
+                <li>
+                  <p>
+                    show that <m>x + 2</m> is a factor of <m>f(x) = x^3 - 2x^2
+                    - 5x + 6</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    show that <m>x - 3</m> is a factor of <m>f(x) = x^3 - 3x^2
+                    - 4x + 12</m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </li>
+          <li>
+            <p>Compare your answers with other groups.</p>
+          </li>
+        </ol>
+      </p>
+    </activity>
+  </subsection>
+
+  <subsection xml:id="zero-product-property">
+    <title>Zero-Product Property</title>
+
+    <p>
+      This property of real numbers says that if you multiply two numbers
+      together and the result is zero, then at least one of those numbers must
+      be zero. In simpler terms, if you have two numbers, <term>a</term> and
+      b, and when you multiply them (a<m>\times</m>b), and you get zero, it
+      means that either <m>a</m> is zero, or <m>b</m> is zero or both are
+      zero. This property helps us to find the <term>zeros</term> or
+      <term>roots</term> of functions of quadratic functions.
+    </p>
+
+    <p>
+      The <term>zeros</term> or <term>roots</term> of a function are the
+      values of the input (usually represented as x) that make the function
+      equal to zero. In other words, if you have a function f(x), the zeros
+      are the values of x for which f(x) <m>=</m> 0. For example, given the
+      function <m>f(x) = 2x^2 - x - 6</m>, You:
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>equate f(x) <m>=</m> 0</p>
+
+          <p><m>2x^2 - x - 6 = 0</m></p>
+        </li>
+        <li>
+          <p>factorise the function</p>
+
+          <p><m>2x^2 - 4x + 3x - 6 = 0</m></p>
+
+          <p><m>2x(x - 2) + 3(x - 2) = 0</m></p>
+
+          <p><m>(2x + 3)(x - 2) = 0</m></p>
+
+          <p>Either <m>(2x + 3) = 0</m> or <m>(x - 2) = 0</m></p>
+        </li>
+        <li>
+          <p>find the solution for each factor</p>
+
+          <p><m>(2x + 3) = 0</m></p>
+
+          <p><m>2x = -3</m></p>
+
+          <p><m>x = -\frac{3}{2}</m></p>
+
+          <p><m>(x - 2) = 0</m></p>
+
+          <p><m>x = 0 - 2</m></p>
+
+          <p><m>x = 2</m></p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      Therefore, the zeros, or roots, of the function <m>f(x) = 2x^2 - x -
+      6</m> are <m>x = -\frac{3}{2}</m> and <m>x = 2</m> because both values
+      make the function equal to zero.
+    </p>
+
+    <p>
+      We will apply the Zero-Product Property to solve polynomial equations in
+      the next task.
+    </p>
+  </subsection>
+
+  <subsection xml:id="solving-a-polynomial-equation">
+    <title>Solving a Polynomial Equation</title>
+
+    <p>
+      There are a number of ways that can be used to find the zeros, or the
+      roots, of polynomial functions. We can use a calculator, plot a graph,
+      use GeoGebra (software) and we can also calculate by using the zero
+      property.
+    </p>
+
+    <p><em>To find the zeros, or roots, by the calculation method:</em></p>
+
+    <p>
+      Step 1: use the factor theorem approach to factorise the expression
+      completely.
+    </p>
+
+    <p>Step 2: equate each factor to 0 and solve.</p>
+
+    <p>
+      In pairs or in groups, let's work through the following examples using
+      the steps above.
+    </p>
+
+    <example>
+      <p>
+        Example 3.1 Find the zeros of the cubic function <m>f(x) = x^3 - 2x^2
+        - 5x + 6</m>
+      </p>
+
+      <p><m>x^3 - 2x^2 - 5x + 6 = 0</m></p>
+
+      <p>Possible factors of <m>6 = \pm 1, \pm 2, \pm 3, \pm 6</m></p>
+
+      <p>Testing with these factors,</p>
+
+      <p>When x <m>=</m> 1,</p>
+
+      <p><m>f(x) = (1)^3 - 2(1)^2 - 5(1) + 6</m></p>
+
+      <p><m>f(x) = 1 - 2 - 5 + 6</m></p>
+
+      <p><m>f(x) = 0</m></p>
+
+      <p>
+        <m>\therefore (x - 1)</m> is a factor. If x=1 was not a factor, try
+        another option, eg x=-1.
+      </p>
+
+      <p>
+        Using the long division method:
+
+        <md>
+          \begin{array}{r@{\;}r} &amp; x^2 - x - 6 \\ \cline{2-2} x - 1\,\big)
+          &amp; x^3 - 2x^2 - 5x + 6 \\ &amp; \underline{-(x^3 - x^2 + 0x + 0)}
+          \\ &amp; -x^2 - 5x + 6 \\ &amp; \underline{-(-x^2 + x - 0)} \\ &amp;
+          -6x + 6 \\ &amp; \underline{-(-6x + 6)} \\ &amp; 0 \end{array}
+        </md>
+
+        Factorising, <m>x^2 - x - 6</m>
+      </p>
+
+      <p><m>x^2 - 3x + 2x - 6</m></p>
+
+      <p><m>(x^2 - 3x) + (2x - 6)</m></p>
+
+      <p><m>x(x - 3) + 2(x - 3)</m></p>
+
+      <p><m>(x + 2)(x - 3)</m></p>
+
+      <p><m>\therefore \mathrm{f}(\mathrm{x}) = (x - 1)(x + 2)(x - 3)</m></p>
+
+      <p><m>f(x) = 0</m></p>
+
+      <p><m>(x - 1)(x + 2)(x - 3) = 0</m></p>
+
+      <p>For <m>(x - 1) = 0</m></p>
+
+      <p><m>x = 1</m></p>
+
+      <p>For <m>(x + 2) = 0</m></p>
+
+      <p><m>x = -2</m></p>
+
+      <p>For <m>(x - 3) = 0</m></p>
+
+      <p><m>x = 3</m></p>
+
+      <p>Hence the zeros are when x <m>= -2, 1, 3</m></p>
+    </example>
+
+    <example>
+      <p>
+        Example 3.2 Find the roots, or zeros, of the cubic function <m>f(x) =
+        x^3 + x^2 - 10x + 8</m>
+      </p>
+
+      <p><m>x^3 + x^2 - 10x + 8 = 0</m></p>
+
+      <p>Possible factors of <m>8 = \pm 1, \pm 2, \pm 4, \pm 8</m></p>
+
+      <p>Testing with these factors,</p>
+
+      <p>When x <m>=</m> 1,</p>
+
+      <p><m>f(x) = (1)^3 + (1)^2 - 10(1) + 8</m></p>
+
+      <p><m>f(x) = 1 + 1 - 10 + 8</m></p>
+
+      <p><m>f(x) = 0</m></p>
+
+      <p><m>\therefore (x - 1)</m> is a factor.</p>
+
+      <p>
+        Using the long division method:
+
+        <md>
+          \begin{array}{r@{\;}r} &amp; x^2 + 2x - 8 \\ \cline{2-2} x -
+          1\,\big) &amp; x^3 + x^2 - 10x + 8 \\ &amp; \underline{-(x^3 - x^2 +
+          0x + 0)} \\ &amp; 2x^2 - 10x + 8 \\ &amp; \underline{-(2x^2 - 2x -
+          0)} \\ &amp; -8x + 8 \\ &amp; \underline{-(-8x + 8)} \\ &amp; 0
+          \end{array}
+        </md>
+
+        Factorising, <m>x^2 + 2x - 8</m>
+      </p>
+
+      <p><m>x^2 + 4x - 2x - 8</m></p>
+
+      <p><m>(x^2 + 4x) + (2x - 8)</m></p>
+
+      <p><m>x(x + 4) - 2(x + 4)</m></p>
+
+      <p><m>(x + 4)(x - 2)</m></p>
+
+      <p><m>\therefore \mathrm{f}(\mathrm{x}) = (x - 1)(x - 2)(x + 4)</m></p>
+
+      <p><m>f(x) = 0</m></p>
+
+      <p><m>(x - 1)(x - 2)(x + 4) = 0</m></p>
+
+      <p>For <m>(x - 1) = 0</m></p>
+
+      <p><m>x = 1</m></p>
+
+      <p>For <m>(x - 2) = 0</m></p>
+
+      <p><m>x = 2</m></p>
+
+      <p>For <m>(x + 4) = 0</m></p>
+
+      <p><m>x = -4</m></p>
+
+      <p>Hence the roots, or zeros, are when x <m>= -4, 2, 1</m></p>
+    </example>
+
+    <example>
+      <p>
+        Example 3.3 Find the zeros of the cubic function. <m>f(x) = x^3 - 3x^2
+        - 4x + 12</m>
+      </p>
+
+      <p><m>x^3 - 3x^2 - 4x + 12 = 0</m></p>
+
+      <p>
+        Possible factors of <m>12 = \pm 1, \pm 2, \pm 3, \pm 4, \pm 6, \pm
+        12</m>
+      </p>
+
+      <p>Testing with these factors,</p>
+
+      <p>When x <m>=</m> 1,</p>
+
+      <p><m>f(x) = (1)^3 - 3(1)^2 - 4(1) + 12</m></p>
+
+      <p><m>f(x) = 1 - 3 - 4 + 12</m></p>
+
+      <p><m>f(x) = 6</m></p>
+
+      <p>
+        <m>\therefore (x - 1)</m> is not a factor and we need to try another
+        potential factor.
+      </p>
+
+      <p>When <m>x = 2</m>,</p>
+
+      <p><m>f(x) = (2)^3 - 3(2)^2 - 4(2) + 12</m></p>
+
+      <p><m>f(x) = 8 - 12 - 8 + 12</m></p>
+
+      <p><m>f(x) = 0</m></p>
+
+      <p><m>\therefore (x - 2)</m> is a factor.</p>
+
+      <p>
+        Using the long division method:
+
+        <md>
+          \begin{array}{r@{\;}r} &amp; x^2 - x - 6 \\ \cline{2-2} x - 2\,\big)
+          &amp; x^3 - 3x^2 - 4x + 12 \\ &amp; \underline{-(x^3 - 2x^2 + 0x +
+          0)} \\ &amp; -x^2 - 4x + 12 \\ &amp; \underline{-(x^2 + 2x - 0)} \\
+          &amp; -6x + 12 \\ &amp; \underline{-(6x + 12)} \\ &amp; 0
+          \end{array}
+        </md>
+      </p>
+
+      <p>Factorising, <m>x^2 - x - 6</m></p>
+
+      <p><m>x^2 - 3x + 2x - 6</m></p>
+
+      <p><m>(x^2 - 3x) + (2x - 6)</m></p>
+
+      <p><m>x(x - 3) + 2(x - 3)</m></p>
+
+      <p><m>(x + 2)(x - 3)</m></p>
+
+      <p><m>\therefore \mathrm{f}(\mathrm{x}) = (x - 2)(x + 2)(x - 3)</m></p>
+
+      <p><m>f(x) = 0</m></p>
+
+      <p><m>(x - 2)(x + 2)(x - 3) = 0</m></p>
+
+      <p>For <m>(x - 2) = 0</m></p>
+
+      <p><m>x = 2</m></p>
+
+      <p>For <m>(x + 2) = 0</m></p>
+
+      <p><m>x = -2</m></p>
+
+      <p>For <m>(x - 3) = 0</m></p>
+
+      <p><m>x = 3</m></p>
+
+      <p>Hence the zeros are when x <m>= -2, 2, 3</m></p>
+    </example>
+
+    <p>
+      Following the remainder theorem is the Rational Zero Theorem which helps
+      to identify exactly which of the factor will give us zero.
+    </p>
+  </subsection>
+</section>
