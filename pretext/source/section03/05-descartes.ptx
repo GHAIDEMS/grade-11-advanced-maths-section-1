@@ -1,0 +1,443 @@
+<section xml:id="applying-descartes-rule-of-signs-theorem">
+  <title>Applying Descartes' Rule of Signs Theorem</title>
+
+  <p>
+    There is another way that can be used to determine how many positive and
+    negative real zeros a polynomial function might have. To do this, first
+    write the polynomial in descending order (from the highest degree to the
+    lowest) if it is not already. We use <term>Descartes' Rule of
+    Signs</term>. This rule helps you see how the number of times the signs
+    change in the polynomial is related to the number of positive real zeros.
+  </p>
+
+  <p>
+    For example, if you look at the polynomial function below, you will notice
+    it has one sign change, which gives you information about its positive
+    zeros.
+  </p>
+
+  <p>
+    Let us go through an example using Descartes' Rule of Signs to determine
+    the possible number of positive and negative real zeros.
+  </p>
+
+  <example>
+    <p>Example 3.9 Consider the polynomial:</p>
+
+    <p><m>f(x) = 3x^3 - 2x^2 + 4x - 5</m></p>
+
+    <p>
+      <term>Step 1:</term> <em>Identify Sign Changes for Positive Real
+      Zeros</em>
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>Write the polynomial in descending order:</p>
+        </li>
+        <li>
+          <p><m>f(x) = 3x^3 - 2x^2 + 4x + 5</m></p>
+
+          <p>Look at the coefficients:</p>
+
+          <p>3 (positive)</p>
+
+          <p><ndash/>2 (negative)</p>
+
+          <p>4 (positive)</p>
+
+          <p><m>-5</m> (negative)</p>
+        </li>
+        <li>
+          <p>Determine the sign changes:</p>
+
+          <p>From 3 to -2 (1 change)</p>
+
+          <p>From <m>-2</m> to 4 (2 changes)</p>
+
+          <p>From 4 to <m>-5</m> (3 changes)</p>
+
+          <p>
+            Total sign changes for positive zeros <m>=</m> 3. This means there
+            could be 3, (3 <ndash/> 2 <m>=</m> 1) positive real zeros. Note,
+            the number of possible roots is found by subtracting 2 each time
+            until we would get a negative number.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      <term>Step 2:</term> <em>Identify Sign Changes for Negative Real
+      Zeros</em>
+    </p>
+
+    <blockquote>
+      <p>
+        Now, let's find the negative real zeros by evaluating f(<m>-x</m>):
+      </p>
+
+      <p><m>f(-x) = 3(-x)^3 - 2(-x)^2 + 4(-x) - 5</m></p>
+
+      <p><m>f(-x) = -3x^3 - 2x^2 - 4x - 5</m></p>
+    </blockquote>
+
+    <p><term>Step 3:</term> <em>Look at the Signs of f(<m>-x</m>)</em></p>
+
+    <blockquote>
+      <p>The coefficients are:</p>
+
+      <p><m>-3</m> (negative)</p>
+
+      <p><m>-2</m> (negative)</p>
+
+      <p><m>-4</m> (negative)</p>
+
+      <p><m>-5</m> (negative)</p>
+    </blockquote>
+
+    <p>
+      <term>Step 4:</term> <em>Determine Sign Changes for Negative Real
+      Zeros</em>
+    </p>
+
+    <blockquote>
+      <p>There are <term>no sign changes</term> in f(<m>-</m>x)</p>
+    </blockquote>
+
+    <p>
+      Total sign changes for negative zeros <m>=</m> 0. This means there are
+      no negative real roots or zeros.
+    </p>
+  </example>
+
+  <p>
+    This example illustrates how to use Descartes' Rule of Signs to analyse a
+    polynomial and determine the possible numbers of positive and negative
+    real zeros.
+  </p>
+
+  <p>Let us solve more examples.</p>
+
+  <example>
+    <p>
+      Example 3.10 Use Descartes' Rule of Signs to determine how many possible
+      positive and negative real zeros of the following:
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p><m>g(x) = 2x^4 - 11x^3 + 4x^2 - 8x - 40</m></p>
+        </li>
+        <li>
+          <p><m>g(x) = 9x^3 - 10x^2 + 5x + 3</m></p>
+        </li>
+        <li>
+          <p>f<m>(x) = -x^5 + 3x^4 - 5x^3 - 12x^2 + 6x + 4</m></p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p><m>g(x) = 2x^4 - 11x^3 + 4x^2 - 8x - 40</m></p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      <term>Step 1:</term> <em>Identify Sign Changes for Positive Real
+      Zeros</em>
+    </p>
+
+    <blockquote>
+      <p>Write the polynomial in descending order:</p>
+
+      <p><m>g(x) = 2x^4 - 11x^3 + 4x^2 - 8x - 40</m></p>
+
+      <p>Look at the coefficients:</p>
+
+      <p>2 (positive)</p>
+
+      <p><ndash/>11 (negative)</p>
+
+      <p>4 (positive)</p>
+
+      <p><m>-8</m> (negative)</p>
+
+      <p><m>-40</m> (negative)</p>
+
+      <p>Look at the coefficients:</p>
+
+      <p>Determine the sign changes:</p>
+
+      <p>From 2 to -11 (1 change)</p>
+
+      <p>From <m>-11</m> to 4 (2 changes)</p>
+
+      <p>From 4 to <m>-8</m> (3 changes)</p>
+
+      <p>From -8 to <m>-40</m> (no change)</p>
+
+      <p>
+        Total sign changes for positive zeros <m>=</m> 3. This means there
+        could be 3 or 1 positive real zeros.
+      </p>
+    </blockquote>
+
+    <p>
+      <term>Step 2:</term> <em>Identify Sign Changes for Negative Real
+      Zeros</em>
+    </p>
+
+    <blockquote>
+      <p>
+        Now, let's find the negative real zeros by evaluating f(<m>-</m>x):
+      </p>
+
+      <p><m>g(x) = 2(-x)^4 - 11(-x)^3 + 4(-x)^2 - 8(-x) - 40</m></p>
+
+      <p><m>g(x) = 2x^4 + 11x^3 + 4x^2 + 8x - 40</m></p>
+    </blockquote>
+
+    <p><term>Step 3:</term> <em>Look at the Signs of f(<m>-x</m>)</em></p>
+
+    <blockquote>
+      <p>The coefficients are:</p>
+
+      <p>2 (positive)</p>
+
+      <p>11 (positive)</p>
+
+      <p>4 (positive)</p>
+
+      <p>8 (positive)</p>
+
+      <p><m>-40</m> (negative)</p>
+    </blockquote>
+
+    <p>
+      <term>Step 4:</term> <em>Determine Sign Changes for Negative Real
+      Zeros</em>
+    </p>
+
+    <blockquote>
+      <p>Determine the sign changes:</p>
+
+      <p>From 2 to 11 (no change)</p>
+
+      <p>From 11 to 4 (no changes)</p>
+
+      <p>From 4 to 8 (no changes)</p>
+
+      <p>From 8 to <m>-40</m> (1 change)</p>
+
+      <p>
+        Total sign changes for negative zeros <m>=</m> 1. This means there is
+        1 negative real zero.
+      </p>
+    </blockquote>
+
+    <p>
+      <ol>
+        <li>
+          <p><m>g(x) = 9x^3 - 10x^2 + 5x + 3</m></p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      <term>Step 1:</term> <em>Identify Sign Changes for Positive Real
+      Zeros</em>
+    </p>
+
+    <blockquote>
+      <p>
+        Write the polynomial in descending order: <m>g(x) = 9x^3 - 10x^2 + 5x
+        + 3</m>.
+      </p>
+
+      <p>Look at the coefficients:</p>
+
+      <p>9 (positive)</p>
+
+      <p><m>-10</m> (negative)</p>
+
+      <p>5 (positive)</p>
+
+      <p>3 (negative)</p>
+
+      <p>Determine the sign changes:</p>
+
+      <p>From 9 to -10 (1 change)</p>
+
+      <p>From <m>-10</m> to 5 (2 changes)</p>
+
+      <p>From 5 to 3 (no change)</p>
+
+      <p>
+        Total sign changes for positive zeros <m>=</m> 2. This means there
+        could be 2 or 0.
+      </p>
+    </blockquote>
+
+    <p>
+      <term>Step 2:</term> <em>Identify Sign Changes for Negative Real
+      Zeros</em>
+    </p>
+
+    <blockquote>
+      <p>
+        Now, let's find the negative real zeros by evaluating g(<m>-</m>x):
+      </p>
+
+      <p><m>g(x) = 9(-x)^3 - 10(-x)^2 + 5(-x) + 3</m></p>
+
+      <p><m>g(x) = -9x^3 - 10x^2 - 5x + 3</m></p>
+    </blockquote>
+
+    <p><term>Step 3:</term> <em>Look at the Signs of f(<m>-x</m>)</em></p>
+
+    <blockquote>
+      <p>The coefficients are:</p>
+
+      <p><m>-9</m> (negative)</p>
+
+      <p><m>-10</m> (negative)</p>
+
+      <p><m>-5</m> (negative)</p>
+
+      <p>3 (positive)</p>
+    </blockquote>
+
+    <p>
+      <term>Step 4:</term> <em>Determine Sign Changes for Negative Real
+      Zeros</em>
+    </p>
+
+    <blockquote>
+      <p>Determine the sign changes:</p>
+
+      <p>From -9 to -10 (no change)</p>
+
+      <p>From -10 to -5 (no changes)</p>
+
+      <p>From -5 to 3 (1 change)</p>
+
+      <p>
+        Total sign changes for negative zeros <m>=</m> 1. This means there is
+        1 negative real zero.
+      </p>
+    </blockquote>
+
+    <p>
+      <ol>
+        <li>
+          <p>f<m>(x) = -x^5 + 3x^4 - 5x^3 - 12x^2 + 6x + 4</m></p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      <term>Step 1:</term> <em>Identify Sign Changes for Positive Real
+      Zeros</em>
+    </p>
+
+    <blockquote>
+      <p>Write the polynomial in descending order:</p>
+
+      <p>f<m>(x) = -x^5 + 3x^4 - 5x^3 - 12x^2 + 6x + 4</m></p>
+
+      <p>Look at the coefficients:</p>
+
+      <p><m>-1</m> (negative)</p>
+
+      <p>3 (positive)</p>
+
+      <p><m>-5</m> (negative)</p>
+
+      <p><m>-12</m> (negative)</p>
+
+      <p>6 (positive)</p>
+
+      <p>4 (positive)</p>
+
+      <p><em>Determine the sign changes:</em></p>
+
+      <p>From <m>-1</m> to 3 (1 change)</p>
+
+      <p>From 3 to <m>-5</m> (2 changes)</p>
+
+      <p><term>From <m>-5</m> to <m>-12</m> (no changes)</term></p>
+
+      <p>From <m>-12</m> to 6 (3 changes)</p>
+
+      <p>From 6 to 4 (no change)</p>
+
+      <p>
+        Total sign changes for positive zeros <m>=</m> 3. This means there
+        could be 3 or 1 positive real zeros.
+      </p>
+    </blockquote>
+
+    <p>
+      <term>Step 2:</term> <em>Identify Sign Changes for Negative Real
+      Zeros</em>
+    </p>
+
+    <blockquote>
+      <p>
+        Now, let's find the negative real zeros by evaluating f(<m>-</m>x):
+      </p>
+
+      <p>f<m>(x) = -(-x)^5 + 3(-x)^4 - 5(-x)^3 - 12(-x)^2 + 6(-x) + 4</m></p>
+
+      <p>f<m>(x) = x^5 + 3x^4 + 5x^3 - 12x^2 - 6x + 4</m></p>
+    </blockquote>
+
+    <p><term>Step 3:</term> Look at the Signs of f(<m>-</m>x)</p>
+
+    <blockquote>
+      <p>The coefficients are:</p>
+
+      <p>1 (positive)</p>
+
+      <p>3 (positive)</p>
+
+      <p>5 (positive)</p>
+
+      <p><ndash/>12 (negative)</p>
+
+      <p><ndash/>6 (negative)</p>
+
+      <p>4 (positive)</p>
+    </blockquote>
+
+    <p>
+      <term>Step 4:</term> <em>Determine Sign Changes for Negative Real
+      Zeros</em>
+    </p>
+
+    <blockquote>
+      <p>Determine the sign changes:</p>
+
+      <p>From 1 to 3 (no change)</p>
+
+      <p>From 3 to 5 (no changes)</p>
+
+      <p>From 5 to <m>-12</m> (2 changes)</p>
+
+      <p>From <m>-2</m> to <m>-6</m> no changes)</p>
+
+      <p>From <m>-6</m> to 4 (3 change)</p>
+
+      <p>
+        Total sign changes for negative zeros <m>=</m> 2. This means there is
+        2 or 0 negative real zeros.
+      </p>
+    </blockquote>
+  </example>
+</section>

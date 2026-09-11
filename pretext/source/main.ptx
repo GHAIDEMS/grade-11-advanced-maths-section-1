@@ -77,6 +77,38 @@
 
     </chapter>
 
+    <chapter xml:id="section-3">
+        <title>Section 3</title>
+
+        <!-- Introduction -->
+        <xi:include href="section03/01-intro.ptx"/>
+
+        <!-- Finding Factors and Zeros of Polynomial Functions -->
+        <xi:include href="section03/02-factors-and-zeros.ptx"/>
+
+        <!-- The Rational Zero Theorem -->
+        <xi:include href="section03/03-rational-zero-theorem.ptx"/>
+
+        <!-- Sketching Polynomial Functions with Degrees Higher Than 2 -->
+        <xi:include href="section03/04-sketching.ptx"/>
+
+        <!-- Applying Descartes' Rule of Signs Theorem -->
+        <xi:include href="section03/05-descartes.ptx"/>
+
+        <!-- Applying the Fundamental Theorem of Algebra -->
+        <xi:include href="section03/06-fundamental-theorem.ptx"/>
+
+        <!-- Complex Conjugates Theorem -->
+        <xi:include href="section03/07-complex-conjugates.ptx"/>
+
+        <!-- Linear and Quadratic Factor Theorems -->
+        <xi:include href="section03/08-linear-quadratic-factors.ptx"/>
+
+        <!-- Review Questions -->
+        <xi:include href="section03/09-exercises.ptx"/>
+
+    </chapter>
+
   </book>
 
 </pretext>
